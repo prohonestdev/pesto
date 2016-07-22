@@ -1,0 +1,381 @@
+// ==========================================================
+// footer layout and background color
+// ==========================================================
+.footer-main {
+    color: #a8a8a8;
+    font-size: 14px;
+    .footer-nologo & {
+        h4 {
+            letter-spacing: 0.5px;
+        }
+        .foot-account,
+        .foot-info,
+        .foot-service,
+        .support {
+            ul li {
+                a {
+                    letter-spacing: 0.45px;
+                }
+            }
+        }
+        .foot-support {
+            padding-top: 2px;
+            ul li {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+.footer-center {
+    padding-top: 91px;
+    padding-bottom: 48px;
+
+}
+
+.footer-nologo {
+    background-color: #4c4944;
+    padding-top: 69px;
+    padding-bottom: 4px;
+    margin-top: 110px;
+}
+
+// ==========================================================
+// setting footer head
+// ==========================================================
+
+.footer-center h4 {
+    color: #dbdbdb;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.footer-nologo h4 {
+    color: #dbdbdb;
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.join {
+    margin-top: 75px;
+}
+
+.footer-join h3 {
+    color: #dbdbdb;
+    font-family: $font-secondary;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.footer-center h4 {
+    margin: 28px 0;
+}
+
+.footer-nologo h4 {
+    margin: 25px 0;
+}
+
+#footer ul {
+    padding-left: 0;
+}
+
+.footer-center li {
+    margin: 15px 0;
+}
+
+.footer-nologo li {
+    margin: 11px 0;
+}
+
+.footer-center li {
+    &,a {
+        font-size: 11px;
+    }
+}
+
+.footer-nopadding li{
+    &,a {
+        font-size: 14px;            
+    }
+}
+
+.footer-center .row {
+    margin: 0 -35px;
+}
+
+.footer-nologo .row {
+    margin: 0 -15px;
+}
+
+.footer-nologo .col-md-3 {
+    padding: 0 -14px;
+}                  
+
+#footer .foot-phone {
+    color: #eeeeee;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    margin-top:-4px;
+    word-spacing: 1.5px;
+    .footer-nologo {
+        margin-bottom: 4px;
+    }
+    .footer-center {
+        margin-bottom: 6px;
+    }
+}
+
+.foot-service-hours {
+    margin-top: 5px;
+    font: normal 14px $font-primary;    
+    .footer-nologo {
+        letter-spacing: 0.4px;
+    }
+}
+
+// ============================================================
+// Follow Us
+// ============================================================
+.follow {
+    .home2 & {
+        padding-top: 1px;
+    }
+}
+.footer-follow{
+    h4 {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+    li {
+        list-style: none;
+	    margin-top: 2px;
+        margin-right: 7px; 
+        a {
+            background-color: #5e5d57;
+            display: block;
+            font-size: 17px;
+            text-align: center;
+            i {
+                color: $color67;
+                line-height: 30px;
+            }
+        }
+        &,a {
+            color: #c1c1c1;
+            letter-spacing: normal;
+        }
+    }
+    .footer-nologo & {
+        padding-top: 11px;
+    }
+}
+.footer-center .footer-logo {
+    margin-top: 90px;
+    margin-bottom: 16px;
+}
+
+.footer-nologo #emailForm .input-group {
+    
+    background-color: #4c4944;
+    border: 1px solid #676460;
+    margin: 26px auto 18px auto;
+    width: 42.73504273504274%;
+    input {
+        background-color: #4c4944;
+        border: 0;
+        color: #a5a5a5;
+        font-family: $font-primary;
+        font-size: 16px;
+        height: 43px;
+        padding: 0 20px;
+        @include calc(width,"100% - 58px");
+    }
+    
+    span {
+        border: 0;
+        display: block;
+        float: left;
+        button.btn {
+            background-color: #4c4944;
+            border: 0;
+            height: 43px;
+            width: 58px;
+            i {
+                color: #a5a5a5;
+            }
+        }
+    }
+}
+.footer-center .container-fluid p{
+    margin: 0 auto;
+    width: 403px;
+}
+
+.footer-nologo .container-fluid {
+    margin-top: 74px;    
+}
+
+.footer-nologo .footer-join {
+    text-align: center;
+}
+
+.footer-nologo .footer-links {
+    text-align: center;
+    ul {
+        padding:0;
+        display: inline-block;
+        li {
+            float: left;
+            list-style: none;
+            a {
+                border-left: 2px solid #7e7d7b;
+                color: $color68;
+                display: block;
+                font-family: $font-primary;
+                font-size: 14px;
+                letter-spacing: 0.6px;
+                line-height: 13px;
+                padding: 0 21px;
+            }
+        }
+        
+        li:first-child {
+            a {
+                border: 0;
+            }
+            
+        }
+    }
+}
+.footer-mobile {
+    .footer-mobile-links {
+        li{
+            border-top: solid 1px $color-input-border;
+            margin: 0;
+            a {
+                color: $color-light;
+                display: block;
+                font: 16px $font-primary;
+                padding: 12px 0;
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .footer-center {
+        background-color: #4c4944;
+    }
+    .footer-center .footer-mobile {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    #footer {
+        h4 {
+            font-size: 13px;
+        }
+        .foot-phone {
+            font-size: 18px;
+        }
+
+    }
+}
+@media (max-width: 767px) {
+    .footer-center .footer-main {
+        display: none;
+    }
+    .footer-nologo {
+        .join {
+            background-color: $color43;
+        }
+        .footer-join {
+            text-align: left;
+            #emailForm .input-group {
+                background-color: $color43;
+                margin-left: 0;
+                margin-right: 0;
+                width: 100%;
+                button.btn {
+                    background-color: $color43;
+                }
+                input {
+                    background-color: $color43;
+                    @include calc(width,"100% - 43px");
+                }
+            }
+        }
+        .footer-links {
+            margin-left: -23px;
+            ul {
+                text-align: left;
+                li {
+                    border: none;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.footer3 {
+	border-top: 1px solid #f4f4f4;
+	height: 99px;
+	line-height: 99px;
+	margin: 50px 0 0 0;
+	
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	
+	a,
+	p {
+		font-family: $font-primary;
+		font-size: 14px;
+		color: #929292;
+	}
+	
+	ul {
+		margin: 0;
+		
+		li,
+		li a {
+			padding: 0;
+		}
+		
+		li {
+			margin-right: 40px;
+			a {
+				letter-spacing: 0.45px;
+				word-spacing: -1px;
+			}
+		}
+	}
+	
+	.phone-number {
+		padding-top: 3px;
+		
+		p {
+			letter-spacing: -0.2px;
+		}
+	}
+	
+	
+}
+
+@media (min-width: 990px) {
+	.footer3 {
+		margin: 128px 0 0 270px;
+	}
+}
+
+@media (max-width: 780px) {
+	.footer3 {
+		.phone-number {
+			float: left !important;
+		}
+	}
+}

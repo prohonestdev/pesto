@@ -1,0 +1,120 @@
+.content-header {
+    h2 {
+        color: $color-normal;
+        font-family: $font-secondary;
+        font-size: 20px;
+        letter-spacing: 1.6px;
+        margin: 10px 0;
+    }
+    .shopping-cart & {
+        margin-bottom: 0;
+    }
+    .breadcrumb {
+        background: transparent;
+        margin: 0;
+        li a{
+            color: #aaaaaa;
+            font-family: $font-primary;
+            font-size: 13px;
+        }
+        li:last-child {
+            color: #777777;
+            font-family: $font-primary;
+            font-size: 13px;
+        }
+    }
+    &.breadcrumb-header {
+        .wrapper {
+            @include clearfix;
+            border-bottom: 1px solid #f2f2f2;
+            border-top: 1px solid #f2f2f2;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            position: relative;
+        }
+    }
+    
+    .page-title,.breadcrumb {
+        display: inline-block;
+        padding: 0;
+    }
+    .pull-right {
+        line-height: 43px;
+    }
+    &.image-header {
+        
+        .image {
+            img {
+                max-width: 100%;
+            }
+            .page-title {
+                left: 40%;
+                position: absolute;
+                text-align: center;
+                top: 40%;
+                width: 20%;
+                h1 {
+                    color: $color-header-top-hover;
+                    letter-spacing: 3.5px;
+                }
+            }
+        }
+    }
+    .home2 & {
+        .rev-grid {
+            margin: -5px;
+            .grid-item {
+                padding: 5px;
+                position: relative;
+            }
+            .image-comment {
+                position: absolute;
+                text-align: center;
+                @include calc(top,"50% - 100px");
+                width: 100%;
+                a {
+                    color: $color6;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                h1 {
+                    color: $color30;
+                    letter-spacing: 0.6px;
+                }
+                span {
+                    color: $color29;
+                    font-size: 14px;
+                    font-weight: bold;
+                    letter-spacing: 1.4px;
+                }
+            }
+            .grid-width {
+                width: 50% !important;
+            }
+            .grid-width2 {
+                width: 100% !important;
+            }
+
+            #rev_slider_wrapper2 {
+                position: relative;
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1170px) {
+    .content-header {
+        .home2 & {
+            .rev-grid {
+                .grid-width {
+                    width: 25% !important;
+                } 
+                .grid-width2 {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+}
+

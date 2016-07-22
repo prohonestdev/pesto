@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Index-Header-LeftSideBar</title>
+		
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Istok+Web">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+		
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" />
+
+        <link rel="stylesheet" href="vendor/css/bootstrap/bootstrap.min.css" />
+		
+        <!-- Revolution Slider RS5.0 Main Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css">
+        <!-- Revolution Slider  RS5.0 Layers and Navigation Styles -->
+
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css">
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css">
+
+        <link rel="stylesheet" href="css/theme-shop.css" />
+        <link rel="stylesheet" href="css/theme-elements.css" />
+        <link rel="stylesheet" href="css/theme.css" />
+		
+    </head>
+    <body>
+        <header id="header" class="left-sidebar responsive-type1">
+            <div class="header-body">  
+                <!-- Start header-top-links -->
+                <div class="header-top-links">
+                    <nav class="navbar navbar-static-top nav-border-bottom">
+                        <div class="wrapper">
+                            <!-- Start navbar-left-->
+                            <div class="navbar-left hidden-lg hidden-md">
+                                <ul class="nav navbar-nav">
+                                    <li> <a href="#" class="hidden-xs"> My account </a> </li>    
+                                    <li> <a href="#" class="hidden-xs"> Checkout </a> </li>     
+                                    <li> <a href="#"> Login <span class="hidden-sm hidden-xs hidden-md">or Register</span> </a> </li>
+                                </ul>
+                            </div>
+                            <!-- Start navbar-right -->
+                            <div class=" navbar-right">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown-search  hidden-lg hidden-md">
+                                        <a class="dropdown-toggle hidden-xs hidden-sm" href="#">
+                                            Search 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <form class="search-form">
+                                                    <input placeholder="Search entry Site here..." class="form-control">
+                                                    <a href="#" class="fa fa-close menu-close"></a>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </li> <!-- End dropdown-search -->
+                                    <!-- Start mini-cart -->
+                                    <li class="dropdown mini-cart hidden-lg hidden-md">
+                                        <a href="#" class="dropdown-toggle">
+                                            My cart<span class="hidden-xs">: $0.00</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <p>
+                                                    2 item(s) in your cart- <span class="info-value">$658.00</span>
+                                                </p>
+                                            </li>
+                                            <li>    
+                                                <div class="product-image">
+                                                    <img alt="Camera" src="img/camera.png">    
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Mustard yellow ruffle dress 
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="info-value">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-image">
+                                                    <img alt="Handphone" src="img/Handphone.png">    
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Navy Blue Silk Pleated Shift Dress
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="price">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="shopping-info">
+                                                    <p><span> Shipping:</span> <span class="info-value">7.00</span></p>
+                                                    <p><span> Tax:</span> <span class="info-value">Free</span></p>
+                                                    <p><span> Total:</span> <span class="info-value">$665.00</span></p>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div><a href="#" type="button">VIEW CART</a></div>
+                                                    <div>  <a href="#" type="button">CHECKOUT</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- Start dropdown-currency -->
+                                    <li class="dropdown dropdown-currency">
+                                        <a href="#" class="dropdown-toggle">
+                                            En / &#8364; 
+                                        </a>
+                                        <ul class="dropdown-menu right">
+                                            <li class=" hidden-sm hidden-xs"> <a href="#" role="button"><i class="fa fa-dollar"></i></a> </li>        
+                                            <li class=" hidden-sm hidden-xs"> <a href="#" role="button"><i class="fa fa-euro"></i></a></li>
+                                            <li class="hidden-lg hidden-md"> <a href="#"> US dollar</a> </li>        
+                                            <li class="hidden-lg hidden-md"> <a href="#">EURO</a></li>
+                                            <li class="hidden-lg hidden-md"> <a href="#">POUND ST</a> </li>
+                                        </ul>
+                                    </li> <!-- End dropdown-currency -->
+                                    <!-- Start dropdown-language -->
+                                    <li class="dropdown dropdown-combo dropdown-language hidden-lg hidden-md">
+                                        <a class="dropdown-toggle " href="#">
+                                            En / Es
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#" role="button"><img src="img/english.png">English</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" role="button"><img src="img/Spanish.png">Spanish </a>
+                                            </li>
+                                        </ul>
+                                    </li>  <!-- End dropdown-language -->
+                                </ul>  
+                            </div><!-- End navbar-right-->
+                        </div>
+                    </nav>    
+                </div> <!-- header-top-links -->
+                <!-- Start header table collapsed logo and main navigation-->
+                <div class="header-main">
+                    <div class="wrapper">
+                        <!-- Start header-table -->
+                        <div class="header-table">
+                            <div class="header-row logo">
+                                <div class="header-column">
+                                    <div class="header-logo">
+                                        <a href="index.html"><img src="img/logo.png" alt="PESTO"> </a>
+                                    </div> <!-- header-logo -->
+                                </div> <!-- header-column -->
+                            </div> <!-- header-row -->
+                            <!-- Start header-row -->
+                            <div class="header-row menu">
+                                <!-- Start header-column -->
+                                <div class="header-column">
+                                    <button class="header-btn-search" data-toggle="collapse" type="button" 
+                                        data-target=""  data-object="">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <button class="header-btn-collapse-nav" data-toggle="collapse" type="button" 
+                                        data-target="#main-nav"  data-object="main-nav">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <!--  Start header-main-nav -->
+                                    <div class="collapse header-main-nav hidden-xs"  id="main-nav">
+                                        <nav class="navbar navbar-default navbar-right">
+                                            <ul class="nav navbar-nav" >
+                                                <li role="button" class="dropdown classic">
+												    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">HOME</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="index.html">HOME1</a></li>
+                                                        <li><a href="index-header-center.html">HOME2</a></li>
+                                                        <li><a href="index-header-leftside.html">HOME3</a></li>
+                                                    </ul>
+                                                </li>
+                                                <!-- Start table dropdown -->
+                                                <li class="dropdown dropdown-table" role="button">  
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">FASHION</a>
+                                                    <ul class="dropdown-menu clearfix">   
+                                                        <li>   
+                                                            <!-- Start dropdown-table-content -->
+                                                            <ul class="dropdown-table-content">
+                                                                <li>
+                                                                    <a href="#" role="button" class="dropdown-table-sub-title"> CLOTHING </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> DRESSES </a> </li> 
+                                                                        <li> <a href="#"> JEANS & TORUSERS </a> </li> 
+                                                                        <li> <a href="#"> BLOUSES </a> </li>
+                                                                        <li> <a href="#"> TOPS & T-SHIRTS </a> </li>
+                                                                        <li> <a href="#"> JACKETS & COATS  </a> </li>
+                                                                        <li> <a href="#"> SKIRTS</a> </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> SHOES </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> FORMAL SHOES </a> </li> 
+                                                                        <li> <a href="#"> CASUAL SHOES </a> </li> 
+                                                                        <li> <a href="#"> SANDALS </a> </li>
+                                                                        <li> <a href="#"> BOOTS </a> </li>
+                                                                        <li> <a href="#"> WIDE FIT </a> </li>
+                                                                        <li> <a href="#"> SLIPPERS </a> </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> ACCESORIES </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> BAGS & PURSES </a> </li> 
+                                                                        <li> <a href="#"> BELTS </a> </li> 
+                                                                        <li> <a href="#"> GLOVES </a> </li>
+                                                                        <li> <a href="#"> JEWELLERY </a> </li>
+                                                                        <li> <a href="#"> SUNGLASSES  </a> </li>
+                                                                        <li> <a href="#"> HAIR ACCESORIES </a> </li>
+                                                                    </ul>
+                                                                </li>    
+                                                                <li>
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> SPORTS </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> SPORTS TOPS & VESTS</a> </li> 
+                                                                        <li> <a href="#"> HOODIES </a> </li> 
+                                                                        <li> <a href="#"> SWIMWEAR </a> </li>
+                                                                        <li> <a href="#"> FOOTWEAR </a> </li>
+                                                                        <li> <a href="#"> SPORTS UNDERWEAR  </a> </li>
+                                                                        <li> <a href="#"> BAGS </a> </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> MATERNITY </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> TOPS & SKIRTS </a> </li> 
+                                                                        <li> <a href="#"> JEANS </a> </li> 
+                                                                        <li> <a href="#"> DRESSES </a> </li>
+                                                                        <li> <a href="#"> TROUSERS & SHORTS </a> </li>
+                                                                        <li> <a href="#"> KNITWEAR </a> </li>
+                                                                        <li> <a href="#"> JACKETS & COATS </a> </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul> <!-- End dropdown-table-content-->
+                                                        </li>   
+                                                    </ul> <!-- End dropdown-menu -->
+                                                </li>
+                                                <li role="button" class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">PAGES</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="product.html" role="button">PRODUCT</a></li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="shopping-cart.html" role="button">CART</a>
+                                                        </li>
+                                                        <li class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">CATEGORY </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="category_page_no_sidebar-grid-3-columns.html">3 columns with no sidebar</a></li>
+                                                                <li><a href="category_page_no_sidebar-grid-4-columns.html">4 columns with no sidebar</a></li>
+                                                                <li><a href="category_page_no_sidebar-grid-4-columns.html">5 columns with no sidebar </a></li>
+                                                                <li><a href="category_page_no_sidebar-list.html">List mode with no sidebar</a></li>
+                                                                <li><a href="category_page-grid-3-columns.html">3 columns with sidebar</a></li>
+                                                                <li><a href="category_page-grid-4-colums.html">4 columns with sidebar </a></li>
+                                                                <li><a href="category_page-grid-5-colums.html">5 columns with sidebar</a></li>
+                                                                <li><a href="category_page-rightsidebar-list.html">List mode with sidebar</a></li>
+                                                                <li><a href="category_page-leftsidebar-grid.html">Grid with leftsidebar</a></li>
+                                                                <li><a href="category_page-leftsidebar-list.html">List with leftsidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">BLOG </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="blog-leftsidebar-1.html">Blog type1 with leftsidebar</a></li>
+                                                                <li><a href="blog-leftsidebar-2.html">Blog type2 with leftsidebar</a></li>
+                                                                <li><a href="blog-single-leftsidebar.html">Blog single with leftsidebar</a></li>
+                                                                <li><a href="blog-rightsidebar-1.html">Blog type1 with leftsidebar</a></li>
+                                                                <li><a href="blog-rightsidebar-2.html">Blog type2 with leftsidebar</a></li>
+                                                                <li><a href="blog-single-rightsidebar.html">Blog single with rightsidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="checkout.html" role="button">CHECKOUT</a></li>
+                                                        <li><a href="aboutus.html" role="button">ABOUT US</a></li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">CONTACT US </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="contact-us-01.html">Type1</a></li>
+                                                                <li><a href="contact-us-02.html">Type2</a></li>
+                                                                <li><a href="contact-us-03.html">Type3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="register_account.html" role="button">REGISTER ACCOUNT</a></li>
+                                                        <li><a href="product_comparison.html" role="button">PRODUCT COMPARISON</a></li>
+                                                        <li><a href="login.html" role="button">LOGIN</a></li>
+                                                        <li><a href="404.html" role="button">404 PAGES</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li role="button" class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"  role="button">PORTFOLIO</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="portfolio_item_01.html">Portfolio item 1</a></li>
+                                                        <li><a href="portfolio_item_02.html">Portfolio item 2</a></li>
+                                                        <li><a href="portfolio_grid_3_column.html">Portfolio grid 3</a></li>
+                                                        <li><a href="portfolio_masonry.html">Portfolio masonry</a></li>
+                                                        <li><a href="portfolio_masonry_rectangular_images.html">Portfolio masonry rectangle</a></li>
+                                                        <li><a href="portfolio_masonry_square_images.html">Portfolio masonry square</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="hidden-sm hidden-xs"> <input placeholder="SEARCH HERE"></li>
+                                                <li class="hidden-sm hidden-xs"> <a href="#" role="button">MY CART: $0.00</a> </li>
+                                                <li class="hidden-sm hidden-xs"> <a href="#" role="button">REGISTER</a> </li>
+                                                <li class="hidden-sm hidden-xs"> <a href="#" role="button">MY ACCOUNT</a> </li>
+                                            </ul><!--End navbar-nav-->    
+                                        </nav><!--End navbar-default--> 
+                                    </div><!-- End header-main-nav-->   
+                                    <!-- Start header-mobile-->
+                                    <div class="header-mobile hidden-lg hidden-md hidden-sm">
+                                        <ul>
+                                            <li><a href="#" role="button"><i class="fa fa-close menu-close"></i></a></li>
+                                            <li><a href="#" role="button">HOME</a></li>
+                                            <li><a href="#" role="button">FASION</a></li>
+                                            <li><a href="#" role="button">ABOUT US</a></li>
+                                            <li><a href="#" role="button">BLOG</a></li>
+                                            <li><a href="#" role="button">PORTOFOLIO</a></li>
+                                            <li><input placeholder="SEARCH HERE..."></li>
+                                            <li><a href="#">MY CART: $0.00</a></li>
+                                            <li><a href="#">REGISTER</a></li>
+                                            <li><a href="#">En/<i class="fa fa-euro"></i></a></li>
+                                        </ul>
+                                    </div><!-- End Header-mobile-->         
+                                </div> <!-- End header-column -->
+                            </div> <!-- End header-row -->
+                        </div><!-- End header-table-->
+                    </div>   
+                </div>
+            </div> <!-- End header-body --> 
+        </header>
+
+        <!-- Start footer-->
+        <section id="content" class="home3">
+            <!-- Start content-header -->
+            <div class="content-header">   
+                <div id="rev_slider3_wrapper" class="rev_slider_wrapper" data-alias="main-feature-slider" style="width: 100% !important; height: 100% !important;">
+                <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+                    <div id="rev_slider3" class="rev_slider3" style="display:none;" data-version="5.0.7">
+                        <ul>    <!-- SLIDE  -->
+                            <li data-index="rs-92" data-transition="fade" data-slotamount="7"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"    data-rotate="0"  data-saveperformance="off"  data-title="Welcome" data-description="">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/slides/slider-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption maincaption   tp-resizeme rs-parallaxlevel-0" 
+                                    id="slide-92-layer-2" 
+                                    data-x="left" data-hoffset="100"
+                                    data-y="center" data-voffset="['-180','-180','-180','-300']" 
+                                    data-fontsize="90"
+                                    data-width="none"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="x:1000;y:1000;z:-1000;rX:90;rY:300;rZ:700;opacity:0;skX:500;s:4000;e:Power3.easeIn;" 
+                                    data-transform_out="x:0;y:0;z:0;rX:900;rY:30;rZ:500;opacity:0;sX:50;skY:500;s:4000;e:Power3.easeIn;" 
+                                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                    data-start="1000" 
+                                    data-splitin="none" 
+                                    data-splitout="none" 
+                                    data-responsive_offset="on" 
+                                    style="z-index: 6; white-space: nowrap; color: rgba(33, 42, 64, 1.00);color: #cccccc;"><i>YOUR</i> 
+                                </div>
+
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
+                                    id="slide-92-layer-25" 
+                                    data-x="left" data-hoffset="100" 
+                                    data-y="center" data-voffset="['-110','-110','-110','-200']" 
+                                    data-fontsize="['90','55','47','36']"
+                                    data-width="none"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                         
+                                    data-transform_in="y:40;z:0;rX:1200;rY:0;rZ:0;sX:1.2;sY:1.2;skX:0;skY:0;opacity:0;s:1500;e:Quad.easeIn;" 
+                                    data-transform_out="auto:auto;s:1500;e:Quad.easeInOut;" 
+                                    data-start="2000" 
+                                    data-responsive_offset="on" 
+                                    
+                                    style="z-index: 7;font-family: 'Roboto Condensed';color: #555555;width: 530px;">
+                                    FIRST LOOK
+                                </div>
+
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption tp-resizeme rs-parallaxlevel-2" 
+                                    id="slide-92-layer-4" 
+                                    data-x="['left','left','left','left']" data-hoffset="['300','300,'300','300']" 
+                                    data-y="['center','center','center','center']" data-voffset="['-40','-40,'-40','-140']"
+                                    data-fontsize="['90','55','47','36']" 
+                                    data-width="none"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;rZ:inherit;"
+									
+                                    data-transform_in="y:bottom;z:0;rX:180;rY:0;rZ:0;sX:1.3;sY:1.3;skX:500;skY:0;s:1500;e:Cubic.easeIn;" 
+                                    data-transform_out="auto:auto;s:1500;e:Cubic.easeInOut;" 
+                                    data-start="2250" 
+                                    data-responsive_offset="on" 
+									data-responsive="on"
+                                    
+                                    style="z-index: 8;font-family: 'Roboto Condensed';color: #555555;">
+                                    SPRING
+                                </div>
+
+                                <!-- LAYER NR. 5 -->
+                                <div class="tp-caption rev-btn  rs-parallaxlevel-0" 
+                                     id="slide-92-layer-27" 
+
+                                    data-x="['left','left','left','center']" data-hoffset="['100','100','100','100']" 
+                                    data-y="['center','center','center','center']" data-voffset="['130','130','160','250']" 
+                                    data-width="none"
+                                    data-fontsize="['16','16','16','16']"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                                    data-style_hover="c:rgba(0, 154, 238, 1.00);bc:rgba(0, 154, 238, 1.00);cursor:pointer;"
+                         
+                                    data-transform_in="x:[-100%];z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2500;e:Quart.easeInOut;" 
+                                    data-transform_out="auto:auto;s:1000;e:Quart.easeInOut;" 
+                                    data-start="3000" 
+                                    data-splitin="none" 
+                                    data-splitout="none" 
+                                    data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
+                                    data-responsive_offset="on" 
+                                    data-responsive="on"
+                                    
+                                    style="z-index: 9; padding: 0;">
+									<a class="btn btn-default" href="#">SHOP NOW</a> 
+                                </div>
+
+                                <!-- LAYER NR. 6 -->
+                                <div class="tp-caption tp-resizeme rs-parallaxlevel-2" 
+                                    id="slide-92-layer-26" 
+                                    data-x="['left','left','left','left']" data-hoffset="['180','180,'180','180']" 
+                                    data-y="['center','center','center','center']" data-voffset="['-40','-40','-40','-140']" 
+                                    data-fontsize="['50','30','25','20']"    
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;rZ:inherit;"
+                         
+                                    data-transform_in="y:right;z:0;rX:0;rY:0;rZ:0;sX:1.3;sY:1.3;skX:0;skY:0;s:1500;e:Strong.easeIn;" 
+                                    data-transform_out="auto:auto;s:1500;e:Strong.easeIn;" 
+                                    data-start="2250" 
+                                    data-responsive_offset="on" 
+                                    
+                                    style="z-index: 10;color: #cccccc;"><i>AT</i>
+                                </div>
+                                <!-- LAYER NR. 7 -->
+                                <p class="tp-caption tp-resizeme rs-parallaxlevel-0" 
+                                    id="slide-92-layer-26" 
+                                    data-x="['left','left','left','center']" data-hoffset="['100','100','100','0']" 
+                                    data-y="['center','center','center','center']" data-voffset="['50','50','50','50']" 
+                                    data-fontsize="['16','16','16','12']"    
+                                    data-width="['495','400','300','250']"
+                                    data-height="none"
+                                    data-whitespace="wrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                                    data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(114, 168, 0, 1.00);cursor:pointer;"
+                         
+                                    data-transform_in="x:[100%];z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2500;e:Back.easeInOut;" 
+                                    data-transform_out="auto:auto;s:1000;e:Back.easeOut;" 
+                                    data-start="3000" 
+                                    data-splitin="none" 
+                                    data-splitout="none" 
+                                    data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
+                                    data-responsive_offset="on" 
+                                    data-responsive="off"
+                                    
+                                    style="z-index: 11;color: #777777;font-family:'Arial';">Etiam elementum purus tempus, porttitor mi a, ultricies mauris. Fusce<br> at porta massa. Duis tortor mauris, rhoncus a suscipit.
+                                </p>
+                            </li>
+                            <!-- SLIDE  -->
+                            <li data-index="rs-93" data-transition="fade" data-slotamount="7"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"    data-rotate="0"  data-saveperformance="off"  data-title="Welcome" data-description="">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/slides/slider-2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption maincaption   tp-resizeme rs-parallaxlevel-0" 
+                                    id="slide-93-layer-2" 
+                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                    data-y="['center','center','center','center']" data-voffset="['-155','-155','-155','-155']" 
+                                    data-fontsize="['23','23','23','23']"
+                                    data-width="none"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                    data-start="500" 
+                                    data-splitin="none" 
+                                    data-splitout="none" 
+                                    data-responsive_offset="off" 
+									data-responsive="off"
+                                    
+                                    style="z-index: 6; white-space: nowrap; color: #555; font-family: 'Istok Web'; font-style: normal; text-align: center;">choies trend 2016
+                                </div>
+
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" 
+                                    id="slide-93-layer-25" 
+                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                    data-y="['center','center','center','center']" data-voffset="['-70','-70','-70','-70']" 
+                                    data-fontsize="['65','45','30','20']"
+                                    data-width="none"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="y:40px;z:0;rX:0deg;rY:0;rZ:1000;sX:1.2;sY:1.2;skX:0;skY:0;opacity:0;s:1500;e:Bounce.easeInOut;" 
+                                    data-transform_out="auto:auto;s:1500;e:Bounce.easeIn;" 
+                                    data-start="2000" 
+                                    data-responsive_offset="off" 
+                                    data-responsive="off"
+									
+                                    style="z-index: 7; font-family: 'Roboto Condensed'; color: #555; width: 530px; text-align: center;">
+                                    Make Up & Beauty
+                                </div>
+
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption tp-resizeme rs-parallaxlevel-2" 
+                                    id="slide-93-layer-4" 
+                                    data-x="['center','center','center','center']" data-hoffset="['0','0,'0','0']" 
+                                    data-y="['center','center','center','center']" data-voffset="['40','40,'40','40']"
+                                    data-fontsize="['16','16','16','16']" 
+                                    data-width="['615','615','500','300']"
+                                    data-height="none"
+                                    data-whitespace="wrap"
+                                    data-transform_idle="o:1;rZ:inherit;"
+                                    data-transform_in="y:bottom;z:0;rX:0deg;rY:0;rZ:0;sX:1.3;sY:1.3;skX:0;skY:0;s:1500;e:Circ.easeIn;" 
+                                    data-transform_out="auto:auto;s:1500;e:Circ.easeInOut;" 
+                                    data-start="2250" 
+                                    data-responsive_offset="off" 
+                                    data-responsive="off"
+                                    
+                                    style="z-index: 8; font-family: 'Arial'; color: #666; text-align: center;">
+                                    Etiam elementum purus tempus, porttitor mi a, ultricies mauris. Fusce at 
+									porta massa. Duis tortor mauris, rhoncus a suscipit.
+                                </div>
+
+                                <!-- LAYER NR. 5 -->
+                                <div class="tp-caption rev-btn  rs-parallaxlevel-0" 
+                                    id="slide-93-layer-27" 
+
+                                    data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                    data-y="['center','center','center','center']" data-voffset="['133','133','133','133']" 
+                                    data-width="none"
+                                    data-fontsize="['16','16','16','16']"
+                                    data-height="none"
+                                    data-whitespace="nowrap"
+                                    data-transform_idle="o:1;"
+                                    data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+                                    data-style_hover="c:rgba(0, 154, 238, 1.00);bc:rgba(0, 154, 238, 1.00);cursor:pointer;"
+                                    data-transform_in="x:[-100%];z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2500;e:Elastic.easeIn;" 
+                                    data-transform_out="auto:auto;s:1000;e:Elastic.easeInOut;" 
+                                    data-start="3000" 
+                                    data-splitin="none" 
+                                    data-splitout="none" 
+                                    data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
+                                    data-responsive_offset="off"
+                                    data-responsive="off"
+                                    style="z-index: 9; white-space: nowrap; outline:none; box-shadow:none; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border-radius:0;">
+									<a class="btn btn-default" href="#">VIEW ALL</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> 
+                    </div>
+                </div><!-- END REVOLUTION SLIDER -->
+            </div> <!-- End content-header -->
+            <div class="content-main">
+                <!-- Start Products -->
+                <div class="products-container">
+                    <div class="products-top clearfix">
+                        <div class="wrapper-fluid">
+                            <ul class="pull-left list-inline">
+                                <li><a href="#">ALL</a></li>
+                                <li class="active"><a href="#">SPECIAL</a></li>
+                                <li><a href="#">LATEST</a></li>
+                                <li><a href="#">BESTSELLERS</a></li>
+                                <li><a href="#">FEATURES</a></li>
+                            </ul>
+                            <div class="pull-right show-filter">
+                                <p class="btn-filter toggle" role="button" href=".filter-container" data-toggle="collapse"  id="btn_filter">
+									SHOW FILTER 
+									<span>
+										<i class="fa fa-chevron-down"></i>
+									</span>
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div class="wrapper-fluid">
+							<div class="collapsable collapse filter-option-group filter-container">
+								<div class="row-fluid">
+									<div class="filter-column filter-brand">
+										<div class="title">
+											<h2>BRAND</h2>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="armani" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														ARMANI
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" checked="checked" type="radio" name="brand" value="bulgari" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														BULGARI
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="cristian dior" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														CRISTIAN DIOR
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="dolce & gabbana" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														DOLCE & GABBANA
+													</label>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="paco rabanne" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														PACO RABANNE
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="givenchy" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														GIVENCHY
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="donna karan" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														DONNA KARAN
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="brand" value="donna karan" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														Stella McCartney
+													</label>
+												</li>
+											</ul>
+										</div>
+									</div>	
+									<div class="filter-column filter-material">
+										<div class="title">
+											<h2>MATERIAL</h2>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="material" value="cotton" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														COTTON
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="material" value="wool" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														WOOL
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="material" value="denim" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														DENIM
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" checked="checked" type="radio" name="material" value="leather" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														LEATHER
+													</label>
+												</li>
+											</ul>
+										</div>
+									</div>	
+									<div class="filter-column filter-size">
+										<div class="title">
+											<h2>SIZE</h2>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="size" value="xs34" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														XS / 34
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" checked="checked" type="radio" name="size" value="s36" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														S / 36
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="size" value="m38" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														M / 38
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="size" value="l40" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														L / 40
+													</label>
+												</li>
+											</ul>
+										</div>
+									</div>	
+									<div class="filter-column filter-color">
+										<div class="title">
+											<h2>COLOR</h2>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="brown" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														BROWN
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="yellow" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														YELLOW
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="orange" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														ORANGE
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" checked="checked" type="radio" name="color" value="red" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														RED
+													</label>
+												</li>
+											</ul>
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="green" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														GREEN
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="pink" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														PINK
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="pink" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														BEIGE
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="color" value="pink" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														BLACK
+													</label>
+												</li>
+											</ul>
+										</div>
+									</div>	
+									<div class="filter-column filter-price">
+										<div class="title">
+											<h2>PRICE</h2>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="price" value="0-100" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														$0.00 - $l00.00
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="price" value="100-250" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														$100.00 - $250.00
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" checked="checked" type="radio" name="price" value="250-500" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														$250.00 - $500.00
+													</label>
+												</li>
+												<li>
+													<div class="inputbox-container" >
+														<input data-filter="*" type="radio" name="price" value="500-1000" class="smart_input"/>
+														<div class="input-skin">
+															<img class="visible-checked" src="img/ui/Radio-icon-xcross.png" alt="" />   
+														</div>
+													</div>
+													<label class="inline-block input-text">
+														$500.00 - $l000.00
+													</label>
+												</li>
+											</ul>
+										</div>
+									</div>	
+								</div>
+							</div>
+							
+                            <!-- Start Row -->
+                            <div class="row grid">
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product1.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product2.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product3.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins><del>$150.00</del></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product4.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product-->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product5.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product6.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product7.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product8.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product9.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product-->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product10.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                            
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product11.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product12.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product13.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product14.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product-->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product15.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+
+                            </div><!-- End Row -->
+                            <div class="row action-field">
+                                <div class="col-sm-12 text-center">
+                                    <button class="btn-default btn-load-more">LOAD MORE</button>
+                                </div>
+                            </div>
+                            <div class="row load-more hidden">
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product11.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product12.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product13.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product -->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product14.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+
+                                <div class="col-xxlg-5-1 col-sm-4 col-xs-6 grid-item">
+                                    <!--Start Product-->
+                                    <div class="product">
+                                        <div class="image">
+                                            <img src="img/products/home3/product15.png" alt="" />
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="name font-istok smaller">Black lace open back dress</h4>
+                                            <span class="price"><ins>$124.00</ins></span>
+                                        </div>
+                                    </div><!-- End Prodcut -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Products -->
+            </div>
+        </section>
+        
+		<footer class="footer3">
+			<div class="wrapper-fluid">
+				<div class="pull-left">
+					<ul class="list-inline">
+						<li> <a href="#"> My Account </a> </li>    
+						<li> <a href="#"> My Wishlist </a> </li>    
+						<li> <a href="#"> My Favorites </a> </li>    
+						<li> <a href="#"> Checkout </a> </li>    
+						<li> <a href="#"> Contact us </a> </li>    
+						<li> <a href="#"> Information </a> </li>     
+					</ul>
+				</div>
+				<div class="pull-right phone-number">
+					<p>Call us: 0203-980-14-79</p>
+				</div>
+			</div>
+        </footer>
+		
+        <script src="vendor/js/jquery/jquery.min.js"></script>
+        <script src="vendor/isotope/isotope.pkgd.min.js"></script> 
+        <script src="vendor/js/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor/bootstrap-select/bootstrap_select.js"></script> 
+		<script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+		
+        <script src="js/theme.js"></script>
+        <script>
+            $(document).ready(function() {
+                if($("#rev_slider3").revolution == undefined){
+                    revslider_showDoubleJqueryError("#rev_slider3");
+                }else{
+                    revapi26 = $("#rev_slider3").show().revolution({
+                        sliderType:"standard",
+                        jsFileLocation:"vendor/revolution/js/",
+                        sliderLayout:"fullscreen",
+                        fullscreenOffset:"0",
+                        dottedOverlay:"none",
+                        delay:9000,
+                        navigation: {
+                            keyboardNavigation:"off",
+                            keyboard_direction: "horizontal",
+                            mouseScrollNavigation:"off",
+                            onHoverStop:"on",
+                            touch:{
+                                touchenabled:"on",
+                                swipe_threshold: 75,
+                                swipe_min_touches: 1,
+                                swipe_direction: "horizontal",
+                                drag_block_vertical: false
+                            }
+                            ,
+                            thumbnails: {
+                                style: 'rev_pesto',
+                                enable: true,
+                                width: 20,
+                                height: 20,
+                                min_width: 14,
+                                wrapper_padding: 0,
+                                wrapper_color: 'transparent',
+                                wrapper_opacity: '1',
+                                tmp: '<span class="tp-thumb-icon-circle"><i class="fa fa-circle"></i></span>',
+                                visibleAmount: 5,
+                                hide_onmobile: true,
+                                hide_under: 800,
+                                hide_onleave: true,
+                                direction: 'horizontal',
+                                span: false,
+                                position: 'inner',
+                                space: 5,
+                                h_align: 'center',
+                                v_align: 'bottom',
+                                h_offset: 0,
+                                v_offset: 20
+                            }
+                        },
+                        responsiveLevels:[1920,1170,992,768],
+                        gridwidth:[1270,900,992,768],
+                        gridheight:500,
+                        parallax: {
+                            type:"mouse+scroll",
+                            origo:"slidercenter",
+                            speed:2000,
+                            levels:[1,2,3,20,25,30,35,40,45,50],
+                            disable_onmobile:"on"
+                        },
+                        shadow:0,
+                        spinner:"spinner3",
+                        stopLoop:"on",
+                        stopAfterLoops:0,
+                        stopAtSlide:1,
+                        shuffle:"off",
+                        autoHeight:"on",
+                        disableProgressBar:"on",
+                        disableFullwidth: "on",
+                        hideThumbsOnMobile:"off",
+                        hideSliderAtLimit:0,
+                        hideCaptionAtLimit:0,
+                        hideAllCaptionAtLilmit:0,
+                        debugMode:false,
+                        fallbacks: {
+                            simplifyAll:"off",
+                            nextSlideOnWindowFocus:"off",
+                            disableFocusListener:false,
+                        }
+                    });
+                }
+            }); /*ready*/
+  
+        </script>
+    </body>
+</html>

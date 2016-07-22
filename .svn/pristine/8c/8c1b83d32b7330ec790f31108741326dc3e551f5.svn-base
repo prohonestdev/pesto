@@ -1,0 +1,43 @@
+.shop.type1 .product-carousel, .shop.type1 .product-summary {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px; }
+.shop.type1 .product-carousel {
+  height: 580px;
+  width: 55%; }
+  .shop.type1 .product-carousel .owl-carousel {
+    width: 79.01%; }
+  .shop.type1 .product-carousel .owl-slide {
+    width: 20.09%; }
+  .shop.type1 .product-carousel > div {
+    float: left; }
+.shop.type1 .product-summary {
+  width: 45%; }
+  .shop.type1 .product-summary h1 {
+    font-family: "Istok Web";
+    letter-spacing: normal;
+    margin-top: 20px; }
+  .shop.type1 .product-summary .select ul li {
+    margin-bottom: 14px;
+    margin-top: 14px; }
+  .shop.type1 .product-summary .select .size {
+    margin-left: 1px; }
+  .shop.type1 .product-summary .select .color {
+    margin-left: -2px; }
+  .shop.type1 .product-summary .share ul {
+    margin-left: 1px; }
+  .shop.type1 .product-summary .cart .add-cart {
+    font-family: "Roboto Condensed"; }
+.shop.type1 .content-header h1 {
+  font-family: "Roboto Condensed"; }
+.shop .price ins {
+  color: #686868;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  text-decoration: none; }
+.shop .price del {
+  color: #d1d1d1;
+  font-family: "Roboto Condensed";
+  font-size: 14px; }
+
+/*# sourceMappingURL=theme-shop.css.map */

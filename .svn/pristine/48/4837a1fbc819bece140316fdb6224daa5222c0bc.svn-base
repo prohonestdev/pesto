@@ -1,0 +1,104 @@
+// ==========================================================
+// footer layout and background color
+// ==========================================================
+
+#footer {
+    background-color: #4c4944;
+    color: #a8a8a8;
+    font-size: 14px;
+    padding-top: 91px;
+    padding-bottom: 48px;
+    
+}
+
+// ==========================================================
+// no padding container
+// ==========================================================
+
+#footer .container {
+    padding: 0;
+}
+
+// ==========================================================
+// setting footer head
+// ==========================================================
+
+#footer h4 {
+    color: #dbdbdb;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin: 28px 0;
+}
+
+#footer ul {
+    padding-left: 0;
+}
+#footer li {
+    list-style: none;
+    margin: 15px 0;
+    
+    &,a {
+        color: #c1c1c1;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    
+}
+
+#footer .row {
+    margin-right: -35px;
+    margin-left: -35px;
+}
+
+#footer .foot-phone {
+    color: #eeeeee;
+    font-size: 20px;
+    margin-top:-4px;
+    margin-bottom: 6px;
+}
+
+#footer .foot-service-hours {
+    margin-top: 5px;    
+}
+
+// ============================================================
+// Follow Us
+// ============================================================
+#footer .follow h4 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#footer .follow ul li {
+    display: inline-block;
+    margin: 2px; 
+    
+    a {
+        background-color: #5e5d57;
+        display: block;
+        font-size: 17px;
+        height: 30px;
+        
+        width: 30px;
+        text-align: center;
+        
+        i {
+            line-height: 30px;
+        }
+    }
+}
+
+.footer-center .footer-logo {
+    margin-top: 90px;
+    margin-bottom: 16px;
+}
+
+.footer-center .containter-fluid div {
+    text-align: center;
+    
+    p {
+        margin: 0 auto;
+        width: 28%;
+    }
+}

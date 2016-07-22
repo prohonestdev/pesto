@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Header1</title>
+        <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="css/theme-elements.css" />
+
+        <link rel="stylesheet" href="vendor/css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/theme.css" />
+
+        <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" />
+
+    </head>
+    <body>
+        <header id="header" class="header-center responsive-type1">
+            <div class="header-body">
+                <!-- Start header-top-links -->
+                <div class="header-top-links">
+                    <div class="wrapper-fluid">
+                        <!-- Start header-table -->
+                        <div class="header-table">
+                            <!-- Start header-row -->
+                            <div class="header-row">
+                                <nav class="navbar navbar-static-top">
+                                    <div class="navbar-collapse">
+                                        <div class="navbar-left">
+                                            <ul class="nav navbar-nav">
+                                                <li> <a href="#" class="hidden-xs"> My account </a> </li>    
+                                                <li> <a href="#" class="hidden-xs"> Checkout </a> </li>     
+                                                <li class="hidden-sm hidden-xs"> <a href="#"> My wishlist </a> </li>    
+                                                <li> <a href="#"> Login <span class="hidden-sm hidden-xs hidden-md">or Register</span></a> </li>    
+                                            </ul>
+                                        </div>
+                                        <div class="navbar-right">
+                                            <ul class="nav navbar-nav">
+                                                <li class="dropdown-search ">
+                                                    <a class="dropdown-toggle hidden-sm hidden-xs" href="#">
+                                                        Search 
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <form class="search-form">
+                                                                <input placeholder="Search entry Site here..." class="form-control">
+                                                                <a href="#" class="menu-close"><i class="fa fa-close"></i></a>
+                                                            </form>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown mini-cart">
+                                                    <a href="#" class="dropdown-toggle">
+                                                        My cart: <span class="hidden-xs">$0.00</span>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <p>
+                                                                2 item(s) in your cart- <span class="info-value">$658.00</span>
+                                                            </p>
+                                                        </li>
+                                                        <li>    
+                                                            <div class="product-image">
+                                                                <img alt="Camera" src="img/camera.png">    
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <a href="#">
+                                                                    Mustard yellow ruffle dress 
+                                                                </a>
+                                                                <a href="#" class="fa fa-close"></a>
+                                                                <span class="info-value">$478.00</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-image">
+                                                                <img alt="Handphone" src="img/Handphone.png">    
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <a href="#">
+                                                                    Navy Blue Silk Pleated Shift Dress
+                                                                </a>
+                                                                <a href="#" class="fa fa-close"></a>
+                                                                <span class="price">$478.00</span>
+
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="shopping-info">
+                                                                <p><span> Shipping:</span> <span class="info-value">7.00</span></p>
+                                                                <p><span> Tax:</span> <span class="info-value">Free</span></p>
+                                                                <p><span> Total:</span> <span class="info-value">$665.00</span></p>
+                                                            </div>
+                                                            <div class="buttons">
+                                                                <div><a href="#" type="button">VIEW CART</a></div>
+                                                                <div>  <a href="#" type="button">CHECKOUT</a></div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown dropdown-combo dropdown-language">
+                                                    <a class="dropdown-toggle " href="#">
+                                                        English
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a href="#"><img src="img/english.png">English</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/italian.png">Italian</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/Spanish.png">Spanish </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/French.png">French</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/German.png">German</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="dropdown dropdown-combo dropdown-currency">
+                                                    <a href="#" class="dropdown-toggle">
+                                                        US dollar
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li> <a href="#"> US dollar</a> </li>        
+                                                        <li> <a href="#">EURO</a></li>
+                                                        <li> <a href="#">POUND ST</a> </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div> 
+                                </nav>    
+                            </div><!-- End header-row -->
+                        </div><!-- End header-table -->
+                    </div> <!-- wrapper-fluid -->
+                </div> <!-- End header-top-links -->
+                <!-- Start Header-main -->
+                <div class="header-main">
+                    <div class="wrapper-fluid">
+                        <!-- Start header-table -->
+                        <div class="header-table">
+                            <div class="header-row logo">
+                                <div class="header-column header-column-center">
+                                    <div class="header-logo">
+                                        <a href="index.html"><img src="img/logo.png" alt="PESTO"> </a>
+                                    </div> <!-- header-logo -->
+                                </div> <!-- header-column -->
+                            </div> <!-- header-row -->
+                            <!-- Start header-row -->
+                            <div class="header-row menu">
+                                <!-- Start header-column -->
+                                <div class="header-column">
+                                    <button class="header-btn-search" data-toggle="collapse" type="button" 
+                                        data-target=".dropdown-search .dropdown-menu" aria-expaned="false" aria-controls="dropdown-menu">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <button class="header-btn-collapse-nav" data-toggle="collapse" type="button" 
+                                        data-target="#main-nav" aria-expaned="false" aria-controls="main-nav">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <!--  Start header-main-nav -->
+                                    <div class="collapse header-main-nav" aria-expaned="false" id="main-nav">
+                                        <nav class="navbar navbar-default">
+                                            <ul class="nav navbar-nav navbar-center" >
+                                                <li> <a href="#">HOME</a> </li>
+                                                <!-- Start table dropdown -->
+                                                <li class="dropdown dropdown-table">  
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">FASHION</a>
+                                                    <ul class="dropdown-menu clearfix">   
+                                                        <li>   
+                                                            <div class="wrapper">
+                                                            <!-- Start dropdown-table-content -->
+                                                                <ul class="dropdown-table-content">
+                                                                    <li class="col-5-1">
+                                                                        <a href="#" role="button" class="dropdown-table-sub-title"> CLOTHING </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> DRESSES </a> </li> 
+                                                                            <li> <a href="#"> JEANS & TORUSERS </a> </li> 
+                                                                            <li> <a href="#"> BLOUSES </a> </li>
+                                                                            <li> <a href="#"> TOPS & T-SHIRTS </a> </li>
+                                                                            <li> <a href="#"> JACKETS & COATS  </a> </li>
+                                                                            <li> <a href="#"> SKIRTS</a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> SHOES </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> FORMAL SHOES </a> </li> 
+                                                                            <li> <a href="#"> CASUAL SHOES </a> </li> 
+                                                                            <li> <a href="#"> SANDALS </a> </li>
+                                                                            <li> <a href="#"> BOOTS </a> </li>
+                                                                            <li> <a href="#"> WIDE FIT </a> </li>
+                                                                            <li> <a href="#"> SLIPPERS </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> ACCESORIES </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> BAGS & PURSES </a> </li> 
+                                                                            <li> <a href="#"> BELTS </a> </li> 
+                                                                            <li> <a href="#"> GLOVES </a> </li>
+                                                                            <li> <a href="#"> JEWELLERY </a> </li>
+                                                                            <li> <a href="#"> SUNGLASSES  </a> </li>
+                                                                            <li> <a href="#"> HAIR ACCESORIES </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->    
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> SPORTS </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> SPORTS TOPS & VESTS</a> </li> 
+                                                                            <li> <a href="#"> HOODIES </a> </li> 
+                                                                            <li> <a href="#"> SWIMWEAR </a> </li>
+                                                                            <li> <a href="#"> FOOTWEAR </a> </li>
+                                                                            <li> <a href="#"> SPORTS UNDERWEAR  </a> </li>
+                                                                            <li> <a href="#"> BAGS </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> MATERNITY </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> TOPS & SKIRTS </a> </li> 
+                                                                            <li> <a href="#"> JEANS </a> </li> 
+                                                                            <li> <a href="#"> DRESSES </a> </li>
+                                                                            <li> <a href="#"> TROUSERS & SHORTS </a> </li>
+                                                                            <li> <a href="#"> KNITWEAR </a> </li>
+                                                                            <li> <a href="#"> JACKETS & COATS </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                </ul> <!-- End dropdown-table-content-->
+                                                            </div>
+                                                        </li>   
+                                                    </ul> <!-- End dropdown-menu -->
+                                                </li>
+                                                <li> <a href="#">ELECTRONICS</a> </li>
+                                                <li> <a href="#">GIFTS</a> </li>
+                                                <li> <a href="#">ABOUT US</a> </li>
+                                                <li> <a href="#">BLOG</a> </li>
+                                                <li> <a href="#">PORTFOLIO</a> </li>
+                                                <li> <a href="#">CONTACT US</a> </li>
+                                            </ul><!--End navbar-nav-->      
+                                        </nav><!--End navbar-default--> 
+                                    </div><!-- End header-main-nav--> 
+                                    <!-- Start Header-mobile -->
+                                    <div class="header-mobile hidden-lg hidden-md hidden-sm">
+                                        <ul>
+                                            <li><a href="#" role="button"><i class="fa fa-close menu-close"></i></a></li>
+                                            <li><a href="#" role="button">HOME</a></li>
+                                            <li><a href="#" role="button">FASION</a></li>
+                                            <li><a href="#" role="button">ABOUT US</a></li>
+                                            <li><a href="#" role="button">BLOG</a></li>
+                                            <li><a href="#" role="button">PORTOFOLIO</a></li>
+                                            <li><input placeholder="SEARCH HERE..."></li>
+                                            <li><a href="#">MY CART: $0.00</a></li>
+                                            <li><a href="#">REGISTER</a></li>
+                                            <li><a href="#">En/<i class="fa fa-euro"></i></a></li>
+                                        </ul>
+                                    </div><!-- End Header-mobile -->           
+                                </div> <!-- End header-column -->
+                            </div> <!-- End header-row -->
+                        </div><!-- End header-table-->   
+                    </div> <!-- End wrapper-fluid -->         
+                </div><!-- End Header-main -->
+            </div> <!-- End header-body --> 
+        </header>
+
+        <!-- Start Content-->
+        <section id="content" class="shop type1">
+            <!-- Start content-header -->
+            <div class="content-header">
+                <div class="wrapper">
+                    <div class="page-title">
+                        <h1>BLACK LACE OPEN BACK DRESS</h1>
+                    </div>
+                    <ol class="breadcrumb breadcrumb-right">
+                        <li><a href="#">Home</a></li>    
+                        <li><a href="#">Clothes</a></li>    
+                        <li>Black lace open back dress</li>    
+                    </ol>
+                </div>        
+            </div> <!-- End content-header -->
+            <!-- Start content-main -->
+            <div class="content-main">
+            <div class="wrapper">
+                <!-- Start products -->
+                <div class="products">
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-md-11 col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- Start product-carousel -->
+                                        <div class="product-carousel" >
+                                            <div class="product-image">
+                                                <img src="img/products/product.jpg" alt="product">                                        
+                                                <div class="zoom text-center" role="button">
+                                                    +
+                                                </div>
+                                            </div>
+                                            <div class="owl-carousel">
+                                                <div class="owl-item">
+                                                    <img src="img/products/backpack.png" alt="backpack">
+                                                </div>
+                                                <div class="owl-item">
+                                                    <img src="img/products/backpack-front.png" alt="backpack">
+                                                </div>
+                                                <div class="owl-item">
+                                                    <img src="img/products/backpack-back.png" alt="backpack">
+                                                </div>
+                                                <div class="owl-item">
+                                                    <img src="img/products/backpack-open.png" alt="backpack">
+                                                </div>
+                                            </div>
+                                        </div><!-- End product-carousel -->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!-- Start product-summary -->
+                                        <div class="product-summary">
+                                            <h1>Black lace open back dress</h1>
+                                            <div class="price">
+                                                <ins class="mr-xs">$124.00</ins>
+                                                <del class="mr-xs">$150.00</del>
+                                            </div>
+                                            <div class="product-review"><span><i class="fa fa-star-o"></i></span> 5/5 | Add your review</div>
+                                            <div class="availability" style="padding-top: 3px; padding-bottom: 3px;">Availability: In Stock</div>
+                                            <div class="product-code">Product Code: 483512569</div>
+                                            <p class="product-comment">
+                                                Vestibulum pharetra mauris ac viverra rhoncus. Suspendisse vitae malesuada sem,
+                                                auctor lacus facilisis auctor da sem, finibus ultrices risus. Aliquam sit amet felis auctor 
+                                                lacus <i>facilisis auctor</i>. Sed quis tortor vitae tellus. Duis ligula justo, vulputate vitae Duis augue nisl, feugiat eu turpis, congue porta lectus. Praesent auctor, ipsum ut 
+                                                sit amet lobortis sapien. Integer porttitor, velit sit amet dapibus luctus.
+                                            </p>
+                                            <div class="select">
+                                                <select id="selSize" style="display: none">
+                                                    <option>xs</option>
+                                                    <option>s</option>
+                                                    <option>m</option>
+                                                    <option>l</option>
+                                                    <option>xl</option>
+                                                </select>
+                                                <div>Select size</div>
+                                                <ul class="list-inline size">
+                                                    <li value="xs" role="button">XS</li>
+                                                    <li value="s" role="button">S</li>
+                                                    <li value="m" role="button">M</li>
+                                                    <li value="l" role="button">L</li>
+                                                    <li value="xl" role="button">XL</li>
+                                                </ul>
+                                            </div>
+                                            <div class="select">
+                                                <select id="selColor" style="display: none">
+                                                    <option>red</option>
+                                                    <option>black</option>
+                                                    <option>green</option>
+                                                </select>
+                                                <div>Select color</div>
+                                                <ul class="list-inline color">
+                                                    <li value="red" role="button"><img src="img/products/redbag.png"></li>
+                                                    <li value="black" role="button"><img src="img/products/blackbag.png"></li>
+                                                    <li value="green" role="button"><img src="img/products/greenbag.png"></li>
+                                                </ul>
+                                            </div>
+                                            <form enctype="multipart/form-data" method="post" class="cart">
+                                                <ul class="list-inline">
+                                                    <li><input value="1" class="qty" type="text"></li>
+                                                    <li><a href="#" class="add-cart "> ADD TO CART </a></li>
+                                                    <li><a href="#" class="add-wish"> <i class="fa fa-heart"></i></a></li>
+                                                    <li><a href="#" class="add-compare"> <i class="fa fa-retweet"></i> </a></li>
+                                                </ul>
+                                            </form>
+
+                                            <div class="share">
+                                                Share
+                                                <ul class="list-inline share">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- End product-summary -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-sm-2 hidden-xs">
+                                <a href="#" class="prev-product"><i class="fa fa-angle-left"></i></a>    
+                                <a href="#" class="next-product"><i class="fa fa-angle-right"></i></a>    
+                            </div>
+                        </div><!-- End Product -->
+                    </div>    
+                </div><!-- End products -->
+                <div class="tab">
+                    <div class="row">
+                    <div class="col-md-12">
+                        <div class="tabs tabs-vertical tabs-left">
+                            <ul class="nav nav-tabs">
+                                <li>
+                                    <a href="#target_description" data-toggle="tab">DESCRIPTION</a>
+                                </li>
+                                <li>
+                                    <a href="#target_details" data-toggle="tab">DETAILS</a>
+                                </li>
+                                <li class="active">
+                                    <a href="#target_comments" data-toggle="tab">COMMENTS</a>
+                                </li>
+                                <li>
+                                    <a href="#target_tags" data-toggle="tab">TAGS</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="target_description" class="tab-pane">
+                                    <h3>DESCRIPTION</h3>
+                                    <p>tab-content</p>
+                                </div>
+                                <div id="target_details" class="tab-pane">
+                                    <h3>DETAILS</h3>
+                                    <p>tab-content</p>
+                                </div>
+                                <div id="target_comments" class="tab-pane active">
+                                    <div class="comments-header row">
+                                        <h3 class="col-md-11 col-sm-11">
+                                            <strong>2 REVIEW(S)</strong> for "Black lace open back dress"
+                                        </h3>
+                                        <div class="col-md-1 col-sm-1 text-right">
+                                            <span><i class="fa fa-star-o"></i>5/5</span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews clearfix">
+                                        <!--Start Review -->
+                                        <div class="review">
+                                            <div class="image">
+                                                <img src="img/photo.png" alt="photo">
+                                            </div>
+                                            <div class="image-comment">
+                                                <div class="row">
+                                                    <div class="col-md-10">
+                                                        <strong><i>The best service ever!</i></strong>
+                                                    </div>
+                                                    <div class="col-md-2 text-right">
+                                                        <span><i class="fa fa-star-o"></i>4/5</span>        
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <p>Semper orci etiam ac ultricies ante. Donec lobortis varius justo et. Curabitur egestas aliquet massa non elementum. Quisque at risus nisl. Aliquam erat volutpat. Suspendisse potenti. Nullam porta faucibus elit. Proin sed enim eget nulla faucibus accumsan.</p>
+                                                    <span>Nicole Bailey, 12.05.2016</span>
+                                                </div>
+                                            </div>
+                                        </div><!-- End review -->
+                                        <!--Start Review -->
+                                        <div class="review">
+                                            <div class="image">
+                                                <img src="img/photo-shadow.png" alt="photo">
+                                            </div>
+                                            <div class="image-comment">                                        
+                                                <div class="row">
+                                                    <div class="col-md-10">
+                                                        <strong><i>Very fast support!</i></strong>
+                                                    </div>
+                                                    <div class="col-md-2 text-right">
+                                                        <span><i class="fa fa-star-o"></i>5/5</span>        
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras pretium suscipit 
+                                                        cursus. Vivamus eget tortor vel tellus consequat. Nam efficitur egestas diam, dignissim hendrerit purus placerat vitae. Nam efficitur egestas diam.</p>
+                                                    <span>Andre Bailey, 12.05.2016</span>
+                                                </div>
+                                            </div>
+                                        </div><!-- End review -->                                                                
+                                    </div><!-- End Reviews -->
+                                    <!-- Start Customer's review -->
+                                    <div class="review-customer">
+                                        <h3>WRITE YOUR REVIEW</h3>
+                                        <div>
+                                            Your Rating* <span class="fa star-rating"></span>
+                                        </div>
+                                        <form id="reviewForm" novalidate="novalidate" method="POST">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <input class="form-control" id="nick_name" name="nick_name" maxlength="100" placeholder="Enter your nickname*">        
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input class="form-control" id="email" name="email" maxlength="100" placeholder="Enter your email*">    
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <textarea class="form-control" id="ta_review" name="ta_review" maxlength="5000" rows="10" placeholder="Enter your nickname*" aria-invalid="true" aria-required="true"></textarea>        
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <input type="submit" class="btn btn-transparent btn-borders btn-normal" value="SUBMIT REVIEW" name="review" data-loading-text="Loading...">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div><!-- End Customer's review -->
+                                </div>
+                                <div id="target_tags" class="tab-pane">
+                                    <h3>TAGS</h3>
+                                    <p>tab-content</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div> <!-- End content-main -->
+            <div class="content-footer">
+                <div class="wrapper">
+                    <div class="row text-center">
+                        <h2>RELATED PRODUCTS</h2>
+                        <div class="col-md-3 text-center col-sm-6">
+                            <div class="image">
+                                <img src="img/products/clutch-black-1_1024x1024.jpg">
+                            </div>
+                            <div class="image-content text-left">
+                                <h4>Black lace open back dress</h4>
+                                <span>$124.00</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center col-sm-6">
+                            <div class="image">
+                                <img src="img/products/crew-neck-1_1024x1024.jpg">
+                            </div>
+                            <div class="image-content text-left">
+                                <h4>Black lace open back dress</h4>
+                                <span>$124.00</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center col-sm-6">
+                            <div class="image">
+                                <img src="img/products/luggagetag-brown-2_1024x1024.jpg">
+                            </div>
+                            <div class="image-content text-left">
+                                <h4>Black lace open back dress</h4>
+                                <span>$124.00</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center col-sm-6">
+                            <div class="image">
+                                <img src="img/products/fanny-black-1_1024x1024.jpg">
+                            </div>
+                            <div class="image-content text-left">
+                                <h4>Black lace open back dress</h4>
+                                <span>$124.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <!-- Start Footer -->
+        <footer id="footer" class="footer-center">
+            <!-- Start Footer-main -->
+            <div class="footer-main">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <h4>INFORMATION</h4>
+                            <!-- Start foot-info-->
+                            <div class="foot-info">
+                                <ul>
+                                    <li><a href="#">NEW PRODUCTS</a></li>
+                                    <li><a href="#">TOP SELLERS</a></li>
+                                    <li><a href="#">SPECIAL PRODUCTS</a></li>
+                                    <li><a href="#">MANUFACTURERS</a></li>
+                                    <li><a href="#">SUPPLIERS</a></li>
+                                    <li><a href="#">OUR STORES</a></li>
+                                    <li><a href="#">COUPONS</a></li>
+                                </ul> 
+                            </div> <!-- End foot-info -->
+                        </div><!-- End col-md-3 -->    
+                        <div class="col-md-3 col-sm-3">
+                            <h4>CUSTOMER SERVICE</h4>
+                            <!-- Start foot-service-->
+                            <div class="foot-service">
+                                <ul>
+                                    <li><a href="#">HELP & CONTACT</a></li>
+                                    <li><a href="#">SHIPPING & TAXES</a></li>
+                                    <li><a href="#">RETURN POLICY</a></li>
+                                    <li><a href="#">CAREERS</a></li>
+                                    <li><a href="#">AFFILITES</a></li>
+                                    <li><a href="#">LEGAL NOTICE</a></li>
+                                    <li><a href="#">PRIVACY POLICY</a></li>
+                                    
+                                </ul> 
+                            </div> <!-- End foot-service -->
+                        </div><!-- End col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <h4>MY ACCOUNT</h4>
+                            <!-- Start foot-account-->
+                            <div class="foot-account">
+                                <ul>
+                                    <li><a href="#">MY ACCOUNT</a></li>
+                                    <li><a href="#">PERSONAL INFORMATION</a></li>
+                                    <li><a href="#">PAYMENT METHODS</a></li>
+                                    <li><a href="#">DISCOUNT</a></li>
+                                    <li><a href="#">ORDERS HISTORY</a></li>
+                                    <li><a href="#">YOUR VOUCHERS</a></li>
+                                    <li><a href="#">ADDRESSES</a></li>
+                                </ul> 
+                            </div> <!-- End foot-account -->
+                        </div><!-- End col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="support">
+                                <h4>SUPPORT</h4>
+                                <!-- Start foot-support-->
+                                <div class="foot-support">
+                                    <ul>
+                                        <li class="foot-phone">0203 - 980 - 14 - 79</li>
+                                        <li class="foot-phone">0203 - 478 - 12 - 96</li>
+                                        <li class="foot-service-hours">Service hours: 09:00 - 20.00</li>
+                                    </ul> 
+                                </div> <!-- End foot-support -->
+                            </div>
+                            <!-- Start follow -->
+                            <div class="follow">
+                                <h4>FOLLOW US</h4>
+                                <!-- Start foot-follow-->
+                                <div class="foot-follow">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul> 
+                                </div> <!-- End foot-follow -->
+                            </div><!-- End follow -->
+                        </div><!-- End col-md-3 -->
+                        
+                    </div><!-- End row-->
+                </div><!-- End wrapper -->
+                <div class="wrapper-fluid text-center">
+                    <div class="footer-logo">
+                        <a href="#"><img src="img/footer-logo.png" alt="PESTO"></a>
+                    </div>
+                    <div>
+                        <p>
+                            Easy returns. Free shipping on orders over $100. Need help?
+                            Help Center.
+                        </p>
+                    </div>
+                </div>
+            </div><!-- End Footer-main-->
+            <!-- Start Footer-mobile -->
+            <div class="footer-mobile">
+                <div class="wrapper">
+                    <ul class="footer-mobile-links">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">My Favourites</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Call us: 0203-980-14-79</a></li>
+                    </ul>
+                </div>
+            </div><!-- End Footer-mobile -->
+        </footer><!-- End Footer-->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="vendor/js/jquery/jquery.min.js"></script>
+        <script src="vendor/js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+
+body {
+    font-family: $font-primary;
+    font-size: 15px;
+    margin: 0;
+    position: relative;
+    a {
+        outline: none !important;
+    }
+}

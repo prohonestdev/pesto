@@ -1,0 +1,61 @@
+#contactForm {
+    .row {
+        input,textarea {
+            border-radius: 0px;
+            border-color: #f3f3f3;
+        }
+    }
+}
+
+.contactus.type1 {
+    #contactForm {
+        input[type="text"] {
+            height: 50px;
+        }
+        textarea {
+            height: 200px;
+        }
+        input[type="submit"] {
+            width: 167px;
+            height: 43px;
+            background: transparent;
+        }
+    }
+}
+
+.contactus.type3 {
+    #contackForm {
+        height:230px;
+    }
+}
+
+.cart {
+    .qty {
+        border-radius: 0px;
+        border: 1px solid #e0e0e0;
+        height: 30px;
+        text-align: center;
+        width: 30px;
+        display: block;
+    }
+    .add-cart {
+        border: 1px solid #444645;
+        color: #444645;
+        font-size: 13.01px;
+        font-weight: bold;
+        padding: 5px 10px;
+        display: block;
+    }
+    
+    a.add-wish,a.add-compare {
+        i {
+            line-height: 28px;
+        }
+        @extend .qty;
+    }
+
+}
+
+
+
+

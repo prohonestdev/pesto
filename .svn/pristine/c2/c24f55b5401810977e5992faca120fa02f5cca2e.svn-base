@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+        <meta name="keywords" content="HTML5 Ecommerce Template" />
+        <meta name="description" content="Pesto - Responsive HTML5 Ecommerce Template">
+        <meta name="author" content="author name">
+
+        <title>Portfolio Masonry Rectangle Images</title>
+        <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
+
+        <link rel="stylesheet" href="vendor/css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+        <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.css">
+        <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.css">
+
+        <!-- RS5.0 Main Stylesheet -->
+        <!-- RS5.0 Settings Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css" />
+        <!-- RS5.0 Layers and Navigation Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css" />
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css" />  
+
+        <!-- jquery ui -->
+        <link rel="stylesheet" href="vendor/jquery-ui/jqueryui.css">
+        <!-- slider -->
+        <link rel="stylesheet" href="vendor/jquery-ui-slider-pips/jquery-ui-slider-pips.css">    
+        <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">    
+
+        <!-- RS5.0 Main Stylesheet -->
+        <!-- RS5.0 Settings Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css" />
+        <!-- RS5.0 Layers and Navigation Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css" />
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css" />    
+
+        <!-- Theme Stylesheet -->
+        <link rel="stylesheet" href="css/theme.css" />
+        <link rel="stylesheet" href="css/theme-elements.css" />
+    </head>
+    <body>
+        <header id="header" class="header-normal">
+            <div class="header-body">
+                <!-- Start header-top-links -->
+                <div class="header-top-links">
+                    <nav class="navbar navbar-static-top nav-border-bottom">
+                        <div class="container"> 
+                            <div class="navbar-collapse">
+                                <button class="btn header-btn-collapse-top">
+                                    Link
+                                    <span class="caret"></span>
+                                </button>
+                                <!-- Start navbar-left-->
+                                <div class="navbar-left">
+                                    <ul class="nav navbar-nav">
+                                        <li> <a href="#"> My account </a> </li>    
+                                        <li> <a href="#"> Checkout </a> </li>    
+                                        <li> <a href="#"> Login or Register </a> </li>    
+                                    </ul>
+                                </div>
+                                <!-- Start navbar-right -->
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown dropdown-search">
+                                        <a class="dropdown-toggle" href="#">
+                                            Search 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="container-fluid">
+                                                    <form class="search-form">
+                                                        <input placeholder="Search entry Site here..." class="form-control">
+                                                        <a href="#" class="fa fa-close"></a>
+                                                    </form>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li> <!-- End dropdown-search -->
+                                    <!-- Start mini-cart -->
+                                    <li class="dropdown mini-cart">
+                                        <a href="#" class="dropdown-toggle">
+                                            My cart: $0.00
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <p>
+                                                    2 item(s) in your cart- <span class="info-value">$658.00</span>
+                                                </p>
+                                            </li>
+                                            <li>    
+                                                <div class="product-image">
+
+                                                    <img alt="Camera" src="img/camera.png">    
+
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Mustard yellow ruffle dress 
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="info-value">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-image">
+
+                                                    <img alt="Handphone" src="img/Handphone.png">    
+
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Navy Blue Silk Pleated Shift Dress
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="price">$478.00</span>
+
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="shopping-info">
+                                                    <p><span> Shipping:</span> <span class="info-value">7.00</span></p>
+                                                    <p><span> Tax:</span> <span class="info-value">Free</span></p>
+                                                    <p><span> Total:</span> <span class="info-value">$665.00</span></p>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div><a href="#" type="button">VIEW CART</a></div>
+                                                    <div>  <a href="#" type="button">CHECKOUT</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- Start dropdown-currency -->
+                                    <li class="dropdown dropdown-currency">
+                                        <a href="#" class="dropdown-toggle">
+                                            $ / &#8364; / &#163; 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li> US dollar </li>        
+                                            <li> EURO</li>
+                                            <li> POUND ST </li>
+                                        </ul>
+                                    </li> <!-- End dropdown-currency -->
+                                    <!-- Start dropdown-language -->
+                                    <li class="dropdown dropdown-combo dropdown-language">
+                                        <a class="dropdown-toggle " href="#">
+                                            En / Es
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#"><img src="img/english.png">English</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#"><img src="img/Spanish.png">Spanish </a>
+                                            </li>
+
+                                        </ul>
+                                    </li>  <!-- End dropdown-language -->
+                                </ul>  <!-- End navbar-right-->
+                            </div> 
+                        </div> <!-- container-fluid --> 
+                    </nav>    
+                </div> <!-- header-top-links -->
+                <!-- Start header table collapsed logo and main navigation-->
+                <div class="container">
+                    <div class="header-table">
+                        <div class="header-row">
+                            <div class="header-column">
+                                <div class="header-logo">
+                                    <a href="index.html"><img src="img/logo.png" alt="PESTO"> </a>
+                                </div> <!-- header-logo -->
+                            </div> <!-- header-column -->
+                            <div class="header-column">
+                                <button class="btn header-btn-collapse-nav" data-toggle="collapse" type="button" 
+                                    data-target="#main-nav" aria-expanded="false" aria-controls="main-nav">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <div class="collapse header-main-nav" aria-expanded="false" id="main-nav">
+                                    <nav class="navbar navbar-default navbar-right">
+                                        <ul class="nav navbar-nav" >
+                                            <li> <a href="#">HOME</a> </li>
+                                            <!-- Start table dropdown -->
+                                            <li class="dropdown dropdown-table"> 
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">FASHION<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li>
+                                                        <div class="dropdown-table-content container">
+                                                            <div class="col-5-1">
+                                                                <span class="dropdown-table-sub-title"> CLOTHING </span>
+                                                                <ul class="dropdown-table-sub-nav">
+                                                                    <li> <a href="#"> DRESSES </a> </li> 
+                                                                    <li> <a href="#"> JEANS & TORUSERS </a> </li> 
+                                                                    <li> <a href="#"> BLOUSES </a> </li>
+                                                                    <li> <a href="#"> TOPS & T-SHIRTS </a> </li>
+                                                                    <li> <a href="#"> JACKETS & COATS  </a> </li>
+                                                                    <li> <a href="#"> SKIRTS</a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-5-1">
+                                                                <span class="dropdown-table-sub-title"> SHOES </span>
+                                                                <ul class="dropdown-table-sub-nav">
+                                                                    <li> <a href="#"> FORMAL SHOES </a> </li> 
+                                                                    <li> <a href="#"> CASUAL SHOES </a> </li> 
+                                                                    <li> <a href="#"> SANDALS </a> </li>
+                                                                    <li> <a href="#"> BOOTS </a> </li>
+                                                                    <li> <a href="#"> WIDE FIT </a> </li>
+                                                                    <li> <a href="#"> SLIPPERS </a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-5-1">
+                                                                <span class="dropdown-table-sub-title"> ACCESORIES </span>
+                                                                <ul class="dropdown-table-sub-nav">
+                                                                    <li> <a href="#"> BAGS & PURSES </a> </li> 
+                                                                    <li> <a href="#"> BELTS </a> </li> 
+                                                                    <li> <a href="#"> GLOVES </a> </li>
+                                                                    <li> <a href="#"> JEWELLERY </a> </li>
+                                                                    <li> <a href="#"> SUNGLASSES  </a> </li>
+                                                                    <li> <a href="#"> HAIR ACCESORIES </a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-5-1">
+                                                                <span class="dropdown-table-sub-title"> SPORTS </span>
+                                                                <ul class="dropdown-table-sub-nav">
+                                                                    <li> <a href="#"> SPORTS TOPS & VESTS</a> </li> 
+                                                                    <li> <a href="#"> HOODIES </a> </li> 
+                                                                    <li> <a href="#"> SWIMWEAR </a> </li>
+                                                                    <li> <a href="#"> FOOTWEAR </a> </li>
+                                                                    <li> <a href="#"> SPORTS UNDERWEAR  </a> </li>
+                                                                    <li> <a href="#"> BAGS </a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-5-1">
+                                                                <span class="dropdown-table-sub-title"> MATERNITY </span>
+                                                                <ul class="dropdown-table-sub-nav">
+                                                                    <li> <a href="#"> TOPS & SKIRTS </a> </li> 
+                                                                    <li> <a href="#"> JEANS </a> </li> 
+                                                                    <li> <a href="#"> DRESSES </a> </li>
+                                                                    <li> <a href="#"> TROUSERS & SHORTS </a> </li>
+                                                                    <li> <a href="#"> KNITWEAR </a> </li>
+                                                                    <li> <a href="#"> JACKETS & COATS </a> </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div> <!-- dropdown-table-content-->
+                                                    </li>   
+                                                </ul> <!-- dropdown-menu -->
+                                            </li>
+
+                                            <li> <a href="#">ABOUT US</a> </li>
+                                            <li> <a href="#">BLOG</a> </li>
+                                            <li> <a href="#">PORTFOLIO</a> </li>
+                                            <li> <a href="#">CONTACT US</a> </li>
+                                        </ul><!-- navbar-nav-->    
+                                    </nav><!-- navbar-default--> 
+                                </div><!-- header-main-nav-->
+
+                            </div> <!-- header-column -->
+                        </div> <!-- header-row -->
+                    </div> <!-- header-table -->   
+                </div> <!-- container -->         
+            </div> <!-- header-body --> 
+        </header>            
+        <div id="content" role="main">
+            <div class="page-top content-header">
+                <div class="container">
+                    <div class="pull-left">
+                        <h3 class="c-h3">
+                            CLOTHING
+                        </h3>
+                    </div>
+                    <ul class="breadcrumb pull-right">
+                        <li>Home</li>
+                        <li><a href="#">Category Page</a></li>
+                        <li><a href="#">Clothing</a></li>
+                    </ul>
+                </div><!-- End .container -->
+            </div><!-- End .page-top -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+
+                        <div class="category-top row">
+                            <div class="select_sortby inline-block">
+                                <select class="bootstrap-select type_sortby bs-select-hidden" data-width="100%">
+                                    <option value="menu_order" selected="selected">Default</option>
+                                    <option value="popularity">popularity</option>
+                                    <option value="rating">average rating</option>
+                                    <option value="date">newness</option>
+                                    <option value="price">price: low to high</option>
+                                    <option value="price-desc">price: high to low</option>
+                                </select>
+                            </div>
+
+                            <div class="select_show inline-block">
+                                <select class="bootstrap-select type_show bs-select-hidden" data-width="100%">
+                                    <option value="15" selected="selected">15</option>
+                                    <option value="30">30</option>
+                                    <option value="30">30</option>
+                                    <option value="60">60</option>
+                                    <option value="100">100</option>
+                                    <option value="200">200</option>
+                                </select>
+                            </div>
+
+                            <div class="pull-right">
+                                <div class="gridlist-toggle inline-block">
+                                    <div class="call-to-action-btn inline-block mr-sm">
+                                        <a href="#" title="List View" class="active btn-grid size-tiny-icon">
+                                            <img alt="grid" src="img/icon-grid.png" />
+                                        </a>
+                                    </div>
+                                    <div class="call-to-action-btn inline-block">
+                                        <a href="#" title="Grid View" class="btn-list size-tiny-icon">
+                                            <img alt="list" src="img/icon-list.png" />
+                                        </a>
+                                    </div>
+                                </div><!-- End .gridlist-toggle -->
+
+                                <div class="inline-block">
+                                    <button type="button" class="btn border-color-normal b-normal btn-transparent">COMPARE</button>
+                                </div>
+                            </div>
+
+                        </div><!-- End .shop-before-loop -->
+
+                        <div class="products">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                            </div><!-- End .row -->
+                            
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                            </div><!-- End .row -->
+                            
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                            </div><!-- End .row -->
+                            
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                            </div><!-- End .row -->
+                            
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                            </div><!-- End .row -->
+                            
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img src="img/products/luggagetag-brown-2_1024x1024.jpg" alt="image" class="product-image-normal">
+                                        </a>
+                                    </div><!-- End .Category-image -->
+
+                                    <h4 class="istok-h4"><a href="#">Black lace back open dress</a></h4>
+                                    <h4 class="c-h4"><a href="#">$124.00</a></h4>
+
+                                </div><!-- end .col-sm-4 -->
+                            </div><!-- End .row -->
+                        </div><!-- End .products -->
+
+                        <div class="category-bottom clearfix mt-xlg">
+                            <div class="pagination-container">
+                                <span class="pt-xs istok-normal-text">
+                                items 1 to 18 of 120 total
+                                </span>
+                                <span class="pull-right">
+                                    <ul class="pagination pagination-normal">
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div><!-- End .shop-before-loop -->
+
+                        <div class="lg-margin hidden-xs hidden-sm"></div><!-- space -->
+
+                    </div><!-- End .col-md-9 -->
+
+                    <aside class="col-md-3 sidebar">
+                        <div class="widget widget-shop">
+                            <h3 class="widget-title boxed-title">CATEGORIES
+                                <a class="toggle" data-toggle="collapse" href="#filterCatWidget" aria-expanded="false" aria-controls="filterCatWidget"></a>
+                            </h3><!-- End .widget-title -->
+                            <div class="collapse in" id="filterCatWidget">
+                                <ul class="product-categories">
+                                    <li><a href="#">Women</a></li>
+                                    <li><a href="#">Men</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Bags</a></li>
+                                    <li><a href="#">Sun Glasses</a></li>
+                                    <li><a href="#">Furnitures</a></li>
+                                    <li><a href="#">Shoes</a></li>
+                                    <li><a href="#">Fashion</a></li>
+                                    <li><a href="#">T-shirts</a></li>
+                                    <li><a href="#">Dress</a></li>
+                                    <li><a href="#">Polos</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- End .widget -->
+
+                        <div class="widget widget-shop">
+                            <h3 class="widget-title boxed-title">Price
+                                <a class="toggle" data-toggle="collapse" href="#filterPriceWidget" aria-expanded="false" aria-controls="filterPriceWidget"></a>
+                            </h3>
+                            <div class="collapse in" id="filterPriceWidget">
+                                <div class="filter-slider">
+                                    <div id="price-range"></div><!-- End #price-range -->
+                                    <div class="filter-slider-action clearfix">
+                                        <a href="#" class="btn">Filter</a>
+                                        <span class="filter-slider-value">Price: <span id="slider-low-value"></span> - <span id="slider-high-value"></span></span>
+
+                                    </div><!-- End #filter-price-action -->
+                                </div><!-- End .filter-price -->
+                            </div>
+                        </div><!-- End .widget -->
+
+                        <div class="widget widget-shop">
+                            <h3 class="widget-title boxed-title">Color
+                                <a class="toggle" data-toggle="collapse" href="#filterColorWidget" aria-expanded="false" aria-controls="filterColorWidget"></a>
+                            </h3>
+                            <div class="collapse in" id="filterColorWidget">
+                                <ul class="filter-color-container clearfix">
+                                    <li><a href="#" style="background-color:#000000;" class="filter-color-box"></a></li>
+                                    <li><a href="#" style="background-color:#1e73be;" class="filter-color-box"></a></li>
+                                    <li><a href="#" style="background-color:#dd9933;" class="filter-color-box"></a></li>
+                                    <li><a href="#" style="background-color:#81d742;" class="filter-color-box"></a></li>
+                                    <li><a href="#" style="background-color:#8224e3;" class="filter-color-box"></a></li>
+                                    <li><a href="#" style="background-color:#dd3333;" class="filter-color-box"></a></li>
+                                    <li><a href="#" style="background-color:#eeee22;" class="filter-color-box"></a></li>
+                                </ul><!-- End .filter-color-container -->
+                            </div>
+                        </div><!-- End .widget -->
+
+                        <div class="widget widget-shop">
+                            <h3 class="widget-title boxed-title">Size
+                                <a class="toggle" data-toggle="collapse" href="#filterSizeWidget" aria-expanded="false" aria-controls="filterSizeWidget"></a>
+                            </h3>
+                            <div class="collapse in" id="filterSizeWidget">
+                                <ul class="filter-size-container clearfix">
+                                    <li><a href="#" class="filter-size-box active">xl</a></li>
+                                    <li><a href="#" class="filter-size-box">xs</a></li>
+                                    <li><a href="#" class="filter-size-box">l</a></li>
+                                    <li><a href="#" class="filter-size-box">m</a></li>
+                                    <li><a href="#" class="filter-size-box">s</a></li>
+                                </ul><!-- End .filter-size-container -->
+                            </div>
+                        </div><!-- End .widget -->
+
+                        <div class="widget">
+                            <h2 class="widget-title">Featured</h2>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <div class="product-image">
+                                        <div class="inner">
+                                            <a href="#" title="Strapless Digi Sequined Dress">
+                                                <img width="90" height="90" src="images/products/thumbnails/product1.jpg" class="product-image-normal" alt="product">
+                                                <img width="90" height="90" src="images/products/thumbnails/product1-hover.jpg" class="product-image-hover " alt="product">
+                                            </a>
+                                        </div>  
+                                    </div>
+                                    <div class="product-details">
+                                        <a href="#">
+                                            Strapless Digi Sequined Dress        </a>
+                                        <div class="star-rating add-tooltip" title="5.00">
+                                            <span style="width:100%">
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div><span class="amount">$35.00</span>    
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-image">
+                                        <div class="inner">
+                                            <a href="#" title="Strapless Digi Sequined Dress">
+                                                <img width="90" height="90" src="images/products/thumbnails/product1.jpg" class="product-image-normal" alt="product">
+                                                <img width="90" height="90" src="images/products/thumbnails/product1-hover.jpg" class="product-image-hover " alt="product">
+                                            </a>
+                                        </div>  
+                                    </div>
+                                    <div class="product-details">
+                                        <a href="#">
+                                            Strapless Digi Sequined Dress        </a>
+                                        <div class="star-rating add-tooltip" title="5.00">
+                                            <span style="width:100%">
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <del><span class="amount">$20.00</span></del>
+                                        <ins><span class="amount">$35.00</span></ins>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-image">
+                                        <div class="inner">
+                                            <a href="#" title="Strapless Digi Sequined Dress">
+                                                <img width="90" height="90" src="images/products/thumbnails/product1.jpg" class="product-image-normal" alt="product">
+                                                <img width="90" height="90" src="images/products/thumbnails/product1-hover.jpg" class="product-image-hover " alt="product">
+                                            </a>
+                                        </div>  
+                                    </div>
+                                    <div class="product-details">
+                                        <a href="#">
+                                            Strapless Digi Sequined Dress        </a>
+                                        <div class="star-rating add-tooltip" title="5.00">
+                                            <span style="width:100%">
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div><span class="amount">$35.00</span>    
+                                    </div>
+                                </li>
+                            </ul>
+                        </div><!-- End .widget -->
+                    </aside><!-- End .col-md-3 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+        </div><!-- End #content -->
+
+        <!-- Start footer-->
+        <footer id="footer" class="footer-nologo">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>INFORMATION</h4>
+                        <!-- Start foot-info-->
+                        <div class="foot-info">
+                            <ul>
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Top sellers</a></li>
+                                <li><a href="#">Special products</a></li>
+                                <li><a href="#">Manufacturers</a></li>
+                                <li><a href="#">Supplies</a></li>
+                            </ul> 
+                        </div> <!-- End foot-info -->
+                    </div><!-- End col-md-3 -->    
+                    <div class="col-md-3">
+                        <h4>CUSTOMER SERVICE</h4>
+                        <!-- Start foot-service-->
+                        <div class="foot-service">
+                            <ul>
+                                <li><a href="#">Help &amp; contact</a></li>
+                                <li><a href="#">Shipping &amp; taxes</a></li>
+                                <li><a href="#">Return Policy</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Affilites</a></li>
+                            </ul> 
+                        </div> <!-- End foot-service -->
+                    </div><!-- End col-md-3 -->
+                    <div class="col-md-3">
+                        <h4>MY ACCOUNT</h4>
+                        <!-- Start foot-account-->
+                        <div class="foot-account">
+                            <ul>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Personal information</a></li>
+                                <li><a href="#">Payment methods</a></li>
+                                <li><a href="#">Discount</a></li>
+                                <li><a href="#">Orders history</a></li>
+                            </ul> 
+                        </div> <!-- End foot-account -->
+                    </div><!-- End col-md-3 -->
+                    <div class="col-md-3">
+                        <div class="support">
+                            <h4>SUPPORT</h4>
+                            <!-- Start foot-support-->
+                            <div class="foot-support">
+                                <ul>
+                                    <li class="foot-phone">0203 - 980 - 14 - 79</li>
+                                    <li class="foot-phone">0203 - 478 - 12 - 96</li>
+                                    <li class="foot-service-hours">Service hours: 09:00 - 20.00</li>
+                                </ul> 
+                            </div> <!-- End foot-support -->
+                        </div>
+                        <!-- Start follow -->
+                        <div class="follow">
+                            <!-- Start foot-follow-->
+                            <div class="foot-follow">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                </ul> 
+                            </div> <!-- End foot-follow -->
+                        </div><!-- End follow -->
+                    </div><!-- End col-md-3 -->
+
+                </div><!-- End row-->
+            </div><!-- End Container -->
+            <div class="container-fluid">
+                <!-- Start footer-join -->
+                <div class="footer-join">
+                    <h3>
+                        JOIN THE COMMUNITY
+                    </h3>
+                    <div class="alert alert-success hidden" id="joinEmailSuccess">
+                        <strong>Success!</strong>
+                        You've been added to our email list.
+                    </div>
+                    <div class="alert alert-danger hidden" id="joinEmailDanger">
+                    </div>
+                    <!-- Start emailForm -->
+                    <form id="emailForm" action="php/email.php" method="POST" novalidate="novalidate">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="your@email.com" id="yourEmail" name="yourEmail" type="text" aria-required="true" aria-invalid="true">
+                            <span>
+                                <button class="btn btn-default" type="submit"><i class="fa fa-chevron-right"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- End emailForm -->
+                </div>
+                <!-- End footer-join -->
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Free Delivery</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+        </footer><!-- End footer-->
+
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <!-- jquery, jqueryui -->
+        <script src="vendor/jquery-ui/jquery-plus-ui.js"></script>
+
+        <!-- slider -->
+        <script src="vendor/jquery-ui-slider-pips/jquery-ui-slider-pips.js"></script>
+
+        <script src="vendor/js/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendor/js/flickr/jflickrfeed.min.js"></script>
+        <script src="vendor/nouislider/nouislider.min.js"></script>  
+        <script src="vendor/owlcarousel/owl.carousel.min.js"></script> 
+        <script src="vendor/bootstrap-select/bootstrap_select.js"></script>  
+        <!-- Theme -->
+        <script src="js/theme.js"></script>
+    </body>
+</html>

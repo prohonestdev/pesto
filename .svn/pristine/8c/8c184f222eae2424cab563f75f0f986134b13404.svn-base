@@ -1,0 +1,28 @@
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+$font-primary: "Istok Web";
+$font-secondary: "Roboto Condensed";
+
+
+// WEIGHTS
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+/*COLORS*/
+
+// header-top-links
+$color-header-top: #858585;
+$color-header-top-hover: #555555;
+$color-header-top-border: #f2f2f2;
+
+$color-normal: #888888;
+$color-dark: #777777;
+$color-light: #888888;
+
+$color-input-border: #f4f4f4;
+$color-input: #c1c1c1;
+
+$color-links-hover: #66ccff;

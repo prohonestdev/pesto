@@ -1,0 +1,48 @@
+#contactForm {
+    .row {
+        input,textarea {
+            border-radius: 0px;
+            border-color: #f3f3f3;
+        }
+    }
+}
+
+.contactus_type1 {
+    #contactForm {
+        input[type="text"] {
+            height: 50px;
+        }
+        textarea {
+            height: 200px;
+        }
+        input[type="submit"] {
+            width: 167px;
+            height: 43px;
+            background: transparent;
+        }
+    }
+}
+
+contactus-type3 {
+    #contackForm {
+        height:230px;
+    }
+}
+contactus_type1 {
+    #contactForm {
+        input[type="text"] {
+            height: 50px;
+        }
+        textarea {
+            height: 200px;
+        }
+        input[type="submit"] {
+            width: 167px;
+            height: 43px;
+            background: transparent;
+        }
+    }
+}
+
+
+

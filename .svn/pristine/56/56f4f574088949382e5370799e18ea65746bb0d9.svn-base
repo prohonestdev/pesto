@@ -1,0 +1,213 @@
+@import "config/common";
+
+
+#contactForm {
+    input {
+        font-family: $font-secondary;
+        font-size: 14px;
+    }
+    input[type="submit"]:not(:hover) {
+        border-color: $color6;
+    }
+    label {
+        font-family: $font-primary;
+        font-size: 12px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+}
+
+.content-footer {
+    a {
+        font-size: 35px;
+    }
+    h4 {
+        color: $color28;
+        font-family: $font-secondary;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .location,.details,.phone {
+        > div {
+            color: $color-normal;
+            font-family: $font-tertiary;
+            font-size: 14px;
+            padding: 5px 0;
+        }
+    }
+}
+.contactus.type1,.contactus.type2 {
+    .content-footer {
+        padding-bottom: 30px;
+    }
+}
+.contactus.type3 {
+    .content-footer {
+        padding-bottom: 45px; 
+    }
+}
+
+.contactus.type1 {
+    .content-footer {
+        padding-top: 90px;
+    }
+}
+
+.contactus.type2,.contactus.type3 {
+    #contactForm input {
+        height: 43px;
+        margin-bottom: 25px;
+    }
+    .content-main .review-customer {
+        h3 {
+            margin-bottom: 20px;
+        }
+        textarea {
+            height: 229px;
+        }        
+    }
+}
+
+.contactus.type2 {
+    .content-main .review-customer {
+        input[type="submit"] {
+            margin-top: 16px;
+        }
+    }
+    .content-footer {
+        padding-top: 25px;
+    }
+}
+
+.contactus.type3 .content-footer {
+    padding-top: 100px;
+}
+
+.contactus.type3 {
+    .content-main .review-customer {
+        padding-bottom: 45px;
+        input[type="submit"] {
+            margin-top: 23px;
+        }
+    }    
+}
+
+.aboutus {
+    .product-functions {
+        padding: 35px 0;
+        .product-function {
+            @include clearfix;
+            padding: 15px 0;
+            >div {
+                float: left;
+            }
+            .function-mark {
+                border: solid 1px $color15;
+                border-radius: 50%;
+                color: $color19;
+                font-size: 20px;
+                height: 75px;
+                line-height: 75px;
+                margin-top: 29px;
+                text-align: center;
+                width: 75px;
+            }
+            .function-comment {
+                @include calc(width,"100% - 75px");
+                padding-left: 25px;
+                h2 {
+                    color: $color16;
+                    letter-spacing: 1.5px;
+                }
+                p {
+                    color: $color3;
+                    font: 13px 'Verdana';
+                    letter-spacing: -0.14px;
+                    line-height: 21px;
+                    margin: 0;
+                    padding: 2px 0px;
+                }
+            }
+        }
+    }
+    .product-summary {
+        .mark {
+            background-color: transparent;
+            color: $color14;
+            display: block;
+            font-size: 22px;
+            margin-top: 43px;
+        }
+        .summary {
+            color: $color13;
+            font: lighter 20px $font-secondary;
+            
+            letter-spacing: 1.5px;
+            line-height: 31px;
+            margin: 3px auto;
+            width: 55.04273504273504%;
+        }
+    }
+    .short-about-us {
+        padding: 52px 0;
+        .image {
+            text-align: center;
+        }
+        .image-comments {
+            h3 {
+                color: $color-dark;
+                letter-spacing: 1.3px;
+                margin: 10px 0;
+            }
+            p {
+                color: $color3;
+            }
+            .quote p i{
+                color: $color14;
+            }
+        }
+    }
+    .team {
+        margin-bottom: 60px;
+        padding: 41px 0;
+        h4 {
+            color: $color-dark;
+            letter-spacing: 2.25px;
+            margin-bottom: 28px;
+            word-spacing: 1.2px;
+        }
+        .image {
+            margin: 0 auto;
+            padding: 24px 0;
+            img {
+                max-width: 100%;
+            }
+        }
+        .image-comment {
+            text-align: left;
+            span {
+                display: block;
+                font: 14px $font-secondary;
+            }
+            .name {
+                color: $color17;
+                letter-spacing: 0.7px;
+                word-spacing: 2.2px;
+            }
+            .role {
+                color: $color18;
+                font-size: 14px;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+@media (max-width: 1169px ) {
+    .aboutus .team .image-comment {
+        display: inline-block;
+        width: 270px;
+    }
+}

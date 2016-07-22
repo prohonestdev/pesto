@@ -1,0 +1,14 @@
+.content-header h4{
+    color: #888888;
+    font-family: $font-secondary;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+}
+
+h3 {
+    color: #777777;
+    font-family: $font-secondary;
+    font-size: 25px;
+    letter-spacing: 3.2px;
+    margin: 15px 0;
+}

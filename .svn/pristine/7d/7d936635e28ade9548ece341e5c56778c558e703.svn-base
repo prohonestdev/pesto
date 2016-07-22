@@ -1,0 +1,15 @@
+.left-map {
+    
+    width: 660px;
+    height: 700px;    
+}
+
+.top-map {
+    height: 500px;
+    width: 1170px;    
+}
+
+.bottom-map {
+    height: 300px;
+    width: 1170px;    
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>home1</title>
+
+        <meta name="keywords" content="HTML5 Template" />
+        <meta name="description" content="Responsive modern ecommerce Html5 Template">
+
+        <!-- Google Fonts -->
+        <!--
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet'>
+        <link href="//fonts.googleapis.com/css?family=Istok+Web:400normal,700normal&amp;subset=all" rel="stylesheet">
+        -->
+
+        <link rel="stylesheet" href="vendor/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="vendor/revolution/fonts/font-awesome/css/font-awesome.min.css">
+
+        <!-- REVOLUTION STYLE SHEETS -->
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css">
+        <!-- REVOLUTION LAYERS STYLES -->
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css">
+
+        <!-- REVOLUTION NAVIGATION STYLES -->
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css">
+
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+
+        <!-- Carousel CSS -->
+        <link rel="stylesheet" href="css/carousel.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/theme.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+    </head>
+    <body>
+        <div class="body">
+            <header class="header1 header">
+                <div class="container">
+                    <div class="header-top-row">
+                        <div class="user-menu col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                            <ul class="list-inline">
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">My wishlist</a></li>
+                                <li><a href="#">Login or Register</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-right col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#"><span class="value">Search </span></a>
+                                </li> 
+                                <li class="mycart">
+                                    <a href="#"><span class="value">My cart: $0.00</span></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="value">English </span></a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="#">English</a></li>
+                                        <li><a href="#">French</a></li>
+                                        <li><a href="#">German</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="value">US dollar</span></a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="#">US dollar</a></li>
+                                        <li><a href="#">Euro</a></li>
+                                        <li><a href="#">Pound</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="site-branding-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="logo aligncenter text-center">
+                                    <a href="#"><img src="img/logo.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End site branding area -->  
+
+                    <div class="mainmenu-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="navbar-header">
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                </div> 
+                                <div class="header-nav-main navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown active">
+                                            <a class="dropdown-toggle" href="#">HOME</a>   
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">HOME1</a></li>
+                                                <li><a href="#">HOME2</a></li>
+                                                <li><a href="#">HOME3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">FASHION</a></li>
+                                        <li><a href="#">ELECTRONICS</a></li>
+                                        <li><a href="#">GIFTS</a></li>
+                                        <li><a href="#">ABOUT US</a></li>
+                                        <li><a href="#">BLOG</a></li>
+                                        <li><a href="#">PORTFOLIO</a></li>
+                                        <li><a href="#">CONTACT US</a></li>
+                                    </ul>
+                                </div>  
+                            </div>
+                        </div>
+                    </div> <!-- End mainmenu area -->
+                </div><!--end container-->
+            </header>
+
+            <div class="main">
+                <div class="container">
+                    <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic-carousel2" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
+
+                        <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
+                        <div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
+                            <ul>    
+                                <!-- SLIDE  -->
+                                <li data-index="rs-6" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb=""   data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/products/backpack-1_1024x1024.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                                    <!-- LAYERS -->
+
+                                    <!-- LAYER NR. 1 -->
+                                    <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
+                                        id="slide-6-layer-1" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                        data-fontsize="['70','70','70','45']"
+                                        data-lineheight="['70','70','70','50']"
+                                        data-width="none"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                                        data-transform_idle="o:1;"
+
+                                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                        data-mask_out="x:inherit;y:inherit;" 
+                                        data-start="1000" 
+                                        data-splitin="none" 
+                                        data-splitout="none" 
+                                        data-responsive_offset="on" 
+
+
+                                        style="z-index: 5; white-space: nowrap;">I'M OLDSCHOOL 
+                                    </div>
+
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
+                                        id="slide-6-layer-4" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['52','52','52','51']" 
+                                        data-width="none"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                                        data-transform_idle="o:1;"
+
+                                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                        data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                        data-start="1500" 
+                                        data-splitin="none" 
+                                        data-splitout="none" 
+                                        data-responsive_offset="on" 
+
+
+                                        style="z-index: 6; white-space: nowrap;">BUT STILL QUITE COOL. 
+                                    </div>
+
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" 
+                                        id="slide-6-layer-8" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-68','-68']" 
+                                        data-width="none"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                                        data-transform_idle="o:1;"
+                                        data-style_hover="cursor:default;"
+
+                                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                        data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                        data-start="2000" 
+                                        data-splitin="none" 
+                                        data-splitout="none" 
+                                        data-responsive_offset="on" 
+
+
+                                        style="z-index: 7; white-space: nowrap;"><i class="pe-7s-refresh"></i> 
+                                    </div>
+                                </li>
+                                <!-- SLIDE  -->
+                                <li data-index="rs-8" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb=""  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/products/bifold-brown-1_1024x1024.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                                    <!-- LAYERS -->
+
+                                    <!-- LAYER NR. 1 -->
+                                    <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
+                                        id="slide-6-layer-1" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                                        data-fontsize="['70','70','70','45']"
+                                        data-lineheight="['70','70','70','50']"
+                                        data-width="none"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                                        data-transform_idle="o:1;"
+
+                                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" 
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                        data-mask_out="x:inherit;y:inherit;" 
+                                        data-start="1000" 
+                                        data-splitin="none" 
+                                        data-splitout="none" 
+                                        data-responsive_offset="on" 
+
+
+                                        style="z-index: 5; white-space: nowrap;">I'M OLDSCHOOL 
+                                    </div>
+
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
+                                        id="slide-6-layer-4" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['52','52','52','51']" 
+                                        data-width="none"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                                        data-transform_idle="o:1;"
+
+                                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                        data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                        data-start="1500" 
+                                        data-splitin="none" 
+                                        data-splitout="none" 
+                                        data-responsive_offset="on" 
+
+
+                                        style="z-index: 6; white-space: nowrap;">BUT STILL QUITE COOL. 
+                                    </div>
+
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption NotGeneric-Icon   tp-resizeme rs-parallaxlevel-0" 
+                                        id="slide-6-layer-8" 
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['-68','-68','-68','-68']" 
+                                        data-width="none"
+                                        data-height="none"
+                                        data-whitespace="nowrap"
+                                        data-transform_idle="o:1;"
+                                        data-style_hover="cursor:default;"
+
+                                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
+                                        data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                                        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+                                        data-start="2000" 
+                                        data-splitin="none" 
+                                        data-splitout="none" 
+                                        data-responsive_offset="on" 
+
+
+                                        style="z-index: 7; white-space: nowrap;"><i class="pe-7s-refresh"></i> 
+                                    </div>
+                                </li>
+                                <!-- SLIDE  -->
+                                <li data-index="rs-7" data-transition="fadetotopfadefrombottom" data-slotamount="default"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Parallax" data-description="">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="img/products/bifold-black-1_1024x1024.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg">
+                                    <!-- LAYERS -->
+                                </li>
+                            </ul>
+                            <div class="tp-static-layers"></div>
+                            <div class="tp-bannertimer" style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>    
+                        </div>
+                    </div>
+                    <div style="height:1000px;">
+                    </div>
+                </div><!-- END REVOLUTION SLIDER -->
+
+            </div>
+
+            <footer class="footer">
+            </footer>
+        </div>
+
+        <!-- Vendor -->
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.js"></script>
+        <script src="vendor/jquery/jquery.sticky.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
+        <!-- REVOLUTION JS FILES -->
+        <script src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+        (Load Extensions only on Local File Systems !  
+        The following part can be removed on Server for On Demand Loading) -->    
+        <script src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script><!-- jQuery -->
+        <script src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script><!-- jQuery -->
+        <script src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+
+
+        <!-- Carousel JS-->
+        <script src="js/carousel.js"></script>
+
+        <!-- Custom JS-->
+        <script src="js/theme.js"></script>
+
+    </body>
+</html>

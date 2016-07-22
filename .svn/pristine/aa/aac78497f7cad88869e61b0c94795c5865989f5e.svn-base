@@ -1,0 +1,266 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "variables";
+ 
+$font_file_path_bold: "../fonts/Istok_Web_Bold/IstokWeb-Bold";
+$font_file_path_regular: "../fonts/Istok_Web_Regular/IstokWeb-Regular";
+
+@include font-face("Istok Web Bold", $font_file_path_bold);
+
+@include font-face("Istok Web Regular", $font_file_path_regular);
+
+body {
+    background-color: #ffffff;
+    max-width: $max-width;
+    font-family: 'Istok Web Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.mainmenu-area {
+    z-index: 999;
+    width: 100%;
+    
+    .header-nav-main {
+        ul {
+    
+            .dropdown > .dropdown-menu {
+                bottom: 0 !important;
+                left: -5px !important;
+                display: block !important;
+                opacity: 0 !important;
+                width: auto !important;
+                height: auto !important;
+                transition: all .3s ease;
+            }
+            
+            .dropdown.open >.dropdown-menu,
+            .dropdown:hover > .dropdown-menu {
+                bottom: auto !important;
+                opacity: 1 !important;
+            }        
+        }    
+    }
+    
+}
+ 
+.body {
+    a {
+        text-decoration: none;
+    }
+    
+    margin: 0;
+      
+    .header1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 4px;
+        
+        .container {
+            margin: 0px;
+            padding: 36px 0 0 0;
+            
+            div {
+                margin: 0;
+                padding: 0;    
+            }
+            
+            .header-top-row {
+                margin: 0 40px 40px 40px;
+                height: 20px;  
+            }
+            
+            .site-branding-area {
+                margin: 0 40px 32px 40px;
+            }
+
+            .user-menu {
+                @media (max-width: 1275px) { 
+                    width: 100%;
+                }
+                
+                a {
+                    color: #858585;
+                    font-size: 16px;
+                    line-height: 20px; 
+                }
+                
+                ul {
+                    margin:0;
+                    
+                    li {
+                        padding:0;
+                        margin-left:0;
+                        margin-right:54px;
+                    }
+                    
+                    @media (max-width: 1275px) {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 490px;
+                        li{
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+            
+            .header-right {
+                a {
+                    color: #858585;
+                    font-size:16px;
+                }
+           
+                @media (max-width: 1275px) {
+                    width: 100%;
+                }
+                
+                ul {
+                    float: right;
+                    
+                    margin: 0;
+                    
+                    li {
+                        padding: 0;
+                        margin-left: 53px;
+                        margin-right: 0;
+                    }
+                    
+                    @media (min-width: 1275px) {
+                        li.mycart{
+                            margin-left: 52px; 
+                            margin-right: -2px;
+                        }
+                    }
+                    
+                    @media (max-width: 1275px) {
+                        float: none;
+                        width:  420px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    
+                        
+                        li {
+                            margin-left: 0;
+                            margin-right: 20px;
+                        }
+                    }
+                    
+                }
+            } 
+            
+            .mainmenu-area {
+                padding: 13px 0;
+                height: 66px;
+                background-color: #fff;
+                
+                li:hover {
+                    border: 5px solid #cFF;
+                    background-color: #bef !important;  
+                } 
+
+                li {
+                    border: 5px solid transparent;
+                    border-radius: 10px;
+                    padding:0 !important;
+                    
+                    a {
+                        background-color: transparent;    
+                    }
+                    
+                    a:hover {
+                        background-color: transparent !important;
+                    }
+                }  
+                
+                .navbar-header {
+                    float: right;
+                    margin-right: 20px;
+                }
+                
+                .header-btn-collapse-nav {
+                    display: none;
+                }
+                
+                a {
+                    padding: 0px;
+                    color: #4a4a4a;
+                    font-family: "Istok Web Bold";
+                    font-size: 16px;
+                }
+                
+                div.container {
+                    width: 974px;
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+                
+                @media (max-width: 992px) {
+                    div.container {
+                    width: 710px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    }
+                }
+                
+                ul {
+                    margin: 0;
+                    
+                    li:first-child{
+                        margin-left: 0;
+                    }
+                    
+                    li {
+                        padding: 5px;
+                        margin-left: 44px;
+                        margin-right: 0;
+                    }
+                    
+                    @media (max-width: 992px) {
+                        li {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+                
+                
+                
+                
+                @media (max-width: 768px) {
+                    .navbar-nav {
+                        display: none;
+                    }
+                     
+                    .header-btn-collapse-nav {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    
+    .main {
+        margin: 0 40px;
+        div {
+            margin: 0;
+            padding: 0;    
+        }
+        
+    }
+}
+
+.dropdown-menu {
+    min-width: 100px !important;
+    
+    li { 
+        padding: 5px !important;
+        margin: 0 !important;
+    }
+}

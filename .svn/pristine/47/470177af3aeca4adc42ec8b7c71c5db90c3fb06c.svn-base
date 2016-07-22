@@ -1,0 +1,85 @@
+
+function setSelect() {
+    // Override defaults
+    $.fn.selectpicker.defaults = {
+        iconBase: '',
+        tickIcon: 'icon-checkmark3'
+    }
+    // Basic select
+	if ($('.bootstrap-select').length)
+	{
+		$('.bootstrap-select').selectpicker();
+	}
+	
+}
+
+function setSlider()
+{
+    $("#steps-fivepercent-slider")
+        .slider({ min: 0, max: 1000, range: true, values: [200, 800] })
+        .slider("float");    
+    // Setup
+    var slider_handles = document.getElementById('noui-slider-handles');
+    
+    if (slider_handles)
+    {
+        noUiSlider.create(slider_handles, {
+            start: [40, 80],
+            range: {
+                'min': [20],
+                'max': [100]
+            }
+        });
+        
+        // Display values
+        var slider_handles_vals = [
+            document.getElementById('noui-handles-lower-val'),
+            document.getElementById('noui-handles-upper-val')
+        ];
+        slider_handles.noUiSlider.on('update', function( values, handle ) {
+            slider_handles_vals[handle].innerHTML = values[handle];
+        });
+    }
+    
+        //
+    // Drag behaviour
+    //
+
+    // Define element
+    var slider_drag_behaviour = document.getElementById('noui-slider-drag');
+
+
+    if(slider_drag_behaviour)
+    {
+        // Create slider
+        noUiSlider.create(slider_drag_behaviour, {
+            start: [ 40, 60 ],
+            behaviour: 'drag',
+            connect: true,
+            range: {
+                'min':  20,
+                'max':  80
+            }
+        });
+
+        // Define elements for values
+        var slider_drag_behaviour_vals = [
+            document.getElementById('noui-slider-drag-lower-val'),
+            document.getElementById('noui-slider-drag-upper-val')
+        ];
+
+        // Show the values
+        slider_drag_behaviour.noUiSlider.on('update', function( values, handle ) {
+            slider_drag_behaviour_vals[handle].innerHTML = values[handle];
+        });
+    }
+    
+}
+$(document).ready(function() {
+      // Basic select
+    setSelect();
+	// Basic select
+    setSlider();
+});
+
+

@@ -1,0 +1,44 @@
+ul li {
+    list-style: none;
+}
+
+.select {
+    .size li  {
+        border: 1px solid #e0e0e0;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 5px;
+        text-align: center;
+        width: 30px;
+    }
+    
+    .color li {
+        height: 52px;
+        margin-right: 5px;
+        width: 45px;
+    }   
+}
+
+.share li {
+    border: 1px solid #e0e0e0;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;    
+}
+
+.select li.active {
+    border: 1px solid green;
+}
+
+.tag-cloud .tag-list {
+    li {
+        display: inline-block;
+        font-family: $font-primary;
+        font-size: 12px;
+        border: 1px solid #f1f1f1;
+        margin: 5px;
+        padding: 10px;
+    }
+}

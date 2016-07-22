@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+        <meta name="keywords" content="HTML5 Ecommerce Template" />
+        <meta name="description" content="Pesto - Responsive HTML5 Ecommerce Template">
+        <meta name="author" content="author name">
+
+        <title>Index header center</title>
+
+        <!-- Vendor -->
+        <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" />
+
+        <!-- Vendor -->
+        <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.css">
+        <link rel="stylesheet" href="vendor/owlcarousel/css/animate.css" />
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css">
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css">
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css">
+
+        <!-- theme -->
+        <link rel="stylesheet" type="text/css" href="css/theme-elements.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme-shop.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme.css" />
+
+    </head>
+    <body>
+        <header id="header" class="header-center responsive-type1">
+            <div class="header-body">
+                <!-- Start header-top-links -->
+                <div class="header-top-links">
+                    <div class="wrapper-fluid">
+                        <!-- Start header-table -->
+                        <div class="header-table">
+                            <!-- Start header-row -->
+                            <div class="header-row">
+                                <nav class="navbar navbar-static-top">
+                                    <div class="navbar-collapse">
+                                        <div class="navbar-left">
+                                            <ul class="nav navbar-nav">
+                                                <li> <a href="#" class="hidden-xs"> My account </a> </li>    
+                                                <li> <a href="checkout.html" class="hidden-xs"> Checkout </a> </li>     
+                                                <li class="hidden-sm hidden-xs"> <a href="#"> My wishlist </a> </li>    
+                                                <li> <a href="#"> Login <span class="hidden-sm hidden-xs hidden-md">or Register</span></a> </li>    
+                                            </ul>
+                                        </div>
+                                        <div class="navbar-right">
+                                            <ul class="nav navbar-nav">
+                                                <li class="dropdown-search ">
+                                                    <a class="dropdown-toggle hidden-sm hidden-xs" href="#">
+                                                        Search 
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <form class="search-form">
+                                                                <input placeholder="Search entry Site here..." class="form-control">
+                                                                <a href="#" class="menu-close"><i class="fa fa-close"></i></a>
+                                                            </form>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown mini-cart">
+                                                    <a href="#" class="dropdown-toggle">
+                                                        My cart: <span class="hidden-xs">$0.00</span>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <p>
+                                                                2 item(s) in your cart- <span class="info-value">$658.00</span>
+                                                            </p>
+                                                        </li>
+                                                        <li>    
+                                                            <div class="product-image">
+                                                                <img alt="Camera" src="img/camera.png">    
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <a href="#">
+                                                                    Mustard yellow ruffle dress 
+                                                                </a>
+                                                                <a href="#" class="fa fa-close"></a>
+                                                                <span class="info-value">$478.00</span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="product-image">
+                                                                <img alt="Handphone" src="img/Handphone.png">    
+                                                            </div>
+                                                            <div class="product-details">
+                                                                <a href="#">
+                                                                    Navy Blue Silk Pleated Shift Dress
+                                                                </a>
+                                                                <a href="#" class="fa fa-close"></a>
+                                                                <span class="price">$478.00</span>
+
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="shopping-info pull-left">
+                                                                <p><span> Shipping:</span> <span class="info-value">7.00</span></p>
+                                                                <p><span> Tax:</span> <span class="info-value">Free</span></p>
+                                                                <p><span> Total:</span> <span class="info-value">$665.00</span></p>
+                                                            </div>
+                                                            <div class="buttons pull-right">
+                                                            <a href="shopping-cart.html" class="btn btn-default btn-md font-istok border-normal">VIEW CART</a>
+                                                            <div><a href="checkout.html" class=" btn btn-default btn-md font-istok border-normal">CHECKOUT</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown dropdown-combo dropdown-language">
+                                                    <a class="dropdown-toggle " href="#">
+                                                        English
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a href="#"><img src="img/english.png" alt="">English</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/italian.png" alt="">Italian</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/Spanish.png" alt="">Spanish </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/French.png" alt="">French</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="img/German.png" alt="">German</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="dropdown dropdown-combo dropdown-currency">
+                                                    <a href="#" class="dropdown-toggle">
+                                                        US dollar
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li> <a href="#"> US dollar</a> </li>        
+                                                        <li> <a href="#">EURO</a></li>
+                                                        <li> <a href="#">POUND ST</a> </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div> 
+                                </nav>    
+                            </div><!-- End header-row -->
+                        </div><!-- End header-table -->
+                    </div> <!-- wrapper-fluid -->
+                </div> <!-- End header-top-links -->
+                <!-- Start Header-main -->
+                <div class="header-main">
+                    <div class="wrapper-fluid">
+                        <!-- Start header-table -->
+                        <div class="header-table">
+                            <div class="header-row logo">
+                                <div class="header-column header-column-center">
+                                    <div class="header-logo">
+                                        <a href="index.html"><img src="img/logo.png" alt="PESTO"> </a>
+                                    </div> <!-- header-logo -->
+                                </div> <!-- header-column -->
+                            </div> <!-- header-row -->
+                            <!-- Start header-row -->
+                            <div class="header-row menu">
+                                <!-- Start header-column -->
+                                <div class="header-column">
+                                    <button class="header-btn-search" data-toggle="collapse" type="button" 
+                                        data-target=".dropdown-search .dropdown-menu" aria-expanded="false" aria-controls="dropdown-menu">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <button class="header-btn-collapse-nav" data-toggle="collapse" type="button" 
+                                        data-target="#main-nav" aria-expanded="false" aria-controls="main-nav">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <!--  Start header-main-nav -->
+                                    <div class="collapse header-main-nav" aria-expanded="false" id="main-nav">
+                                        <nav class="nav bar navbar-default">
+                                            <ul class="nav navbar-nav navbar-center" >
+                                                <li class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">HOME</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="index-header-center.html" role="button">HOME1</a></li>
+                                                        <li><a href="index.html" role="button">HOME2</a></li>
+                                                        <li><a href="index-header-leftsidebar.html" role="button">HOME3</a></li>
+                                                    </ul>
+                                                </li>
+                                                <!-- Start table dropdown -->
+                                                <li class="dropdown dropdown-table">  
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">SHOP</a>
+                                                    <ul class="dropdown-menu clearfix type1">   
+                                                        <li>   
+                                                            <div class="wrapper">
+                                                                <!-- Start dropdown-table-content -->
+                                                                <ul class="dropdown-table-content">
+                                                                    <li class="col-5-1">
+                                                                        <a href="#" role="button" class="dropdown-table-sub-title"> CLOTHING </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> DRESSES </a> </li> 
+                                                                            <li> <a href="#"> JEANS & TORUSERS </a> </li> 
+                                                                            <li> <a href="#"> BLOUSES </a> </li>
+                                                                            <li> <a href="#"> TOPS & T-SHIRTS </a> </li>
+                                                                            <li> <a href="#"> JACKETS & COATS  </a> </li>
+                                                                            <li> <a href="#"> SKIRTS</a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> SHOES </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> FORMAL SHOES </a> </li> 
+                                                                            <li> <a href="#"> CASUAL SHOES </a> </li> 
+                                                                            <li> <a href="#"> SANDALS </a> </li>
+                                                                            <li> <a href="#"> BOOTS </a> </li>
+                                                                            <li> <a href="#"> WIDE FIT </a> </li>
+                                                                            <li> <a href="#"> SLIPPERS </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> ACCESORIES </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> BAGS & PURSES </a> </li> 
+                                                                            <li> <a href="#"> BELTS </a> </li> 
+                                                                            <li> <a href="#"> GLOVES </a> </li>
+                                                                            <li> <a href="#"> JEWELLERY </a> </li>
+                                                                            <li> <a href="#"> SUNGLASSES  </a> </li>
+                                                                            <li> <a href="#"> HAIR ACCESORIES </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->    
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> SPORTS </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> SPORTS TOPS & VESTS</a> </li> 
+                                                                            <li> <a href="#"> HOODIES </a> </li> 
+                                                                            <li> <a href="#"> SWIMWEAR </a> </li>
+                                                                            <li> <a href="#"> FOOTWEAR </a> </li>
+                                                                            <li> <a href="#"> SPORTS UNDERWEAR  </a> </li>
+                                                                            <li> <a href="#"> BAGS </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                    <li class="col-5-1">
+                                                                        <a role="button" class="dropdown-table-sub-title" href="#"> MATERNITY </a>
+                                                                        <ul class="dropdown-table-sub-nav">
+                                                                            <li> <a href="#"> TOPS & SKIRTS </a> </li> 
+                                                                            <li> <a href="#"> JEANS </a> </li> 
+                                                                            <li> <a href="#"> DRESSES </a> </li>
+                                                                            <li> <a href="#"> TROUSERS & SHORTS </a> </li>
+                                                                            <li> <a href="#"> KNITWEAR </a> </li>
+                                                                            <li> <a href="#"> JACKETS & COATS </a> </li>
+                                                                        </ul>
+                                                                    </li><!--End col-5-1 -->
+                                                                </ul> <!-- End dropdown-table-content-->
+                                                            </div>
+                                                        </li>   
+                                                    </ul> <!-- End dropdown-menu -->
+                                                </li>
+                                                <li class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">PAGES</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="product.html" role="button">PRODUCT</a></li>
+                                                        <li class="dropdown classic">
+                                                            <a href="shopping-cart.html" role="button">CART</a>
+                                                        </li>
+                                                        <li class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">CATEGORY </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="category_page_no_sidebar-grid-3-columns.html">no sidebar grid 3 columns</a></li>
+                                                                <li><a href="category_page_no_sidebar-grid-4-columns.html">no sidebar grid 4 columns</a></li>
+                                                                <li><a href="category_page_no_sidebar-grid-4-columns.html">no Sidebar grid 5 columns </a></li>
+                                                                <li><a href="category_page_no_sidebar-list.html">no sidebar list</a></li>
+                                                                <li><a href="category_page-grid-3-columns.html">grid 3 columns with rightsidebar</a></li>
+                                                                <li><a href="category_page-grid-4-colums.html">Grid 4 columns with rightsidebar </a></li>
+                                                                <li><a href="category_page-grid-5-colums.html">Grid 5 columns with rightsidebar</a></li>
+                                                                <li><a href="category_page-leftsidebar-grid.html">Grid with leftsidebar</a></li>
+                                                                <li><a href="category_page-leftsidebar-list.html">List with leftsidebar</a></li>
+                                                                <li><a href="category_page-rightsidebar-list.html">List with rightsidebar</a></li>
+                                                                <li><a href="category_page-rightsidebar-grid.html">Grid with rightsidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">BLOG </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="blog-leftsidebar-1.html">Blog type1 with leftsidebar</a></li>
+                                                                <li><a href="blog-leftsidebar-2.html">Blog type2 with leftsidebar</a></li>
+                                                                <li><a href="blog-single-leftsidebar.html">Blog single with leftsidebar</a></li>
+                                                                <li><a href="blog-rightsidebar-1.html">Blog type1 with leftsidebar</a></li>
+                                                                <li><a href="blog-rightsidebar-2.html">Blog type2 with leftsidebar</a></li>
+                                                                <li><a href="blog-single-rightsidebar.html">Blog single with rightsidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="checkout.html" role="button">CHECKOUT</a></li>
+                                                        <li class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">CONTACT US </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="contact-us-01.html">Type1</a></li>
+                                                                <li><a href="contact-us-02.html">Type2</a></li>
+                                                                <li><a href="contact-us-03.html">Type3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="register_account.html" role="button">REGISTER ACCOUNT</a></li>
+                                                        <li><a href="product_comparison.html" role="button">PRODUCT COMPARISON</a></li>
+                                                        <li><a href="login.html" role="button">LOGIN</a></li>
+                                                        <li><a href="404.html" role="button">404 PAGES</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">PORTFOLIO</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="portfolio_item_01.html">Portfolio item 1</a></li>
+                                                        <li><a href="portfolio_item_02.html">Portfolio item 2</a></li>
+                                                        <li><a href="portfolio_grid_3_column.html">Portfolio grid 3</a></li>
+                                                        <li><a href="portfolio_masonry.html">Portfolio masonry</a></li>
+                                                        <li><a href="portfolio_masonry_rectangular_images.html">Portfolio masonry rectangle</a></li>
+                                                        <li><a href="portfolio_masonry_square_images.html">Portfolio masonry square</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="about-us.html" role="button">ABOUT US</a>
+                                                </li>
+                                            </ul><!--End navbar-nav-->      
+                                        </nav><!--End navbar-default--> 
+                                    </div><!-- End header-main-nav--> 
+                                    <!-- Start Header-mobile -->
+                                    <div class="header-mobile hidden-lg hidden-md hidden-sm">
+                                        <ul>
+                                            <li><a href="#" role="button"><i class="fa fa-close menu-close"></i></a></li>
+                                            <li><a href="#" role="button">HOME</a></li>
+                                            <li><a href="#" role="button">FASHION</a></li>
+                                            <li><a href="#" role="button">ABOUT US</a></li>
+                                            <li><a href="#" role="button">BLOG</a></li>
+                                            <li><a href="#" role="button">PORTOFOLIO</a></li>
+                                            <li><input placeholder="SEARCH HERE..."></li>
+                                            <li><a href="#">MY CART: $0.00</a></li>
+                                            <li><a href="#">REGISTER</a></li>
+                                            <li><a href="#">En/<i class="fa fa-euro"></i></a></li>
+                                        </ul>
+                                    </div><!-- End Header-mobile -->           
+                                </div> <!-- End header-column -->
+                            </div> <!-- End header-row -->
+                        </div><!-- End header-table-->   
+                    </div> <!-- End wrapper-fluid -->         
+                </div><!-- End Header-main -->
+            </div> <!-- End header-body --> 
+        </header>
+
+        <!-- Start Content-->
+        <section id="content" class="home1">
+            <div class="content-header">
+                <div id="rev_slider_wrapper1" class="rev-slider-wrapper" style="position: relative">
+                    <div id="rev_slider1" class="rev-slider fullwidthbanner" data-version="5.0.7">
+                        <ul>
+                            <li data-transiton="fade">
+                                <img src="img/slides/home1-slider-1.jpg" alt="" data-bgposition="center center" 
+                                    data-bgfit="bgfit" data-bgrepeat="no-repeat" class="rev-slidebg">
+                                <div class="tp-caption" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="-60"
+                                    data-fontsize="27"
+                                    data-transform_in="o:0.5;sX:1.5;sY:1.5;rX:0;rY:0;rZ:0;s:1000;e:Power1.easeIn;x:-200px;"
+                                    data-transform_out="s:1500;o:0.1;sX:2;sY:3;z:0;rX:0,skY:20px;rX:100px;rY:20px;rZ:20;e:Power3.easeOut;x:1000px;"
+                                    data-whitespace="nowrap"
+                                    style="color:#444444;font-weight: bold;letter-spacing: 2.5px !important;z-index: 5;">
+                                    The next big thing...
+                                </div>
+                                <div class="tp-caption font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="-15"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="18"
+                                    data-start="1000"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;y:-100px" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;y:0px;" 
+                                    style="color:#666666;letter-spacing: 3.2px !important;z-index: 6;">
+                                    Take, view and share photos with the 17MP <br>camera and stunning 6" display.
+                                </div>
+                                <div class="tp-caption btn btn-default btn-small border-normal font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="50"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="15"
+                                    data-start="2500"
+                                    data-transform="x:[150%];opacity:0;s:2000;"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;" 
+                                    data-transform_out="opacity:1;s:10000;e:Power2.easeInOut;"  
+                                    style="color:#444645;z-index: 8;">
+                                    TAKE A LOOK
+                                </div>
+                            </li>
+                            <li data-transiton="fade">
+                                <img src="img/slides/home1-slider-2.jpg" alt="" data-bgposition="center center" 
+                                    data-bgfit="bgfit" data-bgrepeat="no-repeat" class="rev-slidebg">
+                                <div class="tp-caption" 
+                                    data-x="left" 
+                                    data-hoffset="800"
+                                    data-y="center"
+                                    data-voffset="-60"
+                                    data-fontsize="27"
+                                    data-transform_in="o:0.5;sX:1.5;sY:1.5;rX:0;rY:0;rZ:0;s:1000;e:Power1.easeIn;x:-200px;"
+                                    data-transform_out="s:1500;o:0.1;sX:2;sY:3;z:0;rX:0,skY:20px;rX:100px;rY:20px;rZ:20;e:Power3.easeOut;x:1000px;"
+                                    data-whitespace="nowrap"
+                                    style="color:#444444;font-weight: bold;letter-spacing: 2.5px !important;z-index: 5;">
+                                    Bigger Display Experience
+                                </div>
+                                <div class="tp-caption font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="800"
+                                    data-y="center"
+                                    data-voffset="-15"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="18"
+                                    data-start="1000"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;y:-100px" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;y:0px;" 
+                                    style="color:#666666;letter-spacing: 3.2px !important;z-index: 6;">
+                                    This device is the perfect size for all your <br>multitasking needs.
+                                </div>
+                                <div class="tp-caption btn btn-default btn-small border-normal font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="800"
+                                    data-y="center"
+                                    data-voffset="50"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="15"
+                                    data-start="2500"
+                                    data-transform="x:[150%];opacity:0;s:2000;"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;" 
+                                    data-transform_out="opacity:1;s:10000;e:Power2.easeInOut;"  
+                                    style="color:#444645;z-index: 8;">
+                                    DISCOVER
+                                </div>
+                            </li>
+                            <li data-transiton="fade">
+                                <img src="img/slides/home1-slider-3.jpg" alt="" data-bgposition="center center" 
+                                    data-bgfit="bgfit" data-bgrepeat="no-repeat" class="rev-slidebg">
+                                <div class="tp-caption" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="-142"
+                                    data-fontsize="27"
+                                    data-transform_in="o:0.5;sX:1.5;sY:1.5;rX:0;rY:0;rZ:0;s:1000;e:Power1.easeIn;x:-200px;"
+                                    data-transform_out="s:1500;o:0.1;sX:2;sY:3;z:0;rX:0,skY:20px;rX:100px;rY:20px;rZ:20;e:Power3.easeOut;x:1000px;"
+                                    data-whitespace="nowrap"
+                                    style="color:#444444;font-weight: bold;letter-spacing: 2.5px !important;line-height: 30px;z-index: 5;">
+                                    Enjoy the wide possibilities<br>with pesto
+                                </div>
+                                <div class="tp-caption font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="-62"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="18"
+                                    data-start="1000"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;y:-100px" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;y:0px;" 
+                                    style="color:#666666;letter-spacing: 3.2px !important;z-index: 6;">
+                                    <span style="border:1px solid #666666;display:inline-block;height: 20px;line-height: 20px;text-align:center;width: 25px;"><i class="fa fa-chevron-right"></i></span> Easy to use & customize
+                                </div>
+                                <div class="tp-caption font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="-25"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="18"
+                                    data-start="1000"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;y:-100px" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;y:0px;" 
+                                    style="color:#666666;letter-spacing: 3.2px !important;z-index: 6;">
+                                    <span style="border:1px solid #666666;display:inline-block;height: 20px;line-height: 20px;text-align:center;width: 25px;"><i class="fa fa-chevron-right"></i></span> Fully responsive & retina ready
+                                </div>
+                                <div class="tp-caption font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="12"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="18"
+                                    data-start="1000"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;y:-100px" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;y:0px;" 
+                                    style="color:#666666;letter-spacing: 3.2px !important;z-index: 6;">
+                                    <span style="border:1px solid #666666;display:inline-block;height: 20px;line-height: 20px;text-align:center;width: 25px;"><i class="fa fa-chevron-right"></i></span> Unlimited color options
+                                </div>
+                                <div class="tp-caption font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="50"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="18"
+                                    data-start="1000"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;y:-100px" 
+                                    data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;y:0px;" 
+                                    style="color:#666666;letter-spacing: 3.2px !important;z-index: 6;">
+                                    <span style="border:1px solid #666666;display:inline-block;height: 20px;line-height: 20px;text-align:center;width: 25px;"><i class="fa fa-chevron-right"></i></span> Based on bootstrap 3
+                                </div>
+                                <div class="tp-caption btn btn-default btn-small border-normal font-istok" 
+                                    data-x="left" 
+                                    data-hoffset="100"
+                                    data-y="center"
+                                    data-voffset="110"
+                                    data-whitespace="nowrap"
+                                    data-fontsize="15"
+                                    data-start="2500"
+                                    data-transform="x:[150%];opacity:0;s:2000;"
+                                    data-transform_in="opacity:0;s:2000;e:Power3.easeOut;" 
+                                    data-transform_out="opacity:1;s:10000;e:Power2.easeInOut;"  
+                                    style="color:#444645;z-index: 8;">
+                                    LEARN MORE
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+            <div class="content-main">
+                <div class="products-container">
+                    <div class="products-top">
+                        <div class="wrapper-fluid text-center">
+                            <ul class="list-inline" aria-controls="grid">
+                                <li> <a class="sort" href="#" data-sort-value="all">All </a> </li>
+                                <li class="active"> <a class="sort" href="#" data-sort-value="speical">Special </a> </li>
+                                <li> <a class="sort" href="#" data-sort-value="latest">Latest </a> </li>
+                                <li> <a class="sort" href="#" data-sort-value="bestsellers">Bestsellers </a> </li>
+                                <li> <a class="sort" href="#" data-sort-value="features">Features </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div  class="wrapper-fluid clearfix">    
+                            <div class="row-fluid grid">
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product1.png" alt=""></a>
+                                            <div class="attribute stock">
+                                                <div class="title top">
+                                                    OUT OF STOCK
+                                                </div>
+                                                <div class="remain-time bottom">
+                                                    <div class="day">
+                                                        <h4>02</h4>
+                                                        <span class="units">days</span>
+                                                    </div>
+                                                    <div class="hour">
+                                                        <h4>08</h4>
+                                                        <span class="units">hours</span>
+                                                    </div>
+                                                    <div class="minute">
+                                                        <h4>35</h4>
+                                                        <span class="units">minutes</span>
+                                                    </div>
+                                                    <div class="second">
+                                                        <h4>48</h4>
+                                                        <span class="units">seconds</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i>&nbsp;5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product2.png" alt=""></a>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product3.png" alt=""></a>
+                                            <div class="attribute">
+                                                <div class="reduction top">
+                                                    -25%
+                                                </div>
+                                            </div>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product4.png" alt=""></a>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product5.png" alt=""></a>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product6.png" alt=""></a>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product7.png" alt=""></a>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-4 col-xs-6 grid-item">
+                                    <div class="product">
+                                        <div class="image" role="button">
+                                            <a href="product.html"><img src="img/products/home1/product8.png" alt=""></a>
+                                            <div class="over-comment middle">
+                                                <div>
+                                                    <div class="links">
+                                                        <a href="#" class="icon-button small"><i class="fa fa-heart"></i></a>
+                                                        <button class="btn btn-default btn-md"> ADD TO CART </button>
+                                                        <a href="#" class="icon-button small"><i class="fa fa-chain"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="attribute">
+                                                <div class="new top">
+                                                    NEW
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment">
+                                            <h4 class="small name font-istok">
+                                                Satin-trimmed stretch-wool pencil 
+                                            </h4>
+                                            <span class="brand">LENOVO</span>
+                                            <span class="price"><ins>$65.00</ins></span>
+                                        </div>
+                                        <div class="rating">
+                                            <span><i class="fa fa-star-o"></i> 5/5</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-fluid clearfix">
+                    <div class="row-fluid">
+                        <div class="col-md-9 col-sm-9 col-xs-12">
+                            <div class="newsletter">
+                                <div class="image">
+                                    <img src="img/newsletter.jpg" alt="">
+                                </div>
+                                <div class="image-comment">
+                                    <form id="newsletter_form" method="POST" novalidate="novalidate" >
+                                        <h5 class="larger">Join the community</h5>
+                                        <p>Subscribe for the latest styles and sales, plus get 25% off your first order.</p>
+                                        <div class="input-group">
+                                            <input class="form-control" placeholder="your@email.com" id="yourEmail" name="yourEmail" type="text" aria-required="true" aria-invalid="true">
+                                            <span>
+                                                <button class="btn btn-default btn-small border-normal font-istok" type="submit"><i class="fa fa-chevron-right"></i></button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="advertisements">
+                                <div class="theme-owl-carousel over-comment" >
+                                    <div class="item">
+                                        <div class="image" >
+                                            <img src="img/slides/home1-advertisement-2.png" alt="">
+                                        </div>
+                                        <div class="image-comment">
+                                            <h3 class="medium">Discounts & Offers</h3>
+                                            <p class="hidden-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris finibus.</p>
+                                            <button type="button" class="btn btn-default">READ MORE</button>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="image" >
+                                            <img src="img/slides/home1-advertisement-1.png" alt="">
+                                        </div>
+                                        <div class="image-comment">
+                                            <h3>Smart & Simple</h3>
+                                            <p class="hidden-sm">Nec dui eros aliquet tempor.Morbi id lacus at urna.</p>
+                                            <button type="button" class="btn btn-default">READ MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-footer">
+                <div class="wrapper-fluid clearfix">
+                    <div class="row-fluid">
+                        <h1 class="title">From the Blog</h1>
+                        <div class="theme-owl-carousel right-comment">
+                            <div class="item">  
+                                <div class="image">
+                                    <img src="img/carousels/home1-blog-1.png" alt="">
+                                </div>
+                                <div class="image-comment">
+                                    <h2 class="medium">Nunc egestas nisi et diam commodo aliquam.</h2> 
+                                    <p class="hidden-sm">Vivamus mollis varius metus in egestas. Vestibulum blandit auctor dolor. Praesent iaculis ultrices accumsan. Integer sollicitu din consectetur lectus, vitae vulputate velit pharetra sed nunc ac lobortis.</p>
+                                    <a href="#" class="btn btn-default btn-small border-normal font-istok"> READ MORE </a>
+                                </div>
+                            </div>
+                            <div class="item">  
+                                <div class="image">
+                                    <img src="img/carousels/home1-blog-2.png" alt="">
+                                </div>
+                                <div class="image-comment">
+                                    <h2 class="medium">Etiam laoreet sem eget eros rhoncus.</h2> 
+                                    <p class="hidden-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate convallis nulla at faucibus tellus commodo id. Sed metus eros, dapibus id porttitor ac, viverra vitae urna. Integer interdum ultricies.</p>
+                                    <a href="#" class="btn btn-default btn-small border-normal font-istok"> READ MORE </a>
+                                </div>
+                            </div>
+                            <div class="item">  
+                                <div class="image">
+                                    <img src="img/carousels/home1-blog-3.png" alt="">
+                                </div>
+                                <div class="image-comment">
+                                    <h2 class="medium">Curabitur mollis sagittis purus dignissim. </h2> 
+                                    <p class="hidden-sm">Nam malesuada, justo id malesuada aliquam, nisi enim tristique ex, molestie semper lacus purus vel ex. Vivamus iaculis laoreet ante, id tristique nisl feugiat sed. Donec venenatis arcu vitae sagittis.</p>
+                                    <a href="#" class="btn btn-default btn-small border-normal font-istok"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Footer -->
+        <footer id="footer" class="footer-center">
+            <!-- Start Footer-main -->
+            <div class="footer-main">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <h4>INFORMATION</h4>
+                            <!-- Start foot-info-->
+                            <div class="foot-info">
+                                <ul>
+                                    <li><a href="#">NEW PRODUCTS</a></li>
+                                    <li><a href="#">TOP SELLERS</a></li>
+                                    <li><a href="#">SPECIAL PRODUCTS</a></li>
+                                    <li><a href="#">MANUFACTURERS</a></li>
+                                    <li><a href="#">SUPPLIERS</a></li>
+                                    <li><a href="#">OUR STORES</a></li>
+                                    <li><a href="#">COUPONS</a></li>
+                                </ul> 
+                            </div> <!-- End foot-info -->
+                        </div><!-- End col-md-3 -->    
+                        <div class="col-md-3 col-sm-3">
+                            <h4>CUSTOMER SERVICE</h4>
+                            <!-- Start foot-service-->
+                            <div class="foot-service">
+                                <ul>
+                                    <li><a href="#">HELP & CONTACT</a></li>
+                                    <li><a href="#">SHIPPING & TAXES</a></li>
+                                    <li><a href="#">RETURN POLICY</a></li>
+                                    <li><a href="#">CAREERS</a></li>
+                                    <li><a href="#">AFFILITES</a></li>
+                                    <li><a href="#">LEGAL NOTICE</a></li>
+                                    <li><a href="#">PRIVACY POLICY</a></li>
+
+                                </ul> 
+                            </div> <!-- End foot-service -->
+                        </div><!-- End col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <h4>MY ACCOUNT</h4>
+                            <!-- Start foot-account-->
+                            <div class="foot-account">
+                                <ul>
+                                    <li><a href="#">MY ACCOUNT</a></li>
+                                    <li><a href="#">PERSONAL INFORMATION</a></li>
+                                    <li><a href="#">PAYMENT METHODS</a></li>
+                                    <li><a href="#">DISCOUNT</a></li>
+                                    <li><a href="#">ORDERS HISTORY</a></li>
+                                    <li><a href="#">YOUR VOUCHERS</a></li>
+                                    <li><a href="#">ADDRESSES</a></li>
+                                </ul> 
+                            </div> <!-- End foot-account -->
+                        </div><!-- End col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="support">
+                                <h4>SUPPORT</h4>
+                                <!-- Start foot-support-->
+                                <div class="foot-support">
+                                    <ul>
+                                        <li class="foot-phone">0203 - 980 - 14 - 79</li>
+                                        <li class="foot-phone">0203 - 478 - 12 - 96</li>
+                                        <li class="foot-service-hours">Service hours: 09:00 - 20.00</li>
+                                    </ul> 
+                                </div> <!-- End foot-support -->
+                            </div>
+                            <!-- Start follow -->
+                            <div class="follow">
+                                <h4>FOLLOW US</h4>
+                                <!-- Start foot-follow-->
+                                <div class="footer-follow">
+                                    <ul>
+                                        <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="#" class="skype"><i class="fa fa-skype"></i></a></li>
+                                        <li><a href="#" class="envelope"><i class="fa fa-envelope"></i></a></li>
+                                    </ul> 
+                                </div> <!-- End foot-follow -->
+                            </div><!-- End follow -->
+                        </div><!-- End col-md-3 -->
+
+                    </div><!-- End row-->
+                </div><!-- End wrapper -->
+                <div class="wrapper-fluid text-center">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="img/footer-logo.png" alt="PESTO"></a>
+                    </div>
+                    <div>
+                        <p>
+                            Easy returns. Free shipping on orders over $100. Need help?
+                            Help Center.
+                        </p>
+                    </div>
+                </div>
+            </div><!-- End Footer-main-->
+            <!-- Start Footer-mobile -->
+            <div class="footer-mobile">
+                <div class="wrapper">
+                    <ul class="footer-mobile-links">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">My Favourites</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Call us: 0203-980-14-79</a></li>
+                    </ul>
+                </div>
+            </div><!-- End Footer-mobile -->
+        </footer><!-- End Footer-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="vendor/js/jquery/jquery.min.js"></script>
+        <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendor/owlcarousel/owl.carousel.min.js"></script> 
+        <script src="vendor/js/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="js/theme.js"></script>
+        <script type="text/javascript">
+            var revapi26;
+
+            $(document).ready(function() {
+                    if($("#rev_slider1").revolution == undefined){
+                        revslider_showDoubleJqueryError("#rev_slider1");
+                    }else{
+                        revapi26 = $("#rev_slider1").show().revolution({
+                                sliderType:"standard",
+                                jsFileLocation:"vendor/revolution/js/",
+                                sliderLayout:"fullscreen",
+                                dottedOverlay:"none",
+                                delay:9000,
+                                navigation: {
+                                    keyboardNavigation:"off",
+                                    keyboard_direction: "horizontal",
+                                    mouseScrollNavigation:"off",
+                                    onHoverStop:"on",
+                                    touch:{
+                                        touchenabled:"on",
+                                        swipe_threshold: 75,
+                                        swipe_min_touches: 1,
+                                        swipe_direction: "horizontal",
+                                        drag_block_vertical: false
+                                    }
+                                    ,
+                                    arrows: {
+                                        style: "",
+                                        enable: true,
+                                        left:{
+                                            h_align:"left",
+                                            v_align:"center",
+                                            h_offset:20,
+                                            v_offset:0
+                                        },
+                                        right:{
+                                            h_align:"right",
+                                            v_align:"center",
+                                            h_offset:20,
+                                            v_offset:0
+                                        }
+                                    }
+                                    ,
+                                    thumbnails: {
+                                        style: 'rev_pesto',
+                                        enable: true,
+                                        width: 20,
+                                        height: 20,
+                                        min_width: 14,
+                                        wrapper_padding: 0,
+                                        wrapper_color: 'transparent',
+                                        wrapper_opacity: '1',
+                                        tmp: '<span class="tp-thumb-icon-circle"><i class="fa fa-circle"></i></span>',
+                                        visibleAmount: 5,
+                                        hide_onmobile: true,
+                                        hide_under: 800,
+                                        hide_onleave: true,
+                                        direction: 'horizontal',
+                                        span: false,
+                                        position: 'inner',
+                                        space: 5,
+                                        h_align: 'center',
+                                        v_align: 'bottom',
+                                        h_offset: 0,
+                                        v_offset: 20
+                                    }
+                                },
+                                gridwidth:1375,
+                                gridheight: 700,
+                                parallax: {
+                                    type:"mouse+scroll",
+                                    origo:"slidercenter",
+                                    speed:2000,
+                                    levels:[1,2,3,20,25,30,35,40,45,50],
+                                    disable_onmobile:"on"
+                                },
+                                spinner:"spinner3",
+                                stopLoop:"on",
+                                stopAfterLoops:0,
+                                stopAtSlide:1,
+                                shuffle:"off",
+                                autoHeight:"on",
+                                disableProgressBar:"on",
+                                hideThumbsOnMobile:"on",
+                                hideSliderAtLimit:0,
+                                hideCaptionAtLimit:0,
+                                hideAllCaptionAtLilmit:0,
+                                debugMode:false,
+                                fallbacks: {
+                                    simplifyAll:"off",
+                                    nextSlideOnWindowFocus:"off",
+                                    disableFocusListener:false,
+                                }
+                        });
+
+                    }
+            }); /*ready*/
+        </script>
+    </body>
+</html>

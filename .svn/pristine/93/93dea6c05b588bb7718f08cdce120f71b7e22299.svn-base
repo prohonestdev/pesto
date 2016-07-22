@@ -1,0 +1,737 @@
+
+.caret {
+    display: none;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+
+// ===================================================
+//  navbar-nav customize
+// ===================================================
+
+.navbar {
+    min-height: auto;
+    position: static;
+}
+
+.navbar-fixed-top {
+    position: fixed !important;
+}
+
+.header-column {
+    vertical-align: middle;
+}
+
+// ===================================================
+//  Header top font size for Center Header
+// ===================================================
+.header-center .header-top-links .navbar-nav {
+    margin-top: 35px;
+    a {
+        font-size: $fs-header-top;
+        span {
+            font-family: $font-secondary;
+        }
+       
+    }
+     .dropdown .dropdown-menu {
+        a,p {
+            font-size: 15px;
+        }
+    }
+}
+
+// ===================================================
+//  Header top font size for Normal Header
+// ===================================================
+.header-normal .header-top-links .navbar-nav {
+    padding-top: 10px;
+    padding-bottom: 9px;
+    a {
+        font-size: 14px;    
+    }
+    
+    .dropdown-menu {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+// ===================================================
+//  Header top links Layout
+// ===================================================
+
+.header-top-links .navbar-left {
+    li a {
+        margin-right: 60px;
+        padding: 0;
+    }
+}
+
+.header-top-links .navbar-right {
+    margin-right: -29px;
+    .dropdown a {
+        padding-left: 28px;
+        padding-right: 29px;
+    }
+    .dropdown-menu a {
+        margin: 0;
+    }
+}
+
+// ===================================================
+//  Main menu Layout
+// ===================================================
+
+.header-normal .header-main-nav .navbar-right {
+    margin-right: -24px;
+    
+    a {
+        padding-left: 23px;
+        padding-right: 24px;
+    }
+    .dropdown-menu a {
+        margin: 0;
+    }
+}
+
+.header-main-nav {
+    display: block;
+}
+
+.header-center .header-main-nav .nav {
+    li a{
+        color: $color-nav;
+        font-weight: $font-weight-bold;
+        padding: 14px 25px;
+    }
+    li a:hover {
+        text-decoration: underline;
+    }
+    float: none;
+    display: inline-block;
+
+}
+
+
+.header-main-nav .navbar-default{
+    background-color: white;
+    border-color: white;
+}
+
+.header-main-nav .navbar .nav li.dropdown-table {
+    position: static;
+    .dropdown-table-content{
+        
+        padding-top: 60px; 
+        padding-bottom: 40px;
+    }
+    .dropdown-table-content ul {
+        
+        a {
+            font-weight: $font-weight-light;
+            font-size: 11px; 
+        }
+        a:hover {
+            color: #0eaefb;
+            text-decoration: none;
+        }
+        
+        li {
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+        
+        padding: 21px 0;
+        list-style:none;
+    }
+    
+    .dropdown-table-content .dropdown-table-sub-title {
+        font-size: 13px;
+        font-weight: $font-weight-bold;
+    }
+}
+
+.header-main-nav .dropdown-table-content .dropdown-table-sub-nav li a {
+    padding: 0;
+}
+
+
+
+
+// ===================================================
+// header main-nav font for header-center                           
+// ===================================================
+.header-center .header-main-nav li a{
+    font-size: 15px;
+}
+
+// ===================================================
+// normal header main-nav font for header-center                           
+// ===================================================
+.header-normal .header-main-nav li a{
+    font-size: 13px;
+    font-family: $font-secondary;
+    font-weight: bold;
+}
+
+// ===================================================
+//  Hidden and Align For Resposive of Header top links
+//  and Main Navigation
+// ===================================================
+
+.btn.header-btn-collapse-nav {
+    display: none;
+    float: right;
+    
+    @include transition(all 2s ease);    
+}
+
+.btn.header-btn-collapse-top {
+    display: none;
+    left: 10px;
+    position: absolute;
+    top: 20px;
+    z-index: 1001;
+}
+
+
+// ===================================================
+// For normal Header
+// ===================================================
+
+.nav-border-bottom {
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid white;
+}
+
+// ===================================================
+// Center Logo
+// ===================================================
+
+.header-center .header-logo {
+    margin: 39px 0;
+}
+// ===================================================
+// Normal Logo
+// ===================================================
+
+.header-normal .header-logo {
+    margin: 42px 0;
+}
+
+// ===================================================
+// Set the colors of <a> on Class "header-top-links"
+// ===================================================
+
+.header-top-links {
+    li {
+        a {
+            color: $color-links;      
+        }
+        a:hover {
+            background-color: white;
+            color: $color-links-hover;
+            text-decoration: underline;
+        }
+    }
+}
+
+// =====================================================
+// Customize Container-fluid For 40px Padding
+// =====================================================
+
+.header-top-links .container-fluid{
+    padding: 0 40px;
+}
+
+.header-table.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header-normal .header-top-links .container .navbar-left{
+    li a {
+        padding:0;
+        margin-right: 58px;
+    }
+}
+
+// =====================================================
+// Customize no padding Container
+// =====================================================
+
+.header-normal .container {
+    padding: 0;
+    width: 1172px;
+}
+
+
+
+.header-table.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+// =======================================================
+// 
+// =======================================================
+
+
+.header-center .header-row .header-logo {
+    margin-bottom: 30px;
+}
+
+.header-body {
+    position: relative;
+}
+
+.header-table {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.header-row {
+    clear: both;
+    display: table-row;
+    width: 100%;
+}
+
+.header-column {
+    display: table-cell;
+}
+
+.header-column-center {
+    text-align: center;
+}
+
+
+// ==================================================
+// center align of navigation
+// ==================================================
+.navbar-center {
+    margin-top: 3px;
+    text-align: center;
+    width: 100%;
+    
+    &>li {
+        display: inline-block;
+        float: none;
+        
+        a {
+            padding: 0 4px;
+        }
+    }
+}
+
+
+
+
+// ============================================================
+// dropdown to display a list method
+// ============================================================
+
+.navbar li.dropdown-table {
+    .dropdown-menu {
+        background-color: $color-sub-menu-bg;
+        left: 0px;
+        margin-top: 20px; 
+        right: 0px;
+        width: auto;
+           
+    }
+    
+    .dropdown-menu:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -70px;
+        height: 75px;
+        width: 100%;
+    }
+}
+
+.header-normal .navbar li.dropdown-table {
+    margin-top: 0;
+}
+
+
+.col-5-1 {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 20%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.info_value {
+    font: $font-secondary;
+    font-size: 16px;
+    font-weight: $font-weight-bold;
+}
+
+// ==================================================================
+// Right dropdown
+// ==================================================================
+
+.dropdown-combo .dropdown-menu {
+    font-size: 15px;
+    height: 0;
+    left: auto;
+    
+    li {
+        padding: 7px 0;
+    }
+    min-width: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 7px 18px;
+    top: auto;
+    @include transition( height 2s ease-in);
+    white-space: nowrap;
+}
+
+.dropdown-combo:hover .dropdown-menu {
+    height: auto;
+}
+
+.mini-cart .dropdown-menu {
+    background-color: #fcfcfc;
+    height: 408px;
+    padding: 22px;
+    width: 330px;
+        
+}
+
+.mini-cart .dropdown-menu div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    div {
+        float: none;
+        a,a:hover {
+            margin-left: 72px;
+            display: block;
+            height: 38px;
+            padding: 10px;
+            width: 116px;
+            border: 2px solid black;
+        }
+    }
+}
+
+.mini-cart .dropdown-menu .buttons {
+    width: 100px;
+}
+
+.mini-cart .dropdown-menu .product-image {
+    width: 85px;
+    height: 100px;  
+}
+
+.mini-cart .dropdown-menu .product-details {
+    .fa.fa-close {
+        padding: 0;
+    }
+    a,a:hover {
+        display: table-cell;
+        padding: 15px;
+        
+    }
+    
+    span {
+        margin-left: 15px;
+    }
+       
+    height: 100px;
+    width: 188px;
+
+}
+
+.dropdown-language .dropdown-menu li {
+    a,a:hover {
+        padding: 0;
+        img {
+            margin-right: 8px;
+            padding-bottom: 3px;
+        }
+    }
+}
+
+nav .dropdown-search {
+    position: static;
+}
+
+.dropdown-search .search-form {
+    a  {
+        font-size: 25px;
+        padding: 0 !important;
+        top: 36px;
+        right: 80px;
+        float: right;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    a,a:hover {
+        background:transparent;
+        display: block;
+    }
+    margin: 0;
+    
+}
+
+.dropdown-search .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;  
+}
+
+ .dropdown-search .dropdown-menu {
+        
+    border: none;
+    left: 0;
+    margin: 0;
+    box-shadow: none;
+    right: 0;
+    padding: 0;
+    width: auto;
+    input {
+        background-color: #efefef;
+        border-radius: 0;
+        font-size: 25px;
+        height: 85px;
+    }
+}
+
+.dropdown-search,.dropdown-language,.mini-cart ,dropdown-currency{
+    .dropdown-menu {
+        opacity: 0;
+    }
+}
+.dropdown-language:hover,.mini-cart:hover,.dropdown-currency:hover {
+    .dropdown-menu {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .header-main-nav .dropdown .dropdown-menu {
+        opacity: 0;
+        
+    }
+    .header-main-nav .dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+    }
+    
+    .collapse {
+        display: block;
+    }
+    
+
+}
+
+@media (max-width: 1170px) {
+    .navbar-right{
+        margin-right: -18px;
+        .dropdown a {
+            padding-left: 17px;
+            padding-right: 18px;
+        }
+        .dropdown-menu a {
+            margin: 0;
+        }
+    }
+    .navbar-left{
+        li a {
+            margin-right: 35px;
+        }
+        
+    }
+    .header-center .header-main-nav .nav li a {
+        padding-left: 20px;
+        podding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .caret {
+        display: inline-block;
+    }
+    
+    .btn.header-btn-collapse-nav{
+        float: right;
+        display: block;
+    }
+    
+    .btn.header-btn-collapse-top {
+        display: inline-block;
+        
+    }
+    
+    .header-fixed-menu {
+        background: white;
+    }
+
+    .header-top-links  .navbar-left {
+        background-color: white;
+        position: absolute;
+        top: 30px;
+    }
+
+    
+// =========================================================
+// collapse left navigation for Responsive
+// =========================================================    
+    
+    .header-top-links  .navbar-left
+    {
+        border-radius: 5px;
+        display: none;
+        height: auto;
+        margin: 0;
+        position: absolute;
+        z-index: 1000;                   
+        &:before {
+            content:"";
+            display: block;
+            
+            height: 30px;
+            top: -20px;
+            position: relative;
+        }
+        
+        li {
+            float: none;
+            display: block;
+            a {
+                margin: 0px;
+                padding: 0;
+            }
+        }
+        
+        @include transition(all 2s ease-in);
+    }
+    
+// =========================================================
+// Main navigation 
+// =========================================================
+    #main-nav:before {
+        content: "";
+        display: block;
+        
+        height: 30px;
+        position: relative;
+        top: -20px;
+    }
+    
+    #main-nav .navbar-nav li{
+        
+        a {
+            text-decoration: none;
+        }
+        
+        border-bottom: solid 1px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: block;
+        text-align: left;
+            
+    }
+    
+    #main-nav nav {
+        text-align: left;
+        ul {
+            width: 100%;
+        }
+    }
+    
+    .navbar-nav li a {
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    
+    .header-main-nav {
+        display: none;
+    }
+    .header-top-links .container-fluid{
+        li a {
+            padding-left: 17px;
+            padding-right: 17px;           
+        }
+        padding-left: 8px;
+        padding-right: 8px           
+    }
+    
+    
+    .header-table .container-fluid {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+// ===========================================================    
+// Transform the table dropdown to list dropdown for resposive
+// ===========================================================
+    
+    .navbar li.dropdown-table .dropdown-menu {
+        position: relative;
+        margin-top: 0;
+        &:before {
+            content:"";
+            height: 0;
+            top: 0;
+            position: relative;
+        }
+        .col-5-1 {
+            float: left;
+            width: 100%
+        }      
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-right{
+        margin-right: -20px;
+        float: right;
+        li {
+            display: inline-block;
+            a {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            ul li {
+                display:block;
+            }
+        }    
+    }
+    
+    .navbar-right {
+        .dropdown a {
+            padding-left: 12px;
+            padding-right: 13px;
+            padding: 0;
+        }
+        .dropdown-menu a {
+            margin: 0;
+        }
+    }
+}
+
+
+
+
+
+

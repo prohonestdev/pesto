@@ -1,0 +1,48 @@
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+$font-primary: "Istok Web";
+$font-secondary: "Roboto Condensed";
+
+
+// WEIGHTS
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+/*COLORS*/
+
+// header-top-links
+$color-header-top: #858585;
+$color-header-top-hover: #555555;
+$color-header-top-border: #f2f2f2;
+
+$color-normal: #888888;
+$color-dark: #777777;
+$color-light: #888888;
+
+$color-input-border: #f4f4f4;
+$color-input: #c1c1c1;
+
+$color-links-hover: #66ccff;
+
+// spacement
+$spacement-increment: 5px;
+$spacement-xs: $spacement-increment;
+$spacement-sm: $spacement-xs + $spacement-increment;
+$spacement-md: $spacement-sm + $spacement-increment;
+$spacement-lg: $spacement-md + $spacement-increment;
+$spacement-xl: $spacement-lg + $spacement-increment;
+$spacement-xlg: $spacement-xl + $spacement-increment;
+
+// borders
+$border-thin: 1px;
+$border-normal: 2px;
+$border-thick: 3px;
+
+// pagination
+$pagination_item_color: #b2b2b2;
+$pagination_active_item_color: #8a8a8a;
+$pagination_item_border_color: #ebebeb;
+$pagination_active_item_border_color: #cacaca;

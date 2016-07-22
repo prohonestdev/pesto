@@ -1,0 +1,25 @@
+/*-----------------------------------------------------------------------------
+- CALL_TO_ACTIONS
+-----------------------------------------------------------------------------*/
+
+.size-tiny-icon {
+    border: 1px solid #ebebeb;   
+    box-sizing: content-box;
+    color: #e6e6e6;
+    display: block ! important;
+    height: 32px;
+    text-align: center;
+    width:32px;
+    
+    &.active,
+    &:hover {
+        color: #cacaca;
+    }
+
+}
+
+.size-tiny-icon.active,
+.size-tiny-icon:hover {
+    border: 1px solid #cacaca;
+}
+

@@ -1,0 +1,21 @@
+.left-map {
+    height: 700px;
+    width: 100%;    
+}
+
+.top-map {
+    height: 500px;
+    width: 100%;    
+}
+
+.bottom-map {
+    height: 300px;
+    width: 100%;    
+}
+
+#google_map {
+    .gmnoprint,
+    .gm-style-cc {
+        display: none;
+    }
+}

@@ -1,0 +1,315 @@
+// ==========================================================
+// footer layout and background color
+// ==========================================================
+.footer-main {
+    #footer & {
+        color: #a8a8a8;
+    font-size: 14px;
+    } 
+}
+.footer-center {
+    padding-top: 91px;
+    padding-bottom: 48px;
+}
+
+.footer-nologo {
+    padding-top: 69px;
+    padding-bottom: 4px;
+    margin-top: 110px;
+}
+
+// ==========================================================
+// setting footer head
+// ==========================================================
+
+.footer-center h4 {
+    color: #dbdbdb;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.footer-nologo h4 {
+    color: #dbdbdb;
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.footer-join h3 {
+    color: #dbdbdb;
+    font-family: $font-secondary;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.footer-center h4 {
+    margin: 28px 0;
+}
+
+.footer-nologo h4 {
+    margin: 25px 0;
+}
+
+#footer ul {
+    padding-left: 0;
+}
+#footer .footer-main li {
+    list-style: none;
+    &,a {
+        color: #c1c1c1;
+        letter-spacing: normal;
+    }
+    
+}
+
+.footer-center li {
+    margin: 15px 0;
+}
+
+.footer-nologo li {
+    margin: 11px 0;
+}
+
+.footer-center li {
+    &,a {
+        font-size: 11px;
+    }
+}
+
+.footer-nopadding li{
+    &,a {
+        font-size: 14px;            
+    }
+}
+
+.footer-center .row {
+    margin: 0 -35px;
+}
+
+.footer-nologo .row {
+    margin: 0 -15px;
+}
+
+.footer-nologo .col-md-3 {
+    padding: 0 -14px;
+}                  
+
+#footer .foot-phone {
+    color: #eeeeee;
+    font-size: 20px;
+    margin-top:-4px;
+    margin-bottom: 6px;
+}
+
+#footer .foot-service-hours {
+    margin-top: 5px;    
+}
+
+// ============================================================
+// Follow Us
+// ============================================================
+#footer .follow h4 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#footer .follow ul li {
+    display: inline-block;
+    margin: 2px; 
+    
+    a {
+        background-color: #5e5d57;
+        display: block;
+        font-size: 17px;
+        height: 30px;
+        
+        width: 30px;
+        text-align: center;
+        
+        i {
+            line-height: 30px;
+        }
+    }
+}
+
+.footer-center .footer-logo {
+    margin-top: 90px;
+    margin-bottom: 16px;
+}
+
+.footer-center .footer-nologo{
+     .container-fluid div
+    { 
+        text-align: center;
+    }
+}
+
+.footer-nologo #emailForm .input-group {
+    
+    border: 1px solid #676460;
+    margin: 26px auto 16px auto;
+    input {
+        background-color: #4c4944;
+        border: 0;
+        color: #a5a5a5;
+        font-family: $font-primary;
+        font-size: 16px;
+        height: 43px;
+        width: 457px;
+    }
+    
+    span {
+        border: 0;
+        display: table-cell;
+        vertical-align: middle;
+        
+        button.btn {
+            background-color: #4c4944;
+            border: 0;
+            height: 43px;
+            width: 43px;
+            i {
+                color: #a5a5a5;
+            }
+        }
+    }
+    
+}
+.footer-center .container-fluid p{
+    margin: 0 auto;
+    width: 403px;
+}
+
+.footer-nologo .container-fluid {
+    margin-top: 74px;    
+}
+
+.footer-nologo .footer-join {
+    text-align: center;
+}
+
+.footer-nologo .footer-links {
+    text-align: center;
+    margin: 0;
+    ul {
+        padding:0;
+        li {
+            border-right: 2px solid #7e7d7b;            
+            display: inline-block;
+            list-style: none;
+
+            a {
+                font-family: $font-primary;
+                font-size: 14px;
+                padding: 0 23px;
+            }
+        }
+        
+        li:last-child {
+            border: 0;
+        }
+    }
+}
+.footer-mobile {
+    .footer-mobile-links {
+        li{
+            border-top: solid 1px $color-input-border;
+            margin: 0;
+            a {
+                color: $color-light;
+                display: block;
+                font: 16px $font-primary;
+                padding: 12px 0;
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    #footer {
+        background-color: #4c4944;
+    }
+    .footer-mobile {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    #footer {
+        h4 {
+            font-size: 13px;
+        }
+        .foot-phone {
+            font-size: 18px;
+        }
+        .col-sm-3 {
+            padding: 0;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .footer-main {
+        display: none;
+    }
+}
+
+.footer3 {
+	border-top: 1px solid #f4f4f4;
+	height: 99px;
+	line-height: 99px;
+	margin: 50px 0 0 0;
+	
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	
+	a,
+	p {
+		font-family: $font-primary;
+		font-size: 14px;
+		color: #929292;
+	}
+	
+	ul {
+		margin: 0;
+		
+		li,
+		li a {
+			padding: 0;
+		}
+		
+		li {
+			margin-right: 40px;
+			a {
+				letter-spacing: 0.45px;
+				word-spacing: -1px;
+			}
+		}
+	}
+	
+	.phone-number {
+		padding-top: 3px;
+		
+		p {
+			letter-spacing: -0.2px;
+		}
+	}
+	
+	
+}
+
+@media (min-width: 990px) {
+	.footer3 {
+		margin: 128px 0 0 270px;
+	}
+}
+
+@media (max-width: 780px) {
+	.footer3 {
+		.phone-number {
+			float: left !important;
+		}
+	}
+}

@@ -1,0 +1,176 @@
+/*-----------------------------------------------------------------------------
+- BUTTONS
+-----------------------------------------------------------------------------*/
+
+// buttons
+.btn {
+    border-radius: 0px;
+}
+
+.btn-transparent {
+    background-color: transparent;   
+}
+
+.btn-transparent:hover {
+    background-color: #000;
+    opacity: 70%;   
+}
+
+.btn-borders {
+        border: 1px solid #000; 
+}
+
+//button sizes
+.btn-small {
+    width: 128px;
+    height: 41px;
+}
+
+.btn-normal {
+    width: 139px;
+    height: 39px;
+}
+
+.btn-large {
+    width: 165px;
+    height: 41px;
+}
+
+.btn-verylarge {
+    width: 183px;
+    height: 41px;
+}
+
+//color
+.color-black {
+    color: #000;
+}
+
+//Paginations
+.pagination {
+    margin: 0;
+    & > li:first-child > a {
+        border-radius: 0;
+    }
+    li {
+		margin: 0;
+		display: inline-block;
+        box-sizing:content-box;
+	}
+	li > a:focus,
+    li > a {
+        color: $pagination_item_color;  
+        border-color: $pagination_item_border_color;
+    }
+    .active a,
+    .active a:hover,
+    li > a:hover {
+        color: $pagination_active_item_color;
+        background-color: transparent;
+        border-color: $pagination_active_item_border_color;
+    }
+}
+.no-number {
+    width: 100%;
+    .prev-project
+    ,.next-project {
+        display: block;
+        float: left;
+        a {
+            border: solid 1px $color38;
+            color: $color-light;
+            display: block;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            width: 35px;
+        }
+    }
+}
+.pagination-normal {
+    height: 34px;
+	li,
+    li a {
+		height: 34px;
+		width: 34px;
+	}
+	
+	li {
+		margin-right: 1px;
+	}
+    
+    label {
+    cursor: pointer;
+    }
+}
+
+.pagination-image {
+    .prev-project
+    ,.next-project {
+        padding: 0 15px;
+        position: relative;
+        width: 33.33333333333333%;
+        &:hover {
+            background-color: white;
+            opacity: 0.7;
+            .image-comment {
+                display: block;
+            }
+        }
+    }
+    .image {
+        img {
+            max-width: 100%;
+        }
+    }
+    .image-comment {
+        @include calc(top,"50% - 10.5px");
+        display: none;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        a {
+            color: $color-header-top-hover;
+            font: 19px $font-secondary;
+        }
+    }
+    .prev-project {
+        float: left;
+    }
+    .next-project {
+        float: right;
+    }
+}
+
+.btn-thin-border {
+    border: 1px solid #444645;
+}
+
+.btn-normal-border {
+    border: 2px solid #444645;
+}
+
+.btn-paddig-xlg {
+    padding: 15px 30px;
+}
+
+.btn-paddig-xl {
+    padding: 15px 25px;
+}
+
+.btn-paddig-lg {
+    padding: 15px 20px;
+}
+
+.btn-paddig-md {
+    padding: 15px 15px;
+}
+
+.btn-paddig-sm {
+    padding: 15px 10px;
+}
+
+.btn-paddig-xs {
+    padding: 15px 5px;
+}

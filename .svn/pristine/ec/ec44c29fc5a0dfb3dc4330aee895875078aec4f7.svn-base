@@ -1,0 +1,720 @@
+<!DOCTYPE html >
+<html>
+    <head>
+
+        <title>Blog3</title>
+        <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="vendor/fancybox/css/jquery.fancybox-buttons.css">
+        <link rel="stylesheet" href="vendor/fancybox/css/jquery.fancybox-thumbs.css">
+        <link rel="stylesheet" href="vendor/fancybox/css/jquery.fancybox.css">
+
+        <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme-elements.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme-blog.css" />
+
+        <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" />
+
+    </head>
+    <body>
+        <header id="header" class="header-normal responsive-type1">
+            <div class="header-body">
+                <!-- Start header-top-links -->
+                <div class="header-top-links hidden-xxs">
+                    <nav class="navbar navbar-static-top nav-border-bottom">
+                        <div class="wrapper"> 
+                            <!-- Start navbar-left-->
+                            <div class="navbar-left">
+                                <ul class="nav navbar-nav">
+                                    <li> <a href="#"> My account </a> </li>    
+                                    <li> <a href="#"> Checkout </a> </li>    
+                                    <li> <a href="#"> Login or Register </a> </li>    
+                                </ul>
+                            </div>
+                            <!-- Start navbar-right -->
+                            <div class=" navbar-right">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown-search">
+                                        <a class="dropdown-toggle hidden-xs hidden-sm" href="#">
+                                            Search 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <form class="search-form">
+                                                    <input placeholder="Search entry Site here..." class="form-control">
+                                                    <a href="#" class="fa fa-close menu-close"></a>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </li> <!-- End dropdown-search -->
+                                    <!-- Start mini-cart -->
+                                    <li class="dropdown mini-cart">
+                                        <a href="#" class="dropdown-toggle">
+                                            My cart: $0.00
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <p>
+                                                    2 item(s) in your cart- <span class="info-value">$658.00</span>
+                                                </p>
+                                            </li>
+                                            <li>    
+                                                <div class="product-image">
+                                                    <img alt="Camera" src="img/camera.png">    
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Mustard yellow ruffle dress 
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="info-value">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-image">
+                                                    <img alt="Handphone" src="img/Handphone.png">    
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Navy Blue Silk Pleated Shift Dress
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="price">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="shopping-info">
+                                                    <p><span> Shipping:</span> <span class="info-value">7.00</span></p>
+                                                    <p><span> Tax:</span> <span class="info-value">Free</span></p>
+                                                    <p><span> Total:</span> <span class="info-value">$665.00</span></p>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div><a href="#" type="button">VIEW CART</a></div>
+                                                    <div>  <a href="#" type="button">CHECKOUT</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- Start dropdown-currency -->
+                                    <li class="dropdown dropdown-currency">
+                                        <a href="#" class="dropdown-toggle">
+                                            $ / &#8364; / &#163; 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li> <a href="#" role="button">US dollar</a> </li>        
+                                            <li> <a href="#" role="button">EURO</a></li>
+                                            <li> <a href="#" role="button">POUND ST </a></li>
+                                        </ul>
+                                    </li> <!-- End dropdown-currency -->
+                                    <!-- Start dropdown-language -->
+                                    <li class="dropdown dropdown-combo dropdown-language">
+                                        <a class="dropdown-toggle " href="#">
+                                            En / Es
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#" role="button"><img src="img/english.png">English</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" role="button"><img src="img/Spanish.png">Spanish </a>
+                                            </li>
+                                        </ul>
+                                    </li>  <!-- End dropdown-language -->
+                                </ul>  
+                            </div><!-- End navbar-right-->
+                        </div> <!-- wrapper --> 
+                    </nav>    
+                </div> <!-- header-top-links -->
+                <!-- Start header table collapsed logo and main navigation-->
+                <div class="header-main">
+                    <div class="wrapper">
+                        <div class="header-table">
+                            <div class="header-row">
+                                <div class="header-column logo">
+                                    <div class="header-logo">
+                                        <a href="index.html"><img src="img/logo.png" alt="PESTO"> </a>
+                                    </div> <!-- header-logo -->
+                                </div> <!-- header-column -->
+                                <div class="header-column menu">
+                                    <button class="header-btn-search hidden-xxs" data-toggle="collapse" type="button" 
+                                        data-target=".dropdown-search .dropdown-menu" aria-expaned="false" aria-controls="dropdown-menu">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <button class="header-btn-collapse-nav" data-toggle="collapse" type="button" 
+                                        data-target="#main-nav" aria-expaned="false" aria-controls="main-nav">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <div class="collapse header-main-nav hidden-xs" aria-expaned="false" id="main-nav">
+                                        <nav class="navbar navbar-default navbar-right">
+                                            <ul class="nav navbar-nav" >
+                                                <li role="button"> <a href="#">HOME</a> </li>
+                                                <!-- Start table dropdown -->
+                                                <li class="dropdown dropdown-table" role="button">  
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">FASHION</a>
+                                                    <ul class="dropdown-menu clearfix">   
+                                                        <li>   
+                                                            <!-- Start dropdown-table-content -->
+                                                            <ul class="dropdown-table-content">
+                                                                <li class="col-5-1">
+                                                                    <a href="#" role="button" class="dropdown-table-sub-title"> CLOTHING </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> DRESSES </a> </li> 
+                                                                        <li> <a href="#"> JEANS & TORUSERS </a> </li> 
+                                                                        <li> <a href="#"> BLOUSES </a> </li>
+                                                                        <li> <a href="#"> TOPS & T-SHIRTS </a> </li>
+                                                                        <li> <a href="#"> JACKETS & COATS  </a> </li>
+                                                                        <li> <a href="#"> SKIRTS</a> </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                                <li class="col-5-1">
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> SHOES </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> FORMAL SHOES </a> </li> 
+                                                                        <li> <a href="#"> CASUAL SHOES </a> </li> 
+                                                                        <li> <a href="#"> SANDALS </a> </li>
+                                                                        <li> <a href="#"> BOOTS </a> </li>
+                                                                        <li> <a href="#"> WIDE FIT </a> </li>
+                                                                        <li> <a href="#"> SLIPPERS </a> </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                                <li class="col-5-1">
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> ACCESORIES </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> BAGS & PURSES </a> </li> 
+                                                                        <li> <a href="#"> BELTS </a> </li> 
+                                                                        <li> <a href="#"> GLOVES </a> </li>
+                                                                        <li> <a href="#"> JEWELLERY </a> </li>
+                                                                        <li> <a href="#"> SUNGLASSES  </a> </li>
+                                                                        <li> <a href="#"> HAIR ACCESORIES </a> </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->    
+                                                                <li class="col-5-1">
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> SPORTS </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> SPORTS TOPS & VESTS</a> </li> 
+                                                                        <li> <a href="#"> HOODIES </a> </li> 
+                                                                        <li> <a href="#"> SWIMWEAR </a> </li>
+                                                                        <li> <a href="#"> FOOTWEAR </a> </li>
+                                                                        <li> <a href="#"> SPORTS UNDERWEAR  </a> </li>
+                                                                        <li> <a href="#"> BAGS </a> </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                                <li class="col-5-1">
+                                                                    <a role="button" class="dropdown-table-sub-title" href="#"> MATERNITY </a>
+                                                                    <ul class="dropdown-table-sub-nav">
+                                                                        <li> <a href="#"> TOPS & SKIRTS </a> </li> 
+                                                                        <li> <a href="#"> JEANS </a> </li> 
+                                                                        <li> <a href="#"> DRESSES </a> </li>
+                                                                        <li> <a href="#"> TROUSERS & SHORTS </a> </li>
+                                                                        <li> <a href="#"> KNITWEAR </a> </li>
+                                                                        <li> <a href="#"> JACKETS & COATS </a> </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                            </ul> <!-- End dropdown-table-content-->
+                                                        </li>   
+                                                    </ul> <!-- End dropdown-menu -->
+                                                </li>
+                                                <li> <a href="#" role="button">ELECTRONICS</a> </li>
+                                                <li> <a href="#" role="button">GIFTS</a> </li>
+                                                <li> <a href="#" role="button">ABOUT US</a> </li>
+                                                <li> <a href="#" role="button">BLOG</a> </li>
+                                                <li> <a href="#" role="button">PORTFOLIO</a> </li>
+                                                <li> <a href="#" role="button">CONTACT US</a> </li>
+                                            </ul><!--End navbar-nav-->    
+                                        </nav><!-- navbar-default--> 
+                                    </div><!-- header-main-nav-->
+                                    <!-- Start Header-mobile -->
+                                    <div class="header-mobile hidden-lg hidden-md hidden-sm">
+                                        <ul>
+                                            <li><a href="#" role="button"><i class="fa fa-close menu-close"></i></a></li>
+                                            <li><a href="#" role="button">HOME</a></li>
+                                            <li><a href="#" role="button">FASION</a></li>
+                                            <li><a href="#" role="button">ABOUT US</a></li>
+                                            <li><a href="#" role="button">BLOG</a></li>
+                                            <li><a href="#" role="button">PORTOFOLIO</a></li>
+                                            <li><input placeholder="SEARCH HERE..."></li>
+                                            <li><a href="#">MY CART: $0.00</a></li>
+                                            <li><a href="#">REGISTER</a></li>
+                                            <li><a href="#">En/<i class="fa fa-euro"></i></a></li>
+                                        </ul>
+                                    </div><!-- End Header-mobile -->
+                                </div> <!-- header-column -->
+                            </div> <!-- header-row -->
+                        </div> <!-- header-table -->   
+                    </div> <!-- wrapper -->         
+                </div>
+            </div> <!-- header-body --> 
+        </header>
+
+        <section id="content" class="blog type3">
+            <!-- Start content-header -->
+            <div class="content-header breadcrumb-header">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h4>BLOG POST</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <ol class="breadcrumb breadcrumb-right">
+                                <li><a href="#">Home</a></li>    
+                                <li><a href="#">Blog</a></li>    
+                                <li>Blog with sidebar</li>    
+                            </ol>
+                        </div>
+                    </div>
+                </div>        
+            </div> <!-- End content-header -->
+            <!-- Start content-main -->
+            <div class="content-main">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12">
+                            <div class="blog-posts">
+                                <article class="post">
+                                    <div class="post-image">
+                                        <img src="img/blog/blog-11.jpg" alt="loading...">   
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <!-- Start Post-date-->
+                                        <div class="post-date">
+                                            <span class="day">22</span>          
+                                            <span class="month">March</span>          
+                                            <span class="divider">/</span>          
+                                            <span class="comment-length">3 Comments</span>          
+                                        </div><!-- End Post-date -->
+                                        <!--  Start Post-comment -->
+                                        <div class="post-comment">
+                                            <h1>Black lace open back dress</h1>
+                                            <p>Vivamus mollis varius metus in egestas. Vestibulum blandit auctor dolor. Praesent iaculis ultrices 
+                                                accumsn. Consectetur lectus, vitae vulputate velit pharetra sed nunc ac lobortis. Etiam placerat auctor aliquet quam. Etiam vel ipsum eu odio vulputate consequat eget.</p>
+                                            <p>Suspendisse eu purus non urna sodales accumsan. Cras vel feugiat ligula. Nullam tristique nulla non libero bibendum volutpat. Sed ante lacus, suscipit sit amet tellus ac, venenatis lacinia ligula. Nullam tristique nulla non libero bibendum volutpat. Sed ante lacus, suscipit sit amet tellus ac, venenatis lacinia ligula. Morbi vestibulum magna ac venenatis eleifend.</p> 
+
+                                            <p>Morbi lobortis augue non arcu cursus ullamcorper. Maecenas feugiat dapibus cursus. Quisque pulvinar lobortis efficitur. Praesent interdum fringilla massa, ut proin blandit turpis mattis fringilla sodales. Curabitur efficitur porttitor quam finibus placerat. Suspendisse a rutrum nisl. Quisque id odio vitae anteauctor sagittis sed in ante. Maecenas vestibulum ornare.</p>
+                                            <p class="special"><i>Commodo nec metus a, rhoncus posuere magna. Morbi pulvinar ex diam tristique, feugiat diam commodo. Sed in nisi vitae eros facilisis vulputate. Mauris in massa at elit condintum vulputate 
+                                                augue. Quisque dolor sem, ultrices ut bibendum non, viverra vel massa.</i> </p>
+                                            <p>Mauris sit amet vehicula quam. Proin vitae quam eu ante dictum condimentum eu euismod urna. 
+                                                Pellentesque elementum bibendum orci, quis pellentesque velit efficitur egestas. Vestibulum quis velit
+                                                mollis, bibendum nisl sit amet, venenatis diam. Praesent ornare ac eros sit amet laoreet. Nullam rhoncus 
+                                                in sem sit amet tincidunt. Vestibulum ac eros ante. Proin dapibus lacinia felis </p>
+                                            <p>
+                                                Scelerisque Nunc ultricies nulla vitae massa ultricies eleifend. Etiam vitae euismod tellus, at tempus justo. Etiam lacinia tristique dolor, condimentum efficitur nisl laoreet quis. Suspendisse potenti. Vivamus suscipit suscipit arcu sed lacinia. Aliquam magna augue, feugiat id condimentum.</p>
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <ol class="breadcrumb breadcrumb-left">
+                                                        <li>Tags:<a href="#">Fashion</a></li>
+                                                        <li><a href="#">Photography</a></li>
+                                                        <li><a href="#">Clothing</a></li>
+                                                        <li class="last">Street style</li>
+                                                    </ol>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <ul class="favorite-links list-inline">
+                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="man clearfix">
+                                                <div class="image">
+                                                    <img src="img/blog/blog-12.png" alt="loading...">
+                                                </div>
+                                                <div class="image-comment">
+                                                    <h3>Rafael Green</h3>
+                                                    <p>Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur.</p>
+                                                </div>
+                                            </div>
+                                            <div class="comments">
+                                                <h3>2 COMMENTS</h3>
+                                                <div class="theme-row">
+                                                    <div class="image">
+                                                        <img src="img/photo.png" alt="photo">
+                                                    </div>
+                                                    <div class="image-comment">
+                                                        <strong><i> The best service ever!</i> </strong>
+                                                        <span>Nicole Bailey, 12.05.2016</span>
+                                                        <p>Semper orci etiam ac ultricies ante. Donec lobortis varius justo et. Curabitur egestas massa non elementum. Quisque at risus nisl. Aliquam erat volutpat. Suspendisse  nullam porta faucibus elit. Proin sed enim eget nulla faucibus accumsan.</p>
+                                                        <a href="#">REPLY</a>
+                                                    </div>
+                                                </div>
+                                                <div class="theme-row">
+                                                    <div class="image">
+                                                        <img src="img/photo-shadow.png" alt="photo">
+                                                    </div>
+                                                    <div class="image-comment">
+                                                        <strong><i>Very fast support! </i></strong>
+                                                        <span>Andre Bailey, 12.05.2016</span>
+                                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras pretium suscipit cursus. Vivamus eget tortor vel tellus consequat. </p>
+                                                        <a href="#">REPLY</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="review-customer">
+                                                <h3>LEAVE YOUR REVIEW</h3>
+                                                <form id="contactForm" action="php/contact-form.php" method="POST" novalidate="novalidate">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <input type="text" id="name" class="form-control" name="name" maxlength="100" placeholder="Enter your name*" aria-required="true" aria-invalid="false">
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <input type="text" id="email" class="form-control" name="email" maxlength="100" placeholder="Enter your e-mail*" aria-required="true" aria-invalid="false">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <input type="text" id="subject" class="form-control" name="email" maxlength="100" placeholder="Enter your subject*" aria-required="true" aria-invalid="false">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <textarea rows="10" id="review" class="form-control" name="review" maxlength="5000" placeholder="Enter your review*" aria-required="true" aria-invalid="false"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 mt-sm">
+                                                            <input type="submit" class="btn btn-transparent btn-normal" name="review" value="SUBMIT REVIEW" data-loading-text="Loading...">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div><!-- End Post-comment -->
+                                    </div>
+
+                                </article>
+                            </div>    
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <!-- Start Sidebar -->
+                            <div class="sidebar">
+                                <!-- Start Accordion -->
+                                <div class="panel-group category" role="tablist" aria-multiselectable="true">
+                                    <h4>CATEGORY</h4>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h5 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent=".category" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Fashion
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li><a href="#">Clothing</a></li>
+                                                    <li><a href="#">Shoes</a></li>
+                                                    <li><a href="#">Accessories</a></li>
+                                                    <li><a href="#">Sportswear</a></li>
+                                                    <li><a href="#">Matemety</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h5 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Beauty
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h5 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Designers
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- Accordion-->
+                                <!-- Start comments-->
+                                <div class="popular-post">
+                                    <h4>POPULAR  POSTS</h4>
+                                    <div class="theme-row">
+                                        <div class="image">
+                                            <img src="img/popular1.png" alt="loading">
+                                        </div>    
+                                        <div class="image-comment">
+                                            <div class="image-date">
+                                                <span class="day">22</span><span class="month"> March</span>
+                                            </div>
+                                            <div class="comment">
+                                                Mau ris vel nulla et est interdum
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-row">
+                                        <div class="image">
+                                            <img src="img/popular2.png" alt="loading">
+                                        </div>    
+                                        <div class="image-comment">
+                                            <div class="image-date">
+                                                <span class="day">15</span><span class="month"> March</span>
+                                            </div>
+                                            <div class="comment">
+                                                Morbi ut lacus id massa feugiat
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="theme-row">
+                                        <div class="image">
+                                            <img src="img/popular3.png" alt="loading">
+                                        </div>    
+                                        <div class="image-comment">
+                                            <div class="image-date">
+                                                <span class="day">08</span><span class="month"> February</span>
+                                            </div>
+                                            <div class="comment">
+                                                Vestibulum commodo sapien vitae
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- End -->
+                                <!-- Start Comments -->
+                                <div class="comments">
+                                    <h4>COMMENTS</h4>
+                                    <div class="theme-row">
+                                        <div class="image">
+                                            <img src="img/photo.png" alt="loading">
+                                        </div>    
+                                        <div class="image-comment">
+                                            <strong><i>The best service ever!</i></strong>
+                                            <div>Semper orci etiam ac ultricies elementum. Quisque at risus sed enim eget nulla.</div>
+                                            <span>Nicole Bailey</span>
+                                        </div>
+                                    </div>
+                                    <div class="theme-row">
+                                        <div class="image">
+                                            <img src="img/photo-shadow.png" alt="loading">
+                                        </div>    
+                                        <div class="image-comment">
+                                            <strong><i>Very fast support!</i></strong>
+                                            <div>Cum sociis natoque penatibus cursus. Vivamus eget tortor...</div>
+                                            <span>Andre Bailey</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Start Achives -->
+                                <div class="archives">
+                                    <h4> ARCHIVES </h4>
+                                    <div class="theme-row">
+                                        <ul>
+                                            <li><input type="radio" value="January 2015" name="achive"><span>January 2015</span></li>
+                                            <li><input type="radio" value="Februray 2015" name="achive"><span>Februray 2015</span></li>
+                                            <li><input type="radio" value="March 2015" name="achive"><span>March 2015</span></li>
+                                            <li><input type="radio" value="August 2015" name="achive"><span>August 2015</span></li>
+                                            <li><input type="radio" value="September 2015" name="achive"><span>September 2015</span></li>
+                                            <li><input type="radio" value="October 2015" name="achive"><span>October 2015</span></li>
+                                            <li><input type="radio" value="November 2015" name="achive"><span>November 2015</span></li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- End Achives -->
+                                <!-- Start Video -->
+                                <div class="late-video">
+                                    <h4>LASTEST VIDEO</h4>
+                                    <div class="theme-row">
+                                        <div class="videoWrapper">
+                                            <iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div><!--End Video-->
+                                <!-- Start Tag cloud -->
+                                <div class="tag-cloud">
+                                    <h4>TAG CLOUD</h4>
+                                    <div class="theme-row">
+                                        <ul class="tag-list">
+                                            <li><a href="#">Photography</a></li>
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Fashion</a></li>
+                                            <li><a href="#">Clothing</a></li>
+                                            <li><a href="#">Color</a></li>
+                                            <li><a href="#">Collection</a></li>
+                                            <li><a href="#">Beauty</a></li>
+                                            <li><a href="#">Make-Up</a></li>
+                                            <li><a href="#">Accessories</a></li>
+                                            <li><a href="#">Design</a></li>
+                                            <li><a href="#">Trends</a></li>
+                                            <li><a href="#">Shoes</a></li>
+                                        </ul>   
+                                    </div>
+                                </div><!-- End Tag cloud -->
+                                <!-- Start Flickr stream -->
+                                <div class="flickr-stream">
+                                    <h4>FLICKR STREAM</h4>
+                                    <div class="theme-row">
+                                        <div class="flickr-group">
+                                            <div class="flickr">
+                                                <a href="img/blog/blog-6.jpg" class="fancybox" rel="group"><img src="img/blog/blog-6.jpg"></a>                                 
+                                            </div>                                                
+                                        </div>
+                                        <div class="flickr-group">
+                                            <div class="flickr-group">
+                                                <div class="flickr">
+                                                    <a href="img/blog/blog-7.jpg" class="fancybox" rel="group"><img src="img/blog/blog-7.jpg"></a>    
+                                                </div>
+                                                <div class="flickr">
+                                                    <a href="img/blog/blog-8.jpg" class="fancybox" rel="group"><img src="img/blog/blog-8.jpg"></a>    
+                                                </div>    
+                                            </div>    
+                                            <div class="flickr-group">
+                                                <div class="flickr">
+                                                    <a href="img/blog/blog-9.jpg" class="fancybox" rel="group"><img src="img/blog/blog-9.jpg"></a>        
+                                                </div>
+                                                <div class="flickr">
+                                                    <a href="img/blog/blog-10.jpg" class="fancybox" rel="group"><img src="img/blog/blog-10.jpg"></a>    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- End Flickr stream -->
+                            </div><!-- End Sidebar -->
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End content-main -->
+        </section>
+
+
+        <footer id="footer" class="footer-nologo">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>INFORMATION</h4>
+                        <!-- Start foot-info-->
+                        <div class="foot-info">
+                            <ul>
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Top sellers</a></li>
+                                <li><a href="#">Special products</a></li>
+                                <li><a href="#">Manufacturers</a></li>
+                                <li><a href="#">Supplies</a></li>
+                            </ul> 
+                        </div> <!-- End foot-info -->
+                    </div><!-- End col-md-3 -->    
+                    <div class="col-md-3">
+                        <h4>CUSTOMER SERVICE</h4>
+                        <!-- Start foot-service-->
+                        <div class="foot-service">
+                            <ul>
+                                <li><a href="#">Help & contact</a></li>
+                                <li><a href="#">Shipping & taxes</a></li>
+                                <li><a href="#">Return Policy</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Affilites</a></li>
+                            </ul> 
+                        </div> <!-- End foot-service -->
+                    </div><!-- End col-md-3 -->
+                    <div class="col-md-3">
+                        <h4>MY ACCOUNT</h4>
+                        <!-- Start foot-account-->
+                        <div class="foot-account">
+                            <ul>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Personal information</a></li>
+                                <li><a href="#">Payment methods</a></li>
+                                <li><a href="#">Discount</a></li>
+                                <li><a href="#">Orders history</a></li>
+                            </ul> 
+                        </div> <!-- End foot-account -->
+                    </div><!-- End col-md-3 -->
+                    <div class="col-md-3">
+                        <div class="support">
+                            <h4>SUPPORT</h4>
+                            <!-- Start foot-support-->
+                            <div class="foot-support">
+                                <ul>
+                                    <li class="foot-phone">0203 - 980 - 14 - 79</li>
+                                    <li class="foot-phone">0203 - 478 - 12 - 96</li>
+                                    <li class="foot-service-hours">Service hours: 09:00 - 20.00</li>
+                                </ul> 
+                            </div> <!-- End foot-support -->
+                        </div>
+                        <!-- Start follow -->
+                        <div class="follow">
+                            <!-- Start foot-follow-->
+                            <div class="foot-follow">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                </ul> 
+                            </div> <!-- End foot-follow -->
+                        </div><!-- End follow -->
+                    </div><!-- End col-md-3 -->
+
+                </div><!-- End row-->
+            </div><!-- End wrapper -->
+            <div class="wrapper-fluid">
+                <!-- Start footer-join -->
+                <div class="footer-join">
+                    <h3>
+                        JOIN THE COMMUNITY
+                    </h3>
+                    <div class="alert alert-success hidden" id="joinEmailSuccess">
+                        <strong>Success!</strong>
+                        You've been added to our email list.
+                    </div>
+                    <div class="alert alert-danger hidden" id="joinEmailDanger">
+                    </div>
+                    <!-- Start emailForm -->
+                    <form id="emailForm" action="php/email.php" method="POST" novalidate="novalidate">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="your@email.com" id="yourEmail" name="yourEmail" type="text" aria-required="true" aria-invalid="true">
+                            <span>
+                                <button class="btn btn-default" type="submit"><i class="fa fa-chevron-right"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- End emailForm -->
+                </div>
+                <!-- End footer-join -->
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Free Delivery</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+        </footer><!-- End footer-->
+
+        <script src="vendor/js/jquery/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="vendor/js/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor/fancybox/js/jquery.fancybox.js"></script>
+        <script src="vendor/fancybox/js/jquery.fancybox-buttons.js"></script>
+        <script src="vendor/fancybox/js/jquery.fancybox-thumbs.js"></script>
+        <script src="vendor/fancybox/js/jquery.easing-1.3.pack.js"></script>
+        <script src="vendor/fancybox/js/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>

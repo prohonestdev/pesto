@@ -1,0 +1,8 @@
+.category-top {
+    .select_sortby {
+        margin-right: 50px;
+    }
+    .gridlist-toggle {
+        margin-right: 50px;
+    }
+}

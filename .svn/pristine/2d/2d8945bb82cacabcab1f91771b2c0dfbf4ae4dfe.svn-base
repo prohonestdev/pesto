@@ -1,0 +1,25 @@
+.icon-button {
+    text-align: center;
+    border: solid 1px $color41;
+    display: block;
+    &.large {
+        height: 45px;
+        line-height: 45px;
+        width: 45px;
+    }
+    &.larger {
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+    }
+    &.small {
+        height: 35px;
+        line-height: 35px;
+        width: 35px;
+    }
+    &:hover {
+        background-color: $color42;
+        color: white !important;
+    }
+
+}   

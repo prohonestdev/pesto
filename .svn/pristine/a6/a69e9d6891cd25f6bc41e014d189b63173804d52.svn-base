@@ -1,0 +1,222 @@
+/*-----------------------------------------------------------------------------
+- BUTTONS
+-----------------------------------------------------------------------------*/
+.btn-transparent {
+    background-color: transparent;   
+}
+
+.btn-borders {
+    border: 1px solid #000; 
+}
+
+.btn,
+.btn-style-default {
+	border: 1px solid #444645;
+	border-radius: 0px;
+	color: #444645;
+	
+	&:active,
+	&:hover,
+	&:focus {
+		color: #fff;
+		background-color: #66ccff;
+		border-color: #66ccff;
+	}
+	
+	&:hover:focus {
+		color: #fff;
+		background-color: #000;
+		border-color: #000;
+	}
+}
+
+.btn-default {
+	border: 1px solid #444645;
+	color: #444645;
+	font-family: $font-secondary;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10.5px 29px;
+	letter-spacing: 1px;
+	background-color: transparent;
+	
+	&:active,
+	&:hover,
+	&:focus {
+		color: #fff;
+		background-color: #66ccff;
+		border-color: #66ccff;
+	}
+	
+	&:hover:focus {
+		color: #fff;
+		background-color: #000;
+		border-color: #000;
+	}
+}
+
+//button sizes
+.btn-small {
+    padding: 7.5px 14.5px;
+}
+
+.btn-normal {
+    width: 139px;
+    height: 39px;
+}
+
+.btn-large {
+    width: 165px;
+    height: 41px;
+}
+
+.btn-verylarge {
+    width: 183px;
+    height: 41px;
+}
+
+//color
+.color-black {
+    color: #000;
+}
+
+//Paginations
+
+.pagination-container {
+    .title {
+        letter-spacing: -0.1px;
+        span {
+            color: $pagination_item_color;
+            font: 14px $font-primary;
+        }
+    }
+}
+.pagination {
+    margin: 0 -5px 0 0;
+    .prev
+    ,.next {
+        >a
+        ,>span {
+            border-radius: 0 !important;
+        }
+    }
+    li {
+        display: block;
+        float: left;
+        margin: 0;
+        > a {
+            border-color: $pagination_item_border_color;
+            color: $pagination_item_color;  
+            display: block;
+            text-align: center;
+        }
+	}
+    .active a,
+    .active a:hover,
+    li > a:hover {
+        color: $pagination_active_item_color;
+        background-color: transparent;
+        border-color: $pagination_active_item_border_color;
+    }
+}
+.no-number {
+    width: 100%;
+    .prev-project
+    ,.next-project {
+        display: block;
+        float: left;
+        a {
+            border: solid 1px $color38;
+            color: $color-light;
+            display: block;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            width: 35px;
+        }
+    }
+}
+.pagination-normal {
+    height: 34px;
+	li,
+    li a {
+		height: 34px;
+		width: 34px;
+	}
+	li {
+		margin-right: 5px;
+	}
+}
+
+.pagination-image {
+    .prev-project
+    ,.next-project {
+        padding: 0 15px;
+        position: relative;
+        width: 33.33333333333333%;
+        &:hover {
+            background-color: white;
+            opacity: 0.7;
+            .image-comment {
+                display: block;
+            }
+        }
+    }
+    .image {
+        img {
+            max-width: 100%;
+        }
+    }
+    .image-comment {
+        @include calc(top,"50% - 10.5px");
+        display: none;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        a {
+            color: $color-header-top-hover;
+            font: 19px $font-secondary;
+        }
+    }
+    .prev-project {
+        float: left;
+    }
+    .next-project {
+        float: right;
+    }
+}
+
+.btn-thin-border {
+    border: 1px solid #444645;
+}
+
+.btn-normal-border {
+    border: 2px solid #444645;
+}
+
+.btn-xlg {
+    padding: 15px 30px;
+}
+
+.btn-xl {
+    padding: 15px 25px;
+}
+
+.btn-lg {
+    padding: 15px 20px;
+}
+
+.btn-md {
+    font-size: 13px;
+    line-height: 1;
+    padding: 10px 15px;
+}
+
+.btn-sm {
+    padding: 7.5px 14.5px;
+}
+
+.btn-xs {
+    padding: 15px 5px;
+}

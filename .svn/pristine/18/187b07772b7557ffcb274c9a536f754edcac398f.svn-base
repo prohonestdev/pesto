@@ -1,0 +1,16 @@
+/*-----------------------------------------------------------------------------
+- CALL_TO_ACTIONS
+-----------------------------------------------------------------------------*/
+
+.size-tiny-icon {
+    border: 1px solid #ebebeb;   
+    height: 16px;
+    line-height: 16px;
+    width:16px;
+}
+
+.size-tiny-icon.active,
+.size-tiny-icon:hover {
+    border: 1px solid #cacaca;
+}
+

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+        <meta name="keywords" content="HTML5 Ecommerce Template" />
+        <meta name="description" content="Pesto - Responsive HTML5 Ecommerce Template">
+        <meta name="author" content="author name">
+
+        <title>Portfolio Grid 3-Column</title>
+        <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
+        <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css" />
+
+        <link rel="stylesheet" href="vendor/css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.css">
+        <link rel="stylesheet" href="vendor/owlcarousel/css/animate.css" />
+        <!-- Theme Stylesheet -->
+        <link rel="stylesheet" href="css/theme-elements.css" />
+        <link rel="stylesheet" href="css/theme-shop.css" />
+        <link rel="stylesheet" href="css/theme.css" />
+        
+    </head>
+    <body>
+        <header id="header" class="header-normal responsive-type1">
+            <div class="header-body">
+                <!-- Start header-top-links -->
+                <div class="header-top-links">
+                    <nav class="navbar navbar-static-top nav-border-bottom">
+                        <div class="wrapper"> 
+                            <!-- Start navbar-left-->
+                            <div class="navbar-left">
+                                <ul class="nav navbar-nav">
+                                    <li> <a href="#" class="hidden-xs"> My account </a> </li>    
+                                    <li> <a href="#" class="hidden-xs"> Checkout </a> </li>    
+                                    <li> <a href="#"> Login <span class="hidden-sm hidden-xs hidden-md">or Register</span> </a> </li>    
+                                </ul>
+                            </div>
+                            <!-- Start navbar-right -->
+                            <div class=" navbar-right">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown-search">
+                                        <a class="dropdown-toggle hidden-xs hidden-sm" href="#">
+                                            Search 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <form class="search-form">
+                                                    <input placeholder="Search entry Site here..." class="form-control">
+                                                    <a href="#" class="fa fa-close menu-close"></a>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                    </li> <!-- End dropdown-search -->
+                                    <!-- Start mini-cart -->
+                                    <li class="dropdown mini-cart">
+                                        <a href="#" class="dropdown-toggle">
+                                            My cart<span class="hidden-xs">: $0.00</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <p>
+                                                    2 item(s) in your cart- <span class="info-value">$658.00</span>
+                                                </p>
+                                            </li>
+                                            <li>    
+                                                <div class="product-image">
+                                                    <img alt="Camera" src="img/camera.png">    
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Mustard yellow ruffle dress 
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="info-value">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="product-image">
+                                                    <img alt="Handphone" src="img/Handphone.png">    
+                                                </div>
+                                                <div class="product-details">
+                                                    <a href="#">
+                                                        Navy Blue Silk Pleated Shift Dress
+                                                    </a>
+                                                    <a href="#" class="fa fa-close"></a>
+                                                    <span class="price">$478.00</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="shopping-info">
+                                                    <p><span> Shipping:</span> <span class="info-value">7.00</span></p>
+                                                    <p><span> Tax:</span> <span class="info-value">Free</span></p>
+                                                    <p><span> Total:</span> <span class="info-value">$665.00</span></p>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div><a href="#" type="button">VIEW CART</a></div>
+                                                    <div>  <a href="#" type="button">CHECKOUT</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- Start dropdown-currency -->
+                                    <li class="dropdown dropdown-currency">
+                                        <a href="#" class="dropdown-toggle">
+                                            $ / &#8364; / &#163; 
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li> <a href="#" role="button">US dollar</a> </li>        
+                                            <li> <a href="#" role="button">EURO</a></li>
+                                            <li> <a href="#" role="button">POUND ST </a></li>
+                                        </ul>
+                                    </li> <!-- End dropdown-currency -->
+                                    <!-- Start dropdown-language -->
+                                    <li class="dropdown dropdown-combo dropdown-language">
+                                        <a class="dropdown-toggle " href="#">
+                                            En / Es
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#" role="button"><img src="img/english.png">English</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" role="button"><img src="img/Spanish.png">Spanish </a>
+                                            </li>
+                                        </ul>
+                                    </li>  <!-- End dropdown-language -->
+                                </ul>  
+                            </div><!-- End navbar-right-->
+                        </div> <!-- wrapper --> 
+                    </nav>    
+                </div> <!-- header-top-links -->
+                <!-- Start header table collapsed logo and main navigation-->
+                <div class="header-main">
+                    <div class="wrapper">
+                        <div class="header-table">
+                            <div class="header-row">
+                                <div class="header-column logo">
+                                    <div class="header-logo">
+                                        <a href="index.html"><img src="img/logo.png" alt="PESTO"> </a>
+                                    </div> <!-- header-logo -->
+                                </div> <!-- header-column -->
+                                <div class="header-column menu">
+                                    <button class="header-btn-search hidden-xxs" data-toggle="collapse" type="button" 
+                                        data-target=".dropdown-search .dropdown-menu" aria-expaned="false" aria-controls="dropdown-menu">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <button class="header-btn-collapse-nav" data-toggle="collapse" type="button" 
+                                        data-target="#main-nav" aria-expaned="false" aria-controls="main-nav">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <div class="collapse header-main-nav hidden-xs" aria-expaned="false" id="main-nav">
+                                        <nav class="navbar navbar-default navbar-right">
+                                            <ul class="nav navbar-nav" >
+                                                <li role="button" class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">HOME</a>
+                                                    <ul class="dropdown-menu">
+                                                         <li><a href="homepage1.html" role="button">HOME1</a></li>
+                                                        <li><a href="homepage2.html" role="button">HOME2</a></li>
+                                                        <li><a href="homepage3.html" role="button">HOME3</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown dropdown-table" role="button">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">FASHION</a>
+                                                     <ul class="dropdown-menu clearfix type2">   
+                                                        <li>   
+                                                            <!-- Start dropdown-table-content -->
+                                                            <ul class="dropdown-table-content">
+                                                                <li class="col-5-1">
+                                                                    <ul>
+                                                                        <li class="image">
+                                                                            <img src="img/menu/clothes.png" alt="clothes" >
+                                                                        </li>
+                                                                        <li class="image-content">
+                                                                            <a href="#" role="button" class="dropdown-table-sub-title"> CLOTHING </a>
+                                                                            <ul class="dropdown-table-sub-nav">
+                                                                                <li> <a href="#"> DRESSES </a> </li> 
+                                                                                <li> <a href="#"> JEANS & TORUSERS </a> </li> 
+                                                                                <li> <a href="#"> BLOUSES </a> </li>
+                                                                                <li> <a href="#"> TOPS & T-SHIRTS </a> </li>
+                                                                                <li> <a href="#"> JACKETS & COATS  </a> </li>
+                                                                                <li> <a href="#"> SKIRTS</a> </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                                <li class="col-5-1">
+                                                                    <ul>
+                                                                        <li class="image">
+                                                                            <img src="img/menu/shoes.png" alt="shoes" >
+                                                                        </li>
+                                                                        <li class="image-content">
+                                                                            <a role="button" class="dropdown-table-sub-title" href="#"> SHOES </a>
+                                                                            <ul class="dropdown-table-sub-nav">
+                                                                                <li> <a href="#"> FORMAL SHOES </a> </li> 
+                                                                                <li> <a href="#"> CASUAL SHOES </a> </li> 
+                                                                                <li> <a href="#"> SANDALS </a> </li>
+                                                                                <li> <a href="#"> BOOTS </a> </li>
+                                                                                <li> <a href="#"> WIDE FIT </a> </li>
+                                                                                <li> <a href="#"> SLIPPERS </a> </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                                <li class="col-5-1">
+                                                                    <ul>
+                                                                        <li class="image">
+                                                                            <img src="img/menu/accessories.png" alt="accessories" >
+                                                                        </li>
+                                                                        <li class="image-content">
+                                                                            <a role="button" class="dropdown-table-sub-title" href="#"> ACCESORIES </a>
+                                                                            <ul class="dropdown-table-sub-nav">
+                                                                                <li> <a href="#"> BAGS & PURSES </a> </li> 
+                                                                                <li> <a href="#"> BELTS </a> </li> 
+                                                                                <li> <a href="#"> GLOVES </a> </li>
+                                                                                <li> <a href="#"> JEWELLERY </a> </li>
+                                                                                <li> <a href="#"> SUNGLASSES  </a> </li>
+                                                                                <li> <a href="#"> HAIR ACCESORIES </a> </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->    
+                                                                <li class="col-5-1">
+                                                                    <ul>
+                                                                        <li class="image">
+                                                                            <img src="img/menu/sports.png" alt="sports" >
+                                                                        </li>
+                                                                        <li class="image-content">
+                                                                            <a role="button" class="dropdown-table-sub-title" href="#"> SPORTS </a>
+                                                                            <ul class="dropdown-table-sub-nav">
+                                                                                <li> <a href="#"> SPORTS TOPS & VESTS</a> </li> 
+                                                                                <li> <a href="#"> HOODIES </a> </li> 
+                                                                                <li> <a href="#"> SWIMWEAR </a> </li>
+                                                                                <li> <a href="#"> FOOTWEAR </a> </li>
+                                                                                <li> <a href="#"> SPORTS UNDERWEAR  </a> </li>
+                                                                                <li> <a href="#"> BAGS </a> </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li><!--End col-5-1 -->
+                                                                <li class="col-5-1 advertisement">
+                                                                    <div class="theme-owl-carousel-wrapper">
+                                                                        <div class="menu-slider">
+                                                                            <div class="item">
+                                                                                <div class="image">
+                                                                                    <img src="img/menu/slider1.png">
+                                                                                </div>
+                                                                                <div class="image-comment">
+                                                                                    <span class="title">NEW ARRIVALS</span>
+                                                                                    <span class="attribute">SMART & SIMPLE</span>
+                                                                                    <button type="button" class="btn btn-borders btn-transparent">READ MORE</button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <div class="image">
+                                                                                    <img src="img/menu/slider2.png">
+                                                                                </div>
+                                                                                <div class="image-comment">
+                                                                                    <span class="title">NEW ARRIVALS</span>
+                                                                                    <span class="attribute">SMART & SIMPLE</span>
+                                                                                    <button type="button" class="btn btn-borders btn-transparent">READ MORE</button>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <div class="image">
+                                                                                    <img src="img/menu/slider2.png">
+                                                                                </div>
+                                                                                <div class="image-comment">
+                                                                                    <span class="title">NEW ARRIVALS</span>
+                                                                                    <span class="attribute">SMART & SIMPLE</span>
+                                                                                    <button type="button" class="btn btn-borders btn-transparent">READ MORE</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>    
+                                                                    </div>
+                                                                </li><!--End col-5-1 -->
+                                                            </ul> <!-- End dropdown-table-content-->
+                                                        </li>   
+                                                    </ul> <!-- End dropdown-menu -->
+                                                </li>
+                                                <li role="button" class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">PAGES</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="product.html" role="button">PRODUCT</a></li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="shopping-cart.html" role="button">CART</a>
+                                                        </li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">CATEGORY </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="category_page_no_sidebar-grid-3-columns.html">no sidebar grid 3 columns</a></li>
+                                                                <li><a href="category_page_no_sidebar-grid-4-columns.html">no sidebar grid 4 columns</a></li>
+                                                                <li><a href="category_page_no_sidebar-grid-4-columns.html">no Sidebar grid 5 columns </a></li>
+                                                                <li><a href="category_page_no_sidebar-list.html">no sidebar list</a></li>
+                                                                <li><a href="category_page-grid-3-columns.html">grid 3 columns with rightsidebar</a></li>
+                                                                <li><a href="category_page-grid-4-colums.html">Grid 4 columns with rightsidebar </a></li>
+                                                                <li><a href="category_page-grid-5-colums.html">Grid 5 columns with rightsidebar</a></li>
+                                                                <li><a href="category_page-leftsidebar-grid.html">Grid with leftsidebar</a></li>
+                                                                <li><a href="category_page-leftsidebar-list.html">List with leftsidebar</a></li>
+                                                                <li><a href="category_page-rightsidebar-list.html">List with rightsidebar</a></li>
+                                                                <li><a href="category_page-rightsidebar-grid.html">Grid with rightsidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">BLOG </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="blog-leftsidebar-1.html">Blog type1 with leftsidebar</a></li>
+                                                                <li><a href="blog-leftsidebar-2.html">Blog type2 with leftsidebar</a></li>
+                                                                <li><a href="blog-single-leftsidebar.html">Blog single with leftsidebar</a></li>
+                                                                <li><a href="blog-rightsidebar-1.html">Blog type1 with rightsidebar</a></li>
+                                                                <li><a href="blog-rightsidebar-2.html">Blog type2 with rightsidebar</a></li>
+                                                                <li><a href="blog-single-rightsidebar.html">Blog single with rightsidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="checkout.html" role="button">CHECKOUT</a></li>
+                                                        <li><a href="aboutus.html" role="button">ABOUT US</a></li>
+                                                        <li role="button" class="dropdown classic">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">CONTACT US </a>
+                                                            <ul class="dropdown-menu"> 
+                                                                <li><a href="contact-us-01.html">Type1</a></li>
+                                                                <li><a href="contact-us-02.html">Type2</a></li>
+                                                                <li><a href="contact-us-03.html">Type3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="register_account.html" role="button">REGISTER ACCOUNT</a></li>
+                                                        <li><a href="product_comparison.html" role="button">PRODUCT COMPARISON</a></li>
+                                                        <li><a href="login.html" role="button">LOGIN</a></li>
+                                                        <li><a href="404.html" role="button">404 PAGES</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li role="button" class="dropdown classic"> 
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">PORTFOLIO</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="portfolio_item_01.html">Portfolio item 1</a></li>
+                                                        <li><a href="portfolio_item_02.html">Portfolio item 2</a></li>
+                                                        <li><a href="portfolio_grid_3_column.html">Portfolio grid 3</a></li>
+                                                        <li><a href="portfolio_masonry.html">Portfolio masonry</a></li>
+                                                        <li><a href="portfolio_masonry_rectangular_images.html">Portfolio masonry rectangle</a></li>
+                                                        <li><a href="portfolio_masonry_square_images.html">Portfolio masonry square</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li role="button" class="dropdown classic">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expaned="false" role="button">SHORTCODES</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="shortcodes-buttons.html">Buttons</a></li>
+                                                        <li><a href="shortcodes-call-to-action.html">Call to actions</a></li>
+                                                        <li><a href="shortcodes-carousels.html">Carousels</a></li>
+                                                        <li><a href="shortcodes-checkbox.html">checkbox</a></li>
+                                                        <li><a href="shortcodes-icons.html">Icons</a></li>
+                                                        <li><a href="shortcodes-list.html">List</a></li>
+                                                        <li><a href="shortcodes-radiobutton.html">Radiobutton</a></li>
+                                                        <li><a href="shortcodes-selects.html">Selects</a></li>
+                                                        <li><a href="shortcodes-sidebar.html">Sidebar</a></li>
+                                                        <li><a href="shortcodes-sliders.html">Sliders</a></li>
+                                                        <li><a href="shortcodes-tabs.html">Tabs</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul><!--End navbar-nav-->    
+                                        </nav><!-- navbar-default--> 
+                                    </div><!-- header-main-nav-->
+                                    <!-- Start Header-mobile -->
+                                    <div class="header-mobile hidden-lg hidden-md hidden-sm">
+                                        <ul>
+                                            <li><a href="#" role="button"><i class="fa fa-close menu-close"></i></a></li>
+                                            <li><a href="#" role="button">HOME</a></li>
+                                            <li><a href="#" role="button">FASION</a></li>
+                                            <li><a href="#" role="button">ABOUT US</a></li>
+                                            <li><a href="#" role="button">BLOG</a></li>
+                                            <li><a href="#" role="button">PORTOFOLIO</a></li>
+                                            <li><input placeholder="SEARCH HERE..."></li>
+                                            <li><a href="#">MY CART: $0.00</a></li>
+                                            <li><a href="#">REGISTER</a></li>
+                                            <li><a href="#">En/<i class="fa fa-euro"></i></a></li>
+                                        </ul>
+                                    </div><!-- End Header-mobile -->
+                                </div> <!-- header-column -->
+                            </div> <!-- header-row -->
+                        </div> <!-- header-table -->   
+                    </div> <!-- wrapper -->         
+                </div>
+            </div> <!-- header-body --> 
+        </header>
+        <section id="content" role="main" class="type3 portfolio-item">
+            <div class="content-header  breadcrumb-header">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="pull-left">
+                                <h2>PORTFOLIO</h2>
+                            </div>
+                            <ul class="breadcrumb pull-right">
+                                <li><a href="#">Home&nbsp;</a></li>    
+                                <li><a href="#">Portfolio&nbsp;</a></li>    
+                                <li>&nbsp;Grid 4 column</li>    
+                            </ul>
+                        </div>
+                    </div>
+                </div>        
+            </div> <!-- End content-header --> 
+            <div class="content-main">
+                <div class="products-container">
+                    <div class="products-top clearfix">
+                        <div class="wrapper">
+                            <ul class="list-inline pull-left" aria-controls="grid">
+                                <li> <a class="filter" data-filter="*" href="#">All </a> </li>
+                                <li> <a class="filter" data-filter=".design" href="#">Design </a> </li>
+                                <li> <a class="filter" data-filter=".fashion" href="#">Fashion </a> </li>
+                                <li> <a class="filter" data-filter=".illustration" href="#">Illustration </a> </li>
+                                <li> <a class="filter" data-filter=".photography" href="#">Photography </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div class="wrapper">
+                            <div class="row grid">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 design fashion">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-1.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Lorem ipsum dolor </h2>
+                                            <span class="category">Design / Fashion</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;7</i></div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 fashion photography">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-2.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Fusce mattis euismod </h2>
+                                            <span class="category">Photography / Fashion</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;12</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 illustration">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-3.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Vestibulum lorem </h2>
+                                            <span class="category">Video / Illustration</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;141</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 photography">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-4.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Aenean porta risus </h2>
+                                            <span class="category">Photography</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;113</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 illustration design">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-5.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Quisque et purus avour </h2>
+                                            <span class="category">Illustration / Design</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;9</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 fashion">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-6.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Aenean porta risus </h2>
+                                            <span class="category">Fashion</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;18</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 photography">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-7.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok"> Maecenas auctor suscipit </h2>
+                                            <span class="category">Photography</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;26</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 illustration">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-8.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok">Posuere euismod</h2>
+                                            <span class="category">Illustration</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;4</i></div>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 photography">
+                                    <div class="product">
+                                        <div class="image">
+                                            <img alt="" src="img/portfolio/grid_product-9.jpg">
+                                            <div class="over-comment middle">
+                                                <div class="links">
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-heart"></i></a>
+                                                    <a href="#" class="btn-style-default icon-button large"><i class="fa fa-chain"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image-comment down-comment pull-left">
+                                            <h2 class="small name font-istok">Metus viverra lorem</h2>
+                                            <span class="category">Photography</span>
+                                        </div>
+                                        <div class="fans pull-right"><i class="fa fa-heart-o">&nbsp;127</i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination-container">
+                    <div class="wrapper clearfix">
+                        <div class="title pull-left">
+                            <span>Items 1 to 4 of 23 total</span>
+                        </div>
+                        <ul class="pull-right pagination pagination-normal">
+                            <li class="prev hidden" role="button"><a href="#"><span><i class="fa fa-chevron-left"></i></span></a></li>
+                            <li class="active" role="button"><a href="#">1</a></li>
+                            <li role="button"><a href="#">2</a></li>
+                            <li role="button"><a href="#">3</a></li>
+                            <li role="button"><a href="#">4</a></li>
+                            <li class="next" role="button"><a href="#"><span><i class="fa fa-chevron-right"></i></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End #content -->
+
+        <!-- Start footer-->
+        <!-- Start footer-->
+        <footer id="footer" class="footer-nologo">
+            <!-- Start Footer-main -->
+            <div class="footer-main">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <h4>INFORMATION</h4>
+                            <!-- Start foot-info-->
+                            <div class="foot-info">
+                                <ul>
+                                    <li><a href="#">New products</a></li>
+                                    <li><a href="#">Top sellers</a></li>
+                                    <li><a href="#">Special products</a></li>
+                                    <li><a href="#">Manufacturers</a></li>
+                                    <li><a href="#">Supplies</a></li>
+                                </ul> 
+                            </div> <!-- End foot-info -->
+                        </div><!-- End col-md-3 -->    
+                        <div class="col-md-3 col-sm-3">
+                            <h4>CUSTOMER SERVICE</h4>
+                            <!-- Start foot-service-->
+                            <div class="foot-service">
+                                <ul>
+                                    <li><a href="#">Help & contact</a></li>
+                                    <li><a href="#">Shipping & taxes</a></li>
+                                    <li><a href="#">Return Policy</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Affilites</a></li>
+                                </ul> 
+                            </div> <!-- End foot-service -->
+                        </div><!-- End col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <h4>MY ACCOUNT</h4>
+                            <!-- Start foot-account-->
+                            <div class="foot-account">
+                                <ul>
+                                    <li><a href="#">My account</a></li>
+                                    <li><a href="#">Personal information</a></li>
+                                    <li><a href="#">Payment methods</a></li>
+                                    <li><a href="#">Discount</a></li>
+                                    <li><a href="#">Orders history</a></li>
+                                </ul> 
+                            </div> <!-- End foot-account -->
+                        </div><!-- End col-md-3 -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="support">
+                                <h4>SUPPORT</h4>
+                                <!-- Start foot-support-->
+                                <div class="foot-support">
+                                    <ul>
+                                        <li class="foot-phone">0203 - 980 - 14 - 79</li>
+                                        <li class="foot-phone">0203 - 478 - 12 - 96</li>
+                                        <li class="foot-service-hours">Service hours: 09:00 - 20.00</li>
+                                    </ul> 
+                                </div> <!-- End foot-support -->
+                            </div>
+                            <!-- Start follow -->
+                            <div class="follow">
+                                <!-- Start foot-follow-->
+                                <div class="foot-follow">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul> 
+                                </div> <!-- End foot-follow -->
+                            </div><!-- End follow -->
+                        </div><!-- End col-md-3 -->
+
+                    </div><!-- End row-->
+                </div><!-- End wrapper -->
+                <div class="wrapper-fluid">
+                    <!-- Start footer-join -->
+                    <div class="footer-join">
+                        <h3>
+                            JOIN THE COMMUNITY
+                        </h3>
+                        <div class="alert alert-success hidden" id="joinEmailSuccess">
+                            <strong>Success!</strong>
+                            You've been added to our email list.
+                        </div>
+                        <div class="alert alert-danger hidden" id="joinEmailDanger">
+                        </div>
+                        <!-- Start emailForm -->
+                        <form id="emailForm" action="php/email.php" method="POST" novalidate="novalidate">
+                            <div class="input-group">
+                                <input class="form-control" placeholder="your@email.com" id="yourEmail" name="yourEmail" type="text" aria-required="true" aria-invalid="true">
+                                <span>
+                                    <button class="btn btn-default" type="submit"><i class="fa fa-chevron-right"></i></button>
+                                </span>
+                            </div>
+                        </form>
+                        <!-- End emailForm -->
+                    </div>
+                    <!-- End footer-join -->
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Information</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Free Delivery</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- End Footer-main-->
+            <!-- Start Footer-mobile -->
+            <div class="footer-mobile">
+                <div class="wrapper">
+                    <ul class="footer-mobile-links">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">My Favourites</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Call us: 0203-980-14-79</a></li>
+                    </ul>
+                </div>
+            </div><!-- End Footer-mobile -->    
+        </footer><!-- End footer-->
+        <script src="vendor/js/jquery/jquery.min.js"></script>
+        <script src="vendor/owlcarousel/owl.carousel.min.js"></script> 
+        <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+        <!-- Theme -->
+        <script src="js/theme.js"></script>
+    </body>
+</html>

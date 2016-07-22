@@ -1,0 +1,179 @@
+
+/*-----------------------------------------------------------------------------
+- TABS
+-----------------------------------------------------------------------------*/
+
+/* Vertical */
+.tabs-vertical {
+    display: table;
+    padding: 0;
+    width: 100%;
+    .tab-content {
+        display: table-cell;
+        vertical-align: top;
+        h1 {
+            color: $color-light;
+            font-family: 'Verdana';
+            margin-top: 0;
+        }
+    }
+    .nav-tabs {
+        display: table-cell;
+        float: none;
+        height: 100%;
+        padding: 0;
+        vertical-align: top;
+        
+        & > li {
+            border: 1px solid #F3F3F3;
+            display: block;
+            height: 54px;
+            width: 238px;
+
+            a {
+                display:block;
+                padding-top: 10px;
+                height: 100%;
+                line-height: 34px;
+
+                &,
+                &:hover,
+                &:focus {
+                    border: none;
+                    border-radius: 0px;
+                }
+            }
+            
+            &.active,
+            &:hover,
+            &:focus {
+                border-left: 1px solid #666;
+                border-right: none;
+                color: #666;
+            }
+        }
+    }
+
+}
+.tabs-left {
+    .nav-tabs {
+        .shop.type1 & {
+            width: 20.5125282%;
+        }
+        .shopping-cart & {
+            width: 37.5%;
+        }
+        >li {
+            height: 56px;
+            width: 100%;
+            >a {
+                font-family: $font-secondary;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+                padding: 10px 25px;
+            }
+        }
+    }    
+    .tab-content {
+        border: 1px solid #F3F3F3;
+        padding-bottom: 23px;
+        .shop.type1 & {
+            width: 79.487179%;
+            > div {
+                padding: 16px 40px;
+            }
+        }
+        .shopping-cart & {
+            width: 62.5%;
+            > div {
+                padding: 30px 20px;
+            }
+        }
+        .comments-header {
+            h3 {
+                letter-spacing: 2.1px;
+                margin-bottom: 28px;
+            }
+        }
+        
+        .title {
+            color: $color-light;
+            display: block;
+            float: left;
+            font: 14px 'Verdana';
+            width: 148px;
+            line-height: 53px;
+        }
+        .content {
+            @include calc(width,"100% - 148px");
+            display: block;
+            float: left;
+            height: 53px;
+            padding: 5px 0;
+            input[type="text"] {
+                @include calc(width,"100% - 150px");
+                float: left;
+                height: 43px;
+                margin-right: 20px;
+            }
+            input[type="submit"] {
+                float: left;
+                width: 130px;
+            }
+            .bootstrap-select {
+                height: 43px;
+                button {
+                    padding-bottom: 11px;
+                    padding-top: 11px;
+                }
+                span {
+                    font: 15px $font-primary;
+                }
+            }
+        }
+        
+        .reviews .review {
+            margin-bottom: 18px;
+            @include clearfix;
+            .image,.image-comment {
+                float: left;
+                margin-bottom: 20px;
+            }
+            .image {
+                height: 100px;
+                padding: 16px 0;
+                width: 70px;
+                img {
+                    border-radius: 50%;
+                }
+            }
+            .image-comment {
+                margin-left: 15px;
+                margin-top: 5px;
+                line-height: 22px;
+                p {
+                    margin: 10px 2px;
+                    line-height: 22px;
+                }
+                strong {
+                    font-size: 18px;
+                    margin-left: 4px;
+                }
+                span {
+                    color: #c2c1c1;
+                    font-family: "Arial";
+                    font-size: 14px;
+                }
+                @include calc(width, "100% - 100px");
+            }
+        }
+        .review-customer {
+            margin-top: 25px;
+            margin-bottom: 5px;
+            h3 {
+                margin-bottom: 31px;
+                margin-top: 0;
+            }
+        }
+    }
+}

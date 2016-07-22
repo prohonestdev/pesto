@@ -1,0 +1,21 @@
+.bs-glyphicons-list li {
+	min-height: 50px;
+	margin-bottom: 1em;
+}
+.fontawesome-icon-list a,
+.bs-glyphicons-list li {
+	color: #5a5a5a;
+	display: block;
+	padding: 0.3em 0.6em;
+}
+.fontawesome-icon-list a .fa,
+.bs-glyphicons-list li .glyphicon {
+	margin-right: 0.5em;
+	width: 1.5em;
+}
+
+.fontawesome-icon-list a, .bs-glyphicons-list li {
+	color: #5a5a5a;
+	display: block;
+	padding: 0.3em 0.6em;
+}

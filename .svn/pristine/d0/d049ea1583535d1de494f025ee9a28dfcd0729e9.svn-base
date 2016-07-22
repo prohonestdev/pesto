@@ -1,0 +1,149 @@
+/*COLORS*/
+#contactForm input {
+  font-family: "Roboto Condensed";
+  font-size: 14px; }
+#contactForm input[type="submit"]:not(:hover) {
+  border-color: #444645; }
+#contactForm label {
+  font-family: "Istok Web";
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+.content-footer a {
+  font-size: 35px; }
+.content-footer h4 {
+  color: #666666;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+.content-footer .location > div, .content-footer .details > div, .content-footer .phone > div {
+  color: #888888;
+  font-family: "Verdana";
+  font-size: 14px;
+  padding: 5px 0; }
+
+.contactus.type1 .content-footer, .contactus.type2 .content-footer {
+  padding-bottom: 30px; }
+
+.contactus.type3 .content-footer {
+  padding-bottom: 45px; }
+
+.contactus.type1 .content-footer {
+  padding-top: 90px; }
+
+.contactus.type2 #contactForm input, .contactus.type3 #contactForm input {
+  height: 43px;
+  margin-bottom: 25px; }
+.contactus.type2 .content-main .review-customer h3, .contactus.type3 .content-main .review-customer h3 {
+  margin-bottom: 20px; }
+.contactus.type2 .content-main .review-customer textarea, .contactus.type3 .content-main .review-customer textarea {
+  height: 229px; }
+
+.contactus.type2 .content-main .review-customer input[type="submit"] {
+  margin-top: 16px; }
+.contactus.type2 .content-footer {
+  padding-top: 25px; }
+
+.contactus.type3 .content-footer {
+  padding-top: 100px; }
+
+.contactus.type3 .content-main .review-customer {
+  padding-bottom: 45px; }
+  .contactus.type3 .content-main .review-customer input[type="submit"] {
+    margin-top: 23px; }
+
+.aboutus .product-functions {
+  padding: 35px 0; }
+  .aboutus .product-functions .product-function {
+    padding: 15px 0; }
+    .aboutus .product-functions .product-function::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .aboutus .product-functions .product-function > div {
+      float: left; }
+    .aboutus .product-functions .product-function .function-mark {
+      border: solid 1px #d6d6d6;
+      border-radius: 50%;
+      color: #b8b8b8;
+      font-size: 20px;
+      height: 75px;
+      line-height: 75px;
+      margin-top: 29px;
+      text-align: center;
+      width: 75px; }
+    .aboutus .product-functions .product-function .function-comment {
+      width: -webkit-calc(100% - 75px);
+      width: calc(100% - 75px);
+      padding-left: 25px; }
+      .aboutus .product-functions .product-function .function-comment h2 {
+        color: #919191;
+        letter-spacing: 1.5px; }
+      .aboutus .product-functions .product-function .function-comment p {
+        color: #acacac;
+        font: 13px 'Verdana';
+        letter-spacing: -0.14px;
+        line-height: 21px;
+        margin: 0;
+        padding: 2px 0px; }
+.aboutus .product-summary .mark {
+  background-color: transparent;
+  color: #cbcbcb;
+  display: block;
+  font-size: 22px;
+  margin-top: 43px; }
+.aboutus .product-summary .summary {
+  color: #d9d5cc;
+  font: lighter 20px "Roboto Condensed";
+  letter-spacing: 1.5px;
+  line-height: 31px;
+  margin: 3px auto;
+  width: 55.04273504273504%; }
+.aboutus .short-about-us {
+  padding: 52px 0; }
+  .aboutus .short-about-us .image {
+    text-align: center; }
+  .aboutus .short-about-us .image-comments h3 {
+    color: #777777;
+    letter-spacing: 1.3px;
+    margin: 10px 0; }
+  .aboutus .short-about-us .image-comments p {
+    color: #acacac; }
+  .aboutus .short-about-us .image-comments .quote p i {
+    color: #cbcbcb; }
+.aboutus .team {
+  margin-bottom: 60px;
+  padding: 41px 0; }
+  .aboutus .team h4 {
+    color: #777777;
+    letter-spacing: 2.25px;
+    margin-bottom: 28px;
+    word-spacing: 1.2px; }
+  .aboutus .team .image {
+    margin: 0 auto;
+    padding: 24px 0; }
+    .aboutus .team .image img {
+      max-width: 100%; }
+  .aboutus .team .image-comment {
+    text-align: left; }
+    .aboutus .team .image-comment span {
+      display: block;
+      font: 14px "Roboto Condensed"; }
+    .aboutus .team .image-comment .name {
+      color: #6e6e6e;
+      letter-spacing: 0.7px;
+      word-spacing: 2.2px; }
+    .aboutus .team .image-comment .role {
+      color: #adadad;
+      font-size: 14px;
+      padding: 10px 0; }
+
+@media (max-width: 1169px) {
+  .aboutus .team .image-comment {
+    display: inline-block;
+    width: 270px; } }
+
+/*# sourceMappingURL=theme-contactus.css.map */

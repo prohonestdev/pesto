@@ -1,0 +1,37 @@
+.explanation {
+    color: $color-dark;
+    padding: 10px 0;
+    p {
+        font: 15px 'Arial';
+        letter-spacing: 0.15px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    .title {
+        font: 28px $font-primary;
+    }
+}
+.quote {
+    @include clearfix;
+    .type1 & {
+        margin-bottom: 6px;
+    }
+    span {
+        float: left;
+        font-size: 22px;
+        height: 32px;
+        line-height: 32px;
+        width: 32px;
+    }
+    p {
+        @include calc(width,'100% - 32px');
+        float: left;
+        .type1 & {
+            padding: 8px 5px;
+        }
+        .type2 & {
+            margin-bottom: 13px;
+            padding: 9px 5px;
+        }
+    }
+}

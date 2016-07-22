@@ -1,0 +1,230 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Istok Web Bold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Istok_Web_Bold/IstokWeb-Bold.eot");
+  src: url("../fonts/Istok_Web_Bold/IstokWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Istok_Web_Bold/IstokWeb-Bold.woff") format("woff"), url("../fonts/Istok_Web_Bold/IstokWeb-Bold.ttf") format("truetype"), url("../fonts/Istok_Web_Bold/IstokWeb-Bold.svg#Istok Web Bold") format("svg");
+}
+@font-face {
+  font-family: "Istok Web Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Istok_Web_Regular/IstokWeb-Regular.eot");
+  src: url("../fonts/Istok_Web_Regular/IstokWeb-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Istok_Web_Regular/IstokWeb-Regular.woff") format("woff"), url("../fonts/Istok_Web_Regular/IstokWeb-Regular.ttf") format("truetype"), url("../fonts/Istok_Web_Regular/IstokWeb-Regular.svg#Istok Web Regular") format("svg");
+}
+body {
+  background-color: #ffffff;
+  max-width: 1920px;
+  font-family: 'Istok Web Regular';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.mainmenu-area {
+  z-index: 999;
+  width: 100%;
+}
+.mainmenu-area .header-nav-main ul .dropdown > .dropdown-menu {
+  bottom: 0 !important;
+  left: -5px !important;
+  display: block !important;
+  opacity: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  transition: all .3s ease;
+}
+.mainmenu-area .header-nav-main ul .dropdown.open > .dropdown-menu,
+.mainmenu-area .header-nav-main ul .dropdown:hover > .dropdown-menu {
+  bottom: auto !important;
+  opacity: 1 !important;
+}
+
+.body {
+  margin: 0;
+}
+.body a {
+  text-decoration: none;
+}
+.body .header1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+.body .header1 .container {
+  margin: 0px;
+  padding: 36px 0 0 0;
+}
+.body .header1 .container div {
+  margin: 0;
+  padding: 0;
+}
+.body .header1 .container .header-top-row {
+  margin: 0 40px 40px 40px;
+  height: 20px;
+}
+.body .header1 .container .site-branding-area {
+  margin: 0 40px 32px 40px;
+}
+@media (max-width: 1275px) {
+  .body .header1 .container .user-menu {
+    width: 100%;
+  }
+}
+.body .header1 .container .user-menu a {
+  color: #858585;
+  font-size: 16px;
+  line-height: 20px;
+}
+.body .header1 .container .user-menu ul {
+  margin: 0;
+}
+.body .header1 .container .user-menu ul li {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 54px;
+}
+@media (max-width: 1275px) {
+  .body .header1 .container .user-menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 490px;
+  }
+  .body .header1 .container .user-menu ul li {
+    margin-right: 20px;
+  }
+}
+.body .header1 .container .header-right a {
+  color: #858585;
+  font-size: 16px;
+}
+@media (max-width: 1275px) {
+  .body .header1 .container .header-right {
+    width: 100%;
+  }
+}
+.body .header1 .container .header-right ul {
+  float: right;
+  margin: 0;
+}
+.body .header1 .container .header-right ul li {
+  padding: 0;
+  margin-left: 53px;
+  margin-right: 0;
+}
+@media (min-width: 1275px) {
+  .body .header1 .container .header-right ul li.mycart {
+    margin-left: 52px;
+    margin-right: -2px;
+  }
+}
+@media (max-width: 1275px) {
+  .body .header1 .container .header-right ul {
+    float: none;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .body .header1 .container .header-right ul li {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+.body .header1 .container .mainmenu-area {
+  padding: 13px 0;
+  height: 66px;
+  background-color: #fff;
+}
+.body .header1 .container .mainmenu-area li:hover {
+  border: 5px solid #cFF;
+  background-color: #bef !important;
+}
+.body .header1 .container .mainmenu-area li {
+  border: 5px solid transparent;
+  border-radius: 10px;
+  padding: 0 !important;
+}
+.body .header1 .container .mainmenu-area li a {
+  background-color: transparent;
+}
+.body .header1 .container .mainmenu-area li a:hover {
+  background-color: transparent !important;
+}
+.body .header1 .container .mainmenu-area .navbar-header {
+  float: right;
+  margin-right: 20px;
+}
+.body .header1 .container .mainmenu-area .header-btn-collapse-nav {
+  display: none;
+}
+.body .header1 .container .mainmenu-area a {
+  padding: 0px;
+  color: #4a4a4a;
+  font-family: "Istok Web Bold";
+  font-size: 16px;
+}
+.body .header1 .container .mainmenu-area div.container {
+  width: 974px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 992px) {
+  .body .header1 .container .mainmenu-area div.container {
+    width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.body .header1 .container .mainmenu-area ul {
+  margin: 0;
+}
+.body .header1 .container .mainmenu-area ul li:first-child {
+  margin-left: 0;
+}
+.body .header1 .container .mainmenu-area ul li {
+  padding: 5px;
+  margin-left: 44px;
+  margin-right: 0;
+}
+@media (max-width: 992px) {
+  .body .header1 .container .mainmenu-area ul li {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .body .header1 .container .mainmenu-area .navbar-nav {
+    display: none;
+  }
+  .body .header1 .container .mainmenu-area .header-btn-collapse-nav {
+    display: block;
+  }
+}
+.body .main {
+  margin: 0 40px;
+}
+.body .main div {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu {
+  min-width: 100px !important;
+}
+.dropdown-menu li {
+  padding: 5px !important;
+  margin: 0 !important;
+}
+
+/*# sourceMappingURL=theme.css.map */

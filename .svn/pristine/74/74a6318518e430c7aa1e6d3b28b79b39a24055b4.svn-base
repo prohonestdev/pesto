@@ -1,0 +1,501 @@
+
+/*-----------------------------------------------------------------------------
+- TABS
+-----------------------------------------------------------------------------*/
+
+/* Vertical */
+
+.resp-vtabs {
+    border: 1px solid $color-header-top-border;
+    
+    padding: 0;
+    @include clearfix;
+	.resp-tabs-container {
+        border-radius: 0;
+        border: none;
+        border-left: solid 1px $color-header-top-border !important;
+        h1 {
+            color: $color-light;
+            font-family: 'Verdana';
+            letter-spacing: -0.02px;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+        .tab-pane {
+            @include clearfix;
+        }
+    }
+    .resp-tabs-list {
+        border-radius: 0;
+        margin-top: 0 !important;
+        li {
+            background-color: white !important;
+            border: none !important;
+            padding: 0 !important;
+            margin-bottom: 0 !important;
+            margin-top: 0 !important;
+        }
+        a {
+            border: solid 1px $color-header-top-border;
+            display: block;
+            font: 14px/59px $font-secondary;
+            height: 56px;
+            letter-spacing: 0.8px;
+            padding: 0 25px;
+            width: 100%;
+            word-spacing: 1.4px;
+            &:hover,
+            &:active {
+                background: transparent;
+                border-left: solid 1px $color28;
+                color: $color28;
+            }
+        }
+        li.resp-tab-active {
+            border: none !important;
+            a {
+                background: transparent;
+                border: none;
+                border-left: solid 1px $color28;
+                color: $color28;
+            }
+        }
+    }
+    .resp-tab-content {
+        padding: 21px 29px;
+        .explanation {
+            i {
+                color: #0eaefb;
+            }
+        }
+    }
+}
+
+//Bootstrap Tabs
+/* Vertical */
+
+.tabs-vertical {
+    border: 1px solid #F3F3F3;
+	display: table;
+    padding: 0;
+    width: 100%;
+	min-height: 300px;
+    
+    .tab-content {
+        display: table-cell;
+        vertical-align: top;
+        h1 {
+            color: $color-light;
+            font-family: 'Verdana';
+            letter-spacing: -0.02px;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+    }
+    .nav-tabs {
+        display: table-cell;
+		border-bottom: none;
+		float: none;
+        height: 100%;
+        padding: 0;
+        vertical-align: top;
+		width: auto;
+        
+        & > li {
+            display: block;
+            float: none;
+			margin-bottom: 0;
+            margin-left: -1px;
+			margin-right: -1px;
+            width: 238px;
+	
+		
+            @media (max-width: 480px) {
+                width: 120px;
+            }
+            
+            a {
+                display: block;
+                font-family: $font-secondary;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+                padding: 20px 25px;
+                word-spacing: 1.4px;
+                line-height: 1;
+				border: none;
+                border-bottom: 1px solid $color57;
+				width: 100%;
+                height: 56px;
+            
+                &,
+                &:hover,
+                &:focus {
+                    border-radius: 0px;
+                }
+            }
+			
+			&.active > a {
+				&,
+                &:hover,
+                &:focus {
+                    border-top: none;
+					border-bottom: 1px solid $color57;
+                }
+			}
+        }
+    }
+}
+
+/* Horizontal */
+
+.tabs-Horizontal {
+    border: 1px solid #F3F3F3;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+
+    .nav-tabs {
+		& > li {
+            display: block;
+			margin-left: -1px;
+            
+            a {
+                display:block;
+                font-family: $font-secondary;
+                font-size: 14px;
+                height: 100%;
+                letter-spacing: 1.2px;
+                padding: 20px 25px;
+                word-spacing: 1.4px;
+                line-height: 1;
+                border: 1px solid #f3f3f3;
+                width: 100%;
+                height: 56px;
+				&,
+                &:hover,
+                &:focus {
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+}
+
+.tabs-left {
+    .nav-tabs {
+		border-right: 1px solid #f3f3f3;
+        .shop.type1 & {
+            width: 20.5125282%;
+        }
+        .shopping-cart & {
+            width: 35.06493506493506%;
+        }
+        >li {
+			&.active a,
+            a:hover,
+            a:focus {
+				border-left: 1px solid $color28;
+                border-right: none;
+                color: $color28;
+            }
+        }
+    }    
+    .tab-content {
+        padding-bottom: 23px;
+        .shop.type1 & {
+            width: 79.487179%;
+            > div {
+                padding: 30px 40px;
+            }
+            .explanation {
+                i {
+                    color: #0eaefb;
+                }
+            }
+        }
+        .shopping-cart & {
+            width: 64.93506493506494%;
+            > div {
+                @include clearfix;
+                padding: 20px 30px 10px 30px;
+            }
+        }
+    }
+    .tab-pane {
+        .comments-header {
+            h3 {
+                color: $color45;
+                font: normal 19px $font-secondary;
+                letter-spacing: 2.3px;
+                margin-bottom: 28px;
+                margin-top: 8px;
+                strong {
+                    color: $color46;
+                    letter-spacing: 1.8px;
+                    padding-right: 2px;
+                }
+            }
+            .pull-right {
+                margin-right: 5px;
+                span {
+                    color: $color44;
+                    display: block;
+                    padding-top: 7px;
+                    padding-right: 8px;
+                }
+            }
+        }
+        
+        .title {
+            color: $color-light;
+            display: block;
+            float: left;
+            font: 14px/51px $font-tertiary;
+            width: 27.27272727272727%;
+            span {
+                letter-spacing: -0.5px;
+            }
+        }
+        .content {
+            display: block;
+            float: left;
+            padding: 5px 0;
+            width: 72.72727272727273%;
+            input[type="text"] {
+                @include calc(width,"93.75% - 130px");
+                border-radius: 0px;
+                color: $pagination_item_color;
+                float: left;
+                height: 43px;
+                margin-right: 6.25%;
+                padding: 0 6.25%;
+            }
+            input[type="submit"] {
+                float: left;
+                height: 43px;
+                padding: 0px;
+                width: 130px;
+                letter-spacing: 1.2px;
+            }
+            .bootstrap-select {
+                button {
+                    padding-bottom: 9px;
+                    padding-top: 10px;
+                }
+                span {
+                    font: 15px $font-primary;
+                }
+            }
+        }
+        .comments-header {
+            .pull-right {
+                margin-right: 5px;
+            }
+        }
+        .reviews .review {
+            margin-bottom: 15px;
+            margin-left: 2px;
+            @include clearfix;
+            .image,
+            .image-comment {
+                color: $color3;
+                float: left;
+                margin-bottom: 23px;
+            }
+            .image {
+                height: 100px;
+                padding: 14px 0;
+                width: 70px;
+                img {
+                    border-radius: 50%;
+                }
+            }
+            .image-comment {
+                margin-left: 15px;
+                margin-top: 4px;
+                letter-spacing: -0.7px;
+                line-height: 22px;
+                @include calc(width, "100% - 100px");
+                p {
+                    color: $color3;
+                    font: 14px $font-tertiary;
+                    letter-spacing: 0.7px;
+                    line-height: 22px;
+                    margin: 8px 2px;
+                    word-spacing: -2.5px;
+                    &+span {
+                        display: block;
+                        letter-spacing: 0.3px;
+                        padding-left: 5px;
+                        padding-top: 2px;
+                        word-spacing: -3px;
+                    }
+                }
+                
+                strong {
+                    color: $color-dark;
+                    font-size: 18px;
+                }
+                span {
+                    color: #c2c1c1;
+                    font-family: "Arial";
+                    font-size: 14px;
+                    
+                }
+                .pull-right {
+                    margin-top: -2px;
+                }
+            }
+        }
+        .review-customer {
+            letter-spacing: 2px;
+            margin-top: 24px;
+            margin-bottom: 17px;
+            h3 {
+                color: $color46;
+                margin-bottom: 31px;
+                margin-top: 0;
+            }
+            .rating {
+                color: $color58;
+                letter-spacing: -0.5px;
+                margin-left: 1px;
+                .star-rating {
+                    letter-spacing: 5px;
+                }
+            }
+            #reviewForm {
+                margin-left: 2px;
+                margin-right: 2px;
+                input[type="submit"] {
+                    font: 13.01px $font-secondary;
+                    letter-spacing: 1.2px;
+                    padding: 0 18px;
+                }
+            }
+        }
+    }
+}
+
+.tabs-top {
+    .nav-tabs {
+        float: none;
+        border-top: none;
+		border-bottom: 1px solid #f3f3f3;
+		
+        >li {
+			margin-bottom: -1px;
+			margin-top: -1px;
+			
+            &.active a,
+            a:hover,
+            a:focus {
+                border-bottom: none;
+                border-top: 1px solid $color28;
+                color: $color28;
+            }
+        }
+    }    
+}
+
+.tabs-bottom {
+    .nav-tabs {
+        float: none;
+        border-top: 1px solid #f3f3f3;
+		border-bottom: none;
+		
+        >li {
+			margin-top: -1px;
+            &.active a,
+            a:hover,
+            a:focus {
+                border-top: none;
+                border-bottom: 1px solid $color28;
+                color: $color28;
+            }
+        }
+    }    
+}
+
+.tabs-right {
+    .nav-tabs {
+		border-left: 1px solid #f3f3f3;
+        
+        >li {
+            &.active a,
+            a:hover,
+            a:focus {
+                border-left: none;
+                border-right: 1px solid $color28;
+                color: $color28;
+            }
+        }
+    }    
+}
+
+.tabs-default {
+    .tab-content {
+        padding: 20px;
+        p {
+            color: $color3; 
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .resp-vtabs {
+        .resp-arrow {
+            margin-top: 22px;
+        }
+        .resp-tabs-container {
+            min-height: 1px !important;
+            width: 100% !important;
+        }
+        .resp-tab-content {
+            padding: 32px 50px;
+        }
+        h2.resp-accordion {
+            background-color: $color40;
+            display: block;
+            font: 14px $font-secondary;
+            height: 56px;
+            letter-spacing: 1.2px;
+            line-height: 56px;
+            padding: 0 25px;
+            width: 100%;
+            word-spacing: 1.4px;
+            &:hover,
+            &:active {
+                background: transparent;
+            }
+        }
+        h2.resp-tab-active {
+            border-color: $color20 !important;
+            padding: 0 25px !important;
+        }
+        .tab-pane {
+            #quote_form {
+                margin-top: -10px;
+            }
+            .form-row {
+                padding: 10px 0;
+            }
+            .title,
+            .content {
+                float: none;
+                padding: 0;
+                width: 100%;
+                input[type="text"]{
+                    float: none;
+                    width: 100%;
+                }
+                input[type="submit"] {
+                    display: block;
+                    float: none;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

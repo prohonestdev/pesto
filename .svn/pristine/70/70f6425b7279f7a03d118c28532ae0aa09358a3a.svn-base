@@ -1,0 +1,14 @@
+.icon-button {
+    &.large {
+        border: solid 1px $color41;
+        display: block;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        width: 45px;
+    }
+    &:hover {
+        background-color: $color42;
+        color: white;
+    }
+}

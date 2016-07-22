@@ -1,0 +1,50 @@
+ul {
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}
+
+.select {
+    .size li  {
+        border: 1px solid $color41;
+        height: 32px;
+        line-height: 30px;
+        margin-right: 5px;
+        text-align: center;
+        width: 32px;
+    }
+    
+    .color li {
+        height: 32px;
+        margin-right: 5px;
+        width: 32px;
+    }   
+}
+
+ul.share{
+    margin-left: 2px;
+    li {
+        border: 1px solid $color41;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 7px;
+        text-align: center;
+        width: 30px;    
+    }
+    li.active {
+        border: 1px solid green;
+    }
+} 
+
+
+.tag-cloud .tag-list {
+    li {
+        display: inline-block;
+        font-family: $font-primary;
+        font-size: 12px;
+        border: 1px solid #f1f1f1;
+        margin: 5px 0;
+        padding: 5px 15px
+    }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+        <meta name="keywords" content="HTML5 Ecommerce Template" />
+        <meta name="description" content="Pesto - Responsive HTML5 Ecommerce Template">
+        <meta name="author" content="author name">
+
+        <title>Portfolio Masonry Square Images</title>
+        <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" />
+
+        <link rel="stylesheet" href="vendor/css/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+        <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.css">
+        <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.css">
+
+        <!-- RS5.0 Main Stylesheet -->
+        <!-- RS5.0 Settings Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css" />
+        <!-- RS5.0 Layers and Navigation Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css" />
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css" />  
+
+        <!-- jquery ui -->
+        <link rel="stylesheet" href="vendor/jquery-ui/jqueryui.css">
+        <!-- slider -->
+        <link rel="stylesheet" href="vendor/jquery-ui-slider-pips/jquery-ui-slider-pips.css">    
+        <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">    
+
+        <!-- RS5.0 Main Stylesheet -->
+        <!-- RS5.0 Settings Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/settings.css" />
+        <!-- RS5.0 Layers and Navigation Stylesheet -->
+        <link rel="stylesheet" href="vendor/revolution/css/layers.css" />
+        <link rel="stylesheet" href="vendor/revolution/css/navigation.css" />    
+
+        <!-- Theme Stylesheet -->
+        <link rel="stylesheet" href="css/theme.css" />
+        <link rel="stylesheet" href="css/theme-elements.css" />
+    </head>
+    <body>
+        
+        <!-- Start footer-->
+        <footer id="footer" class="footer-nologo">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>INFORMATION</h4>
+                        <!-- Start foot-info-->
+                        <div class="foot-info">
+                            <ul>
+                                <li><a href="#">New products</a></li>
+                                <li><a href="#">Top sellers</a></li>
+                                <li><a href="#">Special products</a></li>
+                                <li><a href="#">Manufacturers</a></li>
+                                <li><a href="#">Supplies</a></li>
+                            </ul> 
+                        </div> <!-- End foot-info -->
+                    </div><!-- End col-md-3 -->    
+                    <div class="col-md-3">
+                        <h4>CUSTOMER SERVICE</h4>
+                        <!-- Start foot-service-->
+                        <div class="foot-service">
+                            <ul>
+                                <li><a href="#">Help &amp; contact</a></li>
+                                <li><a href="#">Shipping &amp; taxes</a></li>
+                                <li><a href="#">Return Policy</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Affilites</a></li>
+                            </ul> 
+                        </div> <!-- End foot-service -->
+                    </div><!-- End col-md-3 -->
+                    <div class="col-md-3">
+                        <h4>MY ACCOUNT</h4>
+                        <!-- Start foot-account-->
+                        <div class="foot-account">
+                            <ul>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Personal information</a></li>
+                                <li><a href="#">Payment methods</a></li>
+                                <li><a href="#">Discount</a></li>
+                                <li><a href="#">Orders history</a></li>
+                            </ul> 
+                        </div> <!-- End foot-account -->
+                    </div><!-- End col-md-3 -->
+                    <div class="col-md-3">
+                        <div class="support">
+                            <h4>SUPPORT</h4>
+                            <!-- Start foot-support-->
+                            <div class="foot-support">
+                                <ul>
+                                    <li class="foot-phone">0203 - 980 - 14 - 79</li>
+                                    <li class="foot-phone">0203 - 478 - 12 - 96</li>
+                                    <li class="foot-service-hours">Service hours: 09:00 - 20.00</li>
+                                </ul> 
+                            </div> <!-- End foot-support -->
+                        </div>
+                        <!-- Start follow -->
+                        <div class="follow">
+                            <!-- Start foot-follow-->
+                            <div class="foot-follow">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                </ul> 
+                            </div> <!-- End foot-follow -->
+                        </div><!-- End follow -->
+                    </div><!-- End col-md-3 -->
+
+                </div><!-- End row-->
+            </div><!-- End Container -->
+            <div class="container-fluid">
+                <!-- Start footer-join -->
+                <div class="footer-join">
+                    <h3>
+                        JOIN THE COMMUNITY
+                    </h3>
+                    <div class="alert alert-success hidden" id="joinEmailSuccess">
+                        <strong>Success!</strong>
+                        You've been added to our email list.
+                    </div>
+                    <div class="alert alert-danger hidden" id="joinEmailDanger">
+                    </div>
+                    <!-- Start emailForm -->
+                    <form id="emailForm" action="php/email.php" method="POST" novalidate="novalidate">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="your@email.com" id="yourEmail" name="yourEmail" type="text" aria-required="true" aria-invalid="true">
+                            <span>
+                                <button class="btn btn-default" type="submit"><i class="fa fa-chevron-right"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- End emailForm -->
+                </div>
+                <!-- End footer-join -->
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Free Delivery</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+        </footer><!-- End footer-->
+
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <!-- jquery, jqueryui -->
+        <script src="vendor/jquery-ui/jquery-plus-ui.js"></script>
+
+        <!-- slider -->
+        <script src="vendor/jquery-ui-slider-pips/jquery-ui-slider-pips.js"></script>
+
+        <script src="vendor/js/bootstrap/bootstrap.min.js"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="vendor/js/flickr/jflickrfeed.min.js"></script>
+        <script src="vendor/nouislider/nouislider.min.js"></script>  
+        <script src="vendor/owlcarousel/owl.carousel.min.js"></script> 
+        <script src="vendor/bootstrap-select/bootstrap_select.js"></script>  
+        <script src="vendor/isotope/isotope.pkgd.min.js"></script>          
+        <!-- Theme -->
+        <script src="js/theme.js"></script>
+    </body>
+</html>

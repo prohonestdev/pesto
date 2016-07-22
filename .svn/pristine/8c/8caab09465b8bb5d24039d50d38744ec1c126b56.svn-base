@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------------------
+- BUTTONS
+-----------------------------------------------------------------------------*/
+
+// buttons
+.btn {
+    border-radius: 0px;
+}
+
+.btn-transparent {
+    background-color: transparent;   
+}
+
+.btn-transparent:hover {
+    background-color: #000;
+    opacity: 70%;   
+}
+
+.btn-borders {
+        border: 1px solid #000; 
+}
+
+//button sizes
+.btn-small {
+    width: 128px;
+    height: 41px;
+}
+
+.btn-normal {
+    width: 139px;
+    height: 39px;
+}
+
+.btn-large {
+    width: 165px;
+    height: 41px;
+}
+
+.btn-verylarge {
+    width: 183px;
+    height: 41px;
+}
+
+//color
+.color-black {
+    color: #000;
+}
+
+//Paginations
+.pagination {
+	li {
+		margin: 0;
+		display: inline-block;
+	}
+	li > a:focus,
+    li > a {
+        color: $pagination_item_color;  
+        border-color: $pagination_item_border_color;
+    }
+    
+    .active a,
+    .active a:hover,
+    li > a:hover {
+        color: $pagination_active_item_color;
+        background-color: transparent;
+        border-color: $pagination_active_item_border_color;
+    }
+}
+
+
+.pagination-normal {
+	li {
+		height: 32px;
+		width: 32px;
+	}
+    
+}

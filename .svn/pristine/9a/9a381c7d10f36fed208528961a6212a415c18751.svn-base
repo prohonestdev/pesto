@@ -1,0 +1,13 @@
+
+body {
+
+    font-family: $font-primary;
+    
+    font-size: 15px;
+    
+    margin: 0;
+
+    a {
+        outline: none !important;
+    }
+}

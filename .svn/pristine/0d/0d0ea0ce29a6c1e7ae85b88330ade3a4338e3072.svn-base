@@ -1,0 +1,53 @@
+
+/*-----------------------------------------------------------------------------
+- TABS
+-----------------------------------------------------------------------------*/
+
+/* Vertical */
+.tabs-vertical {
+    display: table;
+    width: 100%;
+    padding: 0;
+    
+    .tab-content {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    .nav-tabs {
+        display: table-cell;
+        float: none;
+        height: 100%;
+        padding: 0;
+        vertical-align: top;
+        
+        & > li {
+            border: 1px solid #F3F3F3;
+            display: block;
+            height: 54px;
+            width: 238px;
+
+            a {
+                display:block;
+                padding-top: 10px;
+                height: 100%;
+                line-height: 34px;
+
+                &,
+                &:hover,
+                &:focus {
+                    border: none;
+                    border-radius: 0px;
+                }
+            }
+            
+            &.active,
+            &:hover,
+            &:focus {
+                border-left: 1px solid #666;
+                border-right: none;
+                color: #666;
+            }
+        }
+    }
+}

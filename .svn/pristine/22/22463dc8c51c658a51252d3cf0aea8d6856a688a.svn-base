@@ -1,0 +1,148 @@
+
+/*-----------------------------------------------------------------------------
+- SELECTS
+-----------------------------------------------------------------------------*/
+
+select.bs-select-hidden {
+    display: none;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #333;
+    min-width: 180px;
+    padding: 5px 0px;
+}
+
+.dropdown-header:first-child {
+    margin-top: 5px;
+}
+
+.dropdown-menu > li {
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.dropdown-header {
+    color: #999;
+    font-size: 11px;
+    line-height: 1.82;
+    margin-top: 10px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: #2196F3;    
+    color: #FFF;
+    outline: 0px none;
+    text-decoration: none;
+}
+
+.dropdown-menu > li > a {
+    padding: 8px 15px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus, .close:focus, .close:hover, .dropdown-menu > li > a, .form-control:focus, .nav > li > a:focus, a, a:focus, button, input, input[type="radio"]:focus, input[type="checkbox"]:focus, input[type="file"]:focus, textarea {
+    outline: 0px none;
+}
+
+.bootstrap-select {
+    height: 32px;
+    
+    .btn span {
+        color: #b2b2b2;    
+    }   
+    
+    &.btn-group .dropdown-menu.inner {
+        border: 0px none;
+        border-radius: 0px;
+        box-shadow: none;
+        margin: 0px;
+        padding: 0px;
+        position: static;
+    }
+
+    &.btn-group .dropdown-menu {
+        min-width: 100%;
+    }
+
+    &.btn-group .dropdown-menu > li > a .text, &.btn-group.show-tick .dropdown-menu > li.active a .check-mark {
+        display: inline-block;
+    }
+
+    &.btn-group .dropdown-menu > li > a .check-mark {
+        display: none;
+        margin-right: 0px;
+        margin-top: -11px;
+        right: 10px;
+        position: absolute;
+        top: 50%;
+    }
+
+    & > .btn {
+        border: 1px solid #ebebeb !important;
+        padding-left: 100px;
+        padding-right: 29px;
+        width: 100%;
+    }
+
+    .caret {
+        border: none !important;
+        display: inline-block;
+        height: 16px;
+        margin-top: -8px;  
+        position: absolute;
+        right: 12px;
+        text-align: right;
+        top: 50%;
+        width: 16px;
+    }
+
+    .caret:after {
+        content: "\f107";
+        display: block;
+        font-family: 'FontAwesome'; 
+        font-size: 16px;
+        line-height: 1;
+
+    }
+
+    &.type_sortby {
+        .pull-left:before {
+            content: "Sort By: ";
+            font-size: 14px;
+            line-height: 1;
+
+        }
+        
+        & > .btn {
+            padding-left: 14px;
+            padding-right: 32px;
+        }
+    }
+    
+    &.type_show {
+        .pull-left:before {
+            content: "Show: ";
+            font-size: 14px;
+            line-height: 1;
+
+        }
+        
+        & > .btn {
+            padding-left: 14px;
+            padding-right: 32px;
+        } 
+    }
+}
+
+div.select_show {
+    width: 120px;
+}
+
+div.select_sortby {
+    width: 190px;
+}
+
+

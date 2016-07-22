@@ -1,0 +1,106 @@
+.shop h3 {
+  font-family: "Roboto Condensed";
+  font-size: 19px; }
+.shop.type1 .content-header h1 {
+  font-family: "Roboto Condensed"; }
+.shop.type1 .product-carousel, .shop.type1 .product-summary {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px; }
+.shop.type1 .product-summary h1 {
+  font-family: "Istok Web";
+  letter-spacing: normal;
+  margin-top: 20px; }
+.shop.type1 .product-summary .select ul li {
+  margin-bottom: 14px;
+  margin-top: 14px; }
+.shop.type1 .product-summary .select .size {
+  margin-left: 1px; }
+.shop.type1 .product-summary .select .color {
+  margin-left: -2px; }
+.shop.type1 .product-summary .share ul {
+  margin-left: 1px; }
+.shop.type1 .product-summary .cart .add-cart {
+  font-family: "Roboto Condensed"; }
+.shop.type1 .tabs-vertical.tabs-left .nav-tabs {
+  width: 20.5125282%; }
+  .shop.type1 .tabs-vertical.tabs-left .nav-tabs li a {
+    font-family: "Roboto Condensed";
+    font-size: 14px; }
+.shop.type1 .tabs-vertical.tabs-left .tab-content {
+  border: 1px solid #F3F3F3;
+  width: 79.487179%; }
+  .shop.type1 .tabs-vertical.tabs-left .tab-content > div {
+    padding: 16px 40px; }
+  .shop.type1 .tabs-vertical.tabs-left .tab-content .comments-header h3 {
+    letter-spacing: 2.1px;
+    margin-bottom: 28px; }
+  .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image, .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image-comment {
+    float: left;
+    margin-bottom: 20px; }
+  .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image {
+    height: 100px;
+    padding: 16px 0;
+    width: 70px; }
+    .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image img {
+      border-radius: 50%; }
+  .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image-comment {
+    margin-left: 30px;
+    width: -webkit-calc(100% - 100px);
+    width: calc(100% - 100px); }
+    .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image-comment p {
+      margin: 10px 0; }
+    .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image-comment strong {
+      font-size: 18px; }
+    .shop.type1 .tabs-vertical.tabs-left .tab-content .reviews .review .image-comment span {
+      color: #c2c1c1;
+      font-family: "Arial";
+      font-size: 14px; }
+  .shop.type1 .tabs-vertical.tabs-left .tab-content .review-customer {
+    margin-top: 68px;
+    margin-bottom: 5px; }
+    .shop.type1 .tabs-vertical.tabs-left .tab-content .review-customer h3 {
+      margin-bottom: 35px; }
+.shop .price ins {
+  color: #686868;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  text-decoration: none; }
+.shop .price del {
+  color: #d1d1d1;
+  font-family: "Roboto Condensed";
+  font-size: 14px; }
+
+.star-rating {
+  position: relative; }
+  .star-rating:before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+    left: 0;
+    top: 0; }
+
+#reviewForm .row {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.content-footer {
+  padding-top: 130px;
+  padding-bottom: 40px; }
+  .content-footer h2 {
+    font-family: "Roboto Condensed";
+    font-size: 22px;
+    margin-bottom: 50px; }
+  .content-footer h4 {
+    font-size: 16px; }
+  .content-footer img {
+    max-width: 100%; }
+
+.next-product, .prev-product {
+  border: 1px solid #d5d5d5;
+  display: block;
+  float: left;
+  height: 28px;
+  line-height: 26px;
+  text-align: center;
+  width: 35px; }
+
+/*# sourceMappingURL=theme-shop.css.map */
